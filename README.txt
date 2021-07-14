@@ -1,21 +1,4 @@
-Instalacion de paquetes y librerias
 
-BoomBang-Launcher-Game > Terminal
-npm install 
-
-BoomBang-Launcher-Game->www > Terminal 
-npm install 
-npm run dev
-composer install
-php artisan cache:clear
-php artisan config:cache
-***********************************************************************************
-Dentro de la carpeta BoomBang-Launcher-Game creamos carpeta 'php'
-Dentro de la carpeta php pegamos todo lo que contiene la carpeta de php descargable
-https://www.php.net/downloads.php
-
-***********************************************************************************
-Crear instalador
 npm run make
 npm install electron-builder --only=dev
 npm run build-installer
