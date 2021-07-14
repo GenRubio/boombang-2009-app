@@ -1,4 +1,4 @@
-Crear instalador
+*Crear instalador
 npm run make
 npm install electron-builder --only=dev
 npm run build-installer
