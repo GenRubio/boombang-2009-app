@@ -18,6 +18,7 @@ const port = 8000,
   host = "127.0.0.1";
 const serverUrl = `http://${host}:${port}`;
 let mainWindow;
+let gameLauncherWindow;
 var iconpath = path.join(__dirname, "icon.ico");
 var pjson = require(__dirname + "/package.json");
 let pluginName;
@@ -74,16 +75,17 @@ const createWindow = () => {
   mainWindow.webContents.on("did-finish-load", () => {});
 
   mainWindow.on("close", function (event) {
-    if (SecondWindowOpen){
+    if (SecondWindowOpen) {
       event.preventDefault();
-      app.ShowNotification("BoomBang se ha minimozado. Preciona F1 para volver a abrir pagina de inicio.");
+      app.ShowNotification(
+        "BoomBang se ha minimozado. Preciona F1 para volver a abrir pagina de inicio."
+      );
       mainWindow.hide();
-  
+
       MainWindowMinimized = true;
-  
+
       return false;
-    }
-    else{
+    } else {
       return true;
     }
   });
@@ -113,7 +115,7 @@ const createWindow = () => {
 
     win.on("closed", (event) => {
       win = null;
-      if (MainWindowMinimized){
+      if (MainWindowMinimized) {
         mainWindow.show();
         MainWindowMinimized = false;
       }
@@ -121,6 +123,7 @@ const createWindow = () => {
     });
 
     SecondWindowOpen = true;
+    gameLauncherWindow = win;
 
     win.setResizable(false);
     win.once("ready-to-show", () => win.show());
@@ -129,7 +132,9 @@ const createWindow = () => {
   });
 
   globalShortcut.register("f5", function () {
-    mainWindow.reload();
+    if (SecondWindowOpen) {
+      gameLauncherWindow.reload();
+    }
   });
   globalShortcut.register("f1", function () {
     if (MainWindowMinimized) {
