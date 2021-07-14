@@ -1,0 +1,83 @@
+{
+  "name": "yocomania-app",
+  "productName": "Yocomania Launcher",
+  "version": "1.0.0",
+  "description": "Yocomania game Launcher",
+  "dom": "http://localhost/",
+  "subfolders": "static/flash_esp/",
+  "loader": "BoomBangLoader.swf",
+  "parametersFlash": "?sw1=&sw2=&sw3=&sw4=&sw5=0&lang=e&locale=es_Es&ver=4828183737",
+  "useFrame": true,
+  "backgroundColor": "#ccc",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\"",
+    "build-installer": "electron-builder"
+  },
+  "build": {
+    "appId": "cool-app",
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "icon.ico",
+      "requestedExecutionLevel": "requireAdministrator"
+    },
+    "nsis": {
+      "installerIcon": "icon.ico",
+      "uninstallerIcon": "icon.ico",
+      "uninstallDisplayName": "Yocomania Launcher",
+      "license": "license.txt",
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
+  "keywords": [],
+  "author": "Gen Rubio",
+  "license": "MIT",
+  "config": {
+    "forge": {
+      "packagerConfig": {},
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "cool_app"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": [
+            "darwin"
+          ]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {}
+        }
+      ]
+    }
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "os-utils": "0.0.14",
+    "node-php-server": "^0.1.2"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.51",
+    "@electron-forge/maker-deb": "^6.0.0-beta.51",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.51",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.51",
+    "@electron-forge/maker-zip": "^6.0.0-beta.51",
+    "electron": "9.0.0",
+    "electron-builder": "^22.9.1"
+  }
+}
