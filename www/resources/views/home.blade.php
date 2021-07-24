@@ -14,7 +14,5 @@
 
 
 @section('personal-script')
-    <script>
-        let play = document.getElementById('play')
-    </script>
+
 @endsection

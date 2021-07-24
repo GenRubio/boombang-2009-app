@@ -2,8 +2,6 @@
 /www/vendor
 /node_modules
 /out
-/www/public/static
-/www/public/static2/flash_esp/dswmedia
 /php*
 
 

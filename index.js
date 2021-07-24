@@ -143,7 +143,7 @@ const createWindow = () => {
     }
   });
   globalShortcut.register("f2", function () {
-    mainWindow.webContents.session.clearCache();
+    session.defaultSession.clearCache();
   });
 };
 

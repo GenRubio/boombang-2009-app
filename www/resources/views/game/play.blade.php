@@ -25,7 +25,7 @@
             sw5: '0',
             lang: 'e',
             locale: 'es_ES',
-            ver: '4828183737',
+            ver: '4828183727',
         };
         var params = {
             play: 'true',
@@ -39,7 +39,7 @@
             id: 'flash_boombang'
         };
         swfobject.embedSWF(
-            "{{ url('/static2/flash_esp/BoomBangLoader.swf') }}",
+            "{{ url('/static/flash_esp/BoomBangLoader.swf') }}",
             'flash_boombang',
             '1013px',
             '658px',
@@ -56,6 +56,4 @@
         <param name="movie" id="flash_boombang" />
     </object>
 </div>
-
-
 @endsection

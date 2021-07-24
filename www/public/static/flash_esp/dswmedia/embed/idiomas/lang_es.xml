@@ -1,0 +1,2607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texto>
+	<loader
+		conectando="Conectando..."
+		paqueteLogin = "Inicio"
+		paqueteFlowerPower = "Flower Power"
+		paqueteChooseIsla = "Isla"
+		paqueteEscenario = "Escenario"
+		paqueteInterfaz = "Interfaz"
+		paquetePersonajes = "Personajes"
+		paqueteCreateLocalization = "Localización"
+		paqueteMultiplayerGames   = "Juegos Multiplayer"
+		descNovedad1 = "Resiste la tentación de comértelo antes de Pascuas o no podrás abrirlo! Contiene un objeto exclusivo."
+		descNovedad2 = "Conseguirás 2 Eggs Espaciales por este precio. Dale 1 a la persona con la que quieras conectar tu isla. Intercambiable tan solo una vez!"
+		descNovedad3 = "Sir Harvey, el gran conejo de Pascuas y su familia visitan BoomBang!"
+		descNovedad4 = "Algunos lo llaman ruido. Nosotros pensamos que es arte."
+		descNovedad5 = "Vuelven los Egg Fosil: esta vez con nuevos animales en el interior!"
+		descNovedad6 = "Conejito bebé|Tan tierno que no podrás dejar de acariciarlo."
+	/>
+	<avisoBB
+		conectado= "Conectando..."
+		cerrar   = "Cerrar"
+		info     = "El Area a la que quieres entrar se encuentra actualmente llena. Vuelve a intentarlo en otro momento."
+		waiting  = "Cargando..."
+	/>
+	<guest
+		textoHtml00 = '&lt;FONT COLOR="#FFFFFF"&gt;Regístrate como habitante de BoomBang y disfruta de todas las ventajas!&lt;/FONT&gt; &lt;FONT COLOR="#FFFF00"&gt;Es Gratis!&lt;/FONT&gt;'
+		texto00 = "Recibe monedas|de Plata cuando|te Registres!"
+		texto01 = "Podrás crear|islas y decorar tu|propia casa!"
+		texto02 = "Obtendrás|objetos de regalo|para decorar!"
+		texto03 = "Haz amigos|y guárdalos|en la Pad"
+		texto04 = "Registro"
+		texto05 = "Es gratis!"
+		textoFinGuest00 = "30:00"
+		textoFinGuest01 = "Ualaaaaa! Han pasado ya 30 minutos!|Es el momento de convertirte|en un habitante BoomBang.|Si esto te ha parecido divertido...|Prepárate!"
+		textoFinGuest02 = "Registro"
+		textoFinGuest03 = "Es gratis!"
+		
+	/>
+	<login
+		jugar="Jugar"
+		login="Login"
+		nick="Nombre del Personaje"
+		pass="Contraseña"
+		cerrar="Cerrar"
+		continuar="Continuar"
+		enviar="Enviar"
+		proximo="Seguir"
+		anterior="Volver"
+		descNavidad = "ya llega|la navidad!"
+		facebookBtn = "Conectar vía facebook">
+		
+		<baseGlobo
+			hasOlvidadoPass="Has olvidado tu contraseña?"
+			recuperar="Recuperar"
+			codigoTardar="El código puede tardar unos minutos en llegar!"
+			noCodigo="Debes ingresar el código"
+			verificalo="Verifícalo!"
+			codigoIncorrecto="El Código es|INCORRECTO|Asegúrate de|que lo has|escrito bien!"
+			piensaPassDiferente="La contraseña debe ser diferente a la anterior"
+			passDesigual="Atención!||No has escrito la misma Contraseña en los campos!"
+			enviamosMailConPass="Hemos enviado un email con tu Contraseña!||No se la digas a nadie nunca"
+			probarNewPass="Adelante!||A qué esperas para probar|tu Contraseña!"
+			usuarioInexistente="Los datos no son correctos!"
+			yaEstasDentro="Este usuario ya se encuentra conectado."
+			verificando="Verificando"
+			camposVacios="Debes|Completar|Todos los|Campos!"
+			mailIncorrecto="El mail no|es correcto!"
+			minimoLargoPass="Tu contraseña no tiene el minimo de|4 caracteres!"
+			operacionIncompleta="La operación no se ha podido completar.||Vuelva a intentarlo!"
+			passFacil="Esa contraseña es demasiado facil, piensa en otra"
+			yingo="|||¡ Nuevos objetos exclusivos de Yingo !"
+		/>
+		
+		<baseLogin
+			hasOlvidadoPass="Has olvidado tu contraseña?"
+			daleNombre="Dale nombre|a tu personaje!"
+			nombrePersonaje="Nombre del Personaje"
+			recuperarPersonaje="Recuperar!"
+			escribeMail="Email con el que te registrastes"
+			hemosEnviadoCodigo="Hemos enviado un|Código a tu Email:|búscalo y apúntalo!"
+			escribeCodigo="Escribe el código aquí"
+			codigoCorrecto="Código correcto!|Piensa en una nueva Contraseña para tu personaje."
+			nuevoPass="Nueva Contraseña"
+			escribeNuevoPass="Nueva Contraseña"
+			confirmaNuevoPass="Confirma la Contraseña"
+			cuentaRecuperada="Felicidades!|Acabas de recuperar tu cuenta: no olvides tu nueva Contraseña!"
+			cuentaRecuperadaIncorrecto="Lo sentimos, no hemos podido recuperar tu cuenta."
+			maxIntentos="Has alcanzado el número máximo de intentos.|Tienes que volver a empezar todo el proceso desde el principio."
+			hola="Hola"
+			vacio="Vacio"
+			registroTitle="Crea tu Cuenta"
+			registroDescription="Registrarse y elegir Personaje"
+			recuperarTitle="Olvidé mi Contraseña"
+			recuperarDescription="Te enviaremos un email"
+			cancelarTitle="Cancelar"
+			cancelarDescription="Volver al Menú Principal"
+			validarCodigo="Validar Código"
+			mailEnviado="Te hemos enviado un Email con un código: búscalo!||Lo necesitarás para cambiar la contraseña de tu cuenta."
+			rememberPass="Recordar mi|Contraseña"
+			rememberComputer="Recordarme en|este Ordenador"
+			advertenciaTitle="Atención:"
+			advertenciaDescription='Te aconsejamos que sólo marques|la casilla de "Recordar mi Contraseña"|si estás usando el PC de tu casa"'
+			avisoTitulo = "Nuevas lineas de Crédito en España, Mexico y Venezuela:"
+			avisoTexto = "Lo celebramos dando el doble de Créditos para todos los países!||Recibe el doble de créditos al mismo precio!|Aceptable para todos los sistemas de pago!"
+			crearCuenta="Crea tu cuenta ahora!"
+			descCrearCuenta='Entra en un mundo nuevo, loco y divertido!'
+			vincularTitle="Si quieres vincular una cuenta facebook a BoomBang, debes entrar en el juego y seguir los siguientes pasos:"
+			burbujaFacebook="Cómo vincular facebook a una conexión existente. Clicka aquí."
+			conectando="Conectando..."
+			errorMenores="No puedes registrarte a través de facebook porque eres menor de 14 años, debes utilizar el método normal de BoomBang."
+			error="Ha habido un error, lo sentimos per en este momento no podemos registrarte."
+		/>
+	</login>
+	<chooseScene
+		problemasClaves="Debido a problemas, hay claves que no han funcionado; ya estan listas para ser activadas!">
+		<fichaUnderAge
+			underAgeText0="Para completar el registro tu padre deberá pinchar en el|enlace que hemos enviado por email.|Puede tardar unos minutos|en llegar."
+			underAgeText1="Si el email con el enlace|no te llega, prueba esto:"
+			underAgeText2="Mira en la carpeta de correo no deseado."
+			underAgeText3="Añade a tu lista de Contacto|noreply@BoomBang.fr|Te enviaremos los email|de BoomBang desde esa dirección."
+			underAgeText4="Elige un email antiguo que tengas de BoomBang y dale|'Marcar como seguro'"
+			underAgeText5="Si no lo encuentras, te lo|podemos enviar de nuevo:"
+			underAgeReenviar="Reenviar email"
+			underAgeReenviando="Reenviando email"
+			underAgeEnviado="Email reenviado"
+			underAgeError="Error reenviando email"
+		/>
+		<fichaAreasIslas
+			areas="Areas"
+			islas="Islas"
+			full="Area llena!"
+			irAll="Ir allí"
+			agregarFavoritos="Añadir a favoritos"
+			quitarFavoritos="Eliminar de favoritos"
+			descripcionBusquedaNick="Búsqueda por nombre"
+			descripcionBusquedaIsla="Búsqueda por Isla"
+			toolTipFavoritos="Mis Favoritos"
+			toolTipIslas="Islas"
+			toolTipBuscar="Buscar"
+			toolTipTusIslas="Mis Islas"
+			singleplayer = "Juego Individual"
+			multiplayer = "Juego en Grupo"
+			allAreas = "Todas"
+		/>
+		<fichaTips
+			titulo="Consejos de seguridad"
+			siguiente="Siguiente"
+			importante="Importante"
+			tip0="Por seguridad te aconsejamos que no digas nunca tu nombre, apellidos o dirección reales a nadie."
+			tip1="Un Moderador auténtico NUNCA te añadirá a su MSN ni te pedirá la contraseña de tu cuenta!"
+			tip2="No se pueden clonar objetos, si alguien te dice lo contrario es tan sólo porque intenta timarte."
+			tip3="Nunca escribas tu contraseña en una página desconocida. No vas a recibir créditos gratis y te robarán la cuenta."
+			tip4="Tu email / MSN es un secreto: no se lo digas nunca a nadie o podrías perder tu cuenta y tus objetos para siempre!"
+			tip5="Nunca aceptes cambiar claves por objetos: acabarás siendo engañado."
+			tip6="Cómo reconocer a un MOD: sólo un auténtico MOD habla en amarillo, y tiene la ficha de color amarillo."
+			tituloNew="Consejos de Seguridad de Tim"
+			tipNewT0='"Si nadie sabe tu email, no podrán robarte tu cuenta ni tus objetos!"'
+			tipNewd1_0="Crea un nuevo email SOLO para BoomBang y no se lo digas a nadie!"
+			tipNewd2_0="No uses el mismo email en tu MSN, create uno diferente para BoomBang"
+			tipNewd3_0="Si alguien te pregunta el email de tu cuenta puedes denunciarlo!"
+			tipNewT1='"Las páginas de supuestos Créditos Gratis y Rares Gratis son un TIMO!"'
+			tipNewd1_1="Estas son páginas falsas creadas por timadores para robarte tu cuenta!"
+			tipNewd2_1="Te pedirán que pongas tu email y tu contraseña y luego te robarán todo."
+			tipNewd3_1="Nunca pongas tu email ni tu contraseña en una página que no sea la oficial y solo la oficial de BB!"
+			tipNewT2='"No te bajes programas raros ni hagas clic en links sospechosos!"'
+			tipNewd1_2="Hay links y programas como el AUTOCLICK que no son seguros"
+			tipNewd2_2="Esos programas tienen pequeños virus que se instalan en tu ordenador"
+			tipNewd3_2="A través de esos virus pueden espiarte todas tus contraseñas y claves!"
+			tipNewT3='"Muchos usuarios se hacen pasar por Moderadores para timar"'
+			tipNewd1_3="Un MOD auténtico tiene una ficha de color amarillo"
+			tipNewd2_3="Un MOD auténtico SOLO puede hablar con color amarillo"
+			tipNewd3_3="Un MOD no te agregará al MSN ni te pedirá tu email nunca!"
+			tipNewT4='"Nunca digas tu nombre ni apellido ni tampoco donde vives"'
+			tipNewd1_4="Es mejor ser siempre precavido y no dar esa información a nadie!"
+			tipNewd2_4="No hace falta dar esa información para divertirse en BoomBang"
+			tipNewd3_4="Si alguien te insiste puedes denunciarlo y nos encargaremos de banearlo"			
+		/>
+		<fichaMarketingViral
+			titulo="Invita amigos y gana Créditos!"
+			tituloEnviadas='Se han enviado &lt;FONT COLOR="#FFFF00"&gt;CANTENVIADAS&lt;/FONT&gt; invitaciones'
+			invitar="Invitar"
+			texto1="Invita a tus amigos a BoomBang!|Os divertiréis juntos y conseguirás créditos gratis!"
+			texto2="Has oido bien! Cada vez que tu 'invitado' compre créditos te regalamos a tí un 10% del total de Créditos que ha comprado!"
+			texto3="En este panel te indicaremos el número total de amigos invitados que se han registrado gracias a ti!"
+			enviar="Enviar"
+			enviarPostal="Enviales una postal a tus amigos!|Puedes invitar a 5 cada día!"
+			escribeNombre="Escribe aquí tu nombre:"
+			escribeEmails="Escribe aquí los emails de tus amigos:"
+			invitacionesEnviadas='&lt;FONT COLOR="#009999"&gt;Invitaciones enviadas! Tus amigos recibirán una postal de BoomBang!&lt;/FONT&gt;'
+			invitacionesEnviadasLimite='&lt;FONT COLOR="#009999"&gt;Podrás invitar a más amigos mañana, hoy has llegado al límite&lt;/FONT&gt;'
+			emailEnviado="Este mail se ha enviado correctamente"
+			emailRepetido="Ya has invitado a este amigo"
+			emailError="Este mail es incorrecto"
+		/>
+		<fichaCambioPassword
+			deseaCambiarPassword = "Deseas cambiar tu Contraseña?||Debemos verificar si eres el dueño de esta cuenta."
+			emailEnviado = "Te hemos enviado un Email con un código: búscalo!||Lo necesitarás para cambiar la contraseña de tu cuenta."
+			bichoBuscaEnTuEmail = '&lt;FONT COLOR="#0091FF"&gt;Busca en tu email!&lt;/FONT&gt;||El código puede tardar unos minutos en llegar'
+			bichoCodigoIncorrecto = "El Código es INCORRECTO.||Asegúrate de que lo has escrito bien!"
+			bichoClavesNoCoinciden = "Las password no coinciden!||Vuelve a escribirlas en los campos."
+			emailEnviado2 = "Hemos enviado el código a tu Email. Puede tardar unos minutos en llegar."
+			escribeCodigo = "Escribe el código aquí"
+			seguir = "Seguir"
+			cerrar = "Cerrar"
+			siguiente = "Siguiente"
+			validarCodigo = "Validar Código"
+			cambiaTuPassword = "Cambia tu contraseña."
+			clave1 = "Nueva Contraseña"
+			clave2 = "Confirma tu nueva Contraseña"
+			passwordCambiado = "Ya está! Acabas de asignar una nueva contraseña.||Es secreta: no le digas tu contraseña nunca a nadie!"
+			maximoIntentos = "Has alcanzado el número máximo de intentos.|Tienes que volver a empezar todo el proceso desde el principio"
+			bichoErrorServidor = "La operación no se ha podido completar"
+			bichoDebesIngresarCodigo = '&lt;FONT COLOR="#0091FF"&gt;Debes ingresar el código&lt;/FONT&gt;|||||Verifícalo!'
+			bichoClaveCorta = '&lt;FONT COLOR="#FFFF00"&gt;Tu contraseña no tiene el mínimo de 4 caracteres!&lt;/FONT&gt;'
+			passFacil="Esa contraseña es demasiado facil, piensa en otra"
+			
+			ingresarMailTitulo="Por favor escribe el email asociado a este cuenta"
+			ingresarMailTexto0="Escribe el email aquí"
+			
+			mailIncorrectoTitulo="Ese no es el email que tienes asociado a tu cuenta!||Recuerda que tienes un total de 5 intentos."
+			mailIncorrectoBoton="Volver"			
+		/>
+		<fichaBaja
+			deseaDarLaBaja = "Deseas dar de BAJA tu cuenta?||Debemos verificar si eres el dueño de esta cuenta."
+			emailEnviado = "Te hemos enviado un Email con un código: búscalo!||Lo necesitarás para dar de BAJA tu cuenta."
+			bichoBuscaEnTuEmail = '&lt;FONT COLOR="#0091FF"&gt;Busca en tu email!&lt;/FONT&gt;||El código puede tardar unos minutos en llegar'
+			bichoCodigoIncorrecto = "El Código es INCORRECTO.||Asegúrate de que lo has escrito bien!"
+			emailEnviado2 = "Hemos enviado el código a tu Email. Puede tardar unos minutos en llegar."
+			escribeCodigo = "Escribe el código aquí"
+			seguir = "Seguir"
+			cerrar = "Cerrar"
+			siguiente = "Siguiente"
+			validarCodigo = "Validar Código"
+			maximoIntentos = "Has alcanzado el número máximo de intentos.|Tienes que volver a empezar todo el proceso desde el principio"
+			bichoErrorServidor = "La operación no se ha podido completar"
+			bichoDebesIngresarCodigo = '&lt;FONT COLOR="#0091FF"&gt;Debes ingresar el código&lt;/FONT&gt;|||||Verifícalo!'
+			advertenciaFinal = "Atención, vas a desactivar tu cuenta de forma indefinida.Tu personaje y objetos serán eliminados!"
+			estasTotalSeguro ="Estás totalmente segur@?"
+			oopsNo = "Oops, no"
+			aceptar = "Aceptar"
+			textoFinal="Tu cuenta ha sido dada de baja de forma satisfactoria.Esperamos que hayas pasado buenos momentos en BoomBang!"
+		/>
+		<fichaRecuperarCuenta
+			deseaRecuperarLaCuenta = "Recuperar cuenta"
+			textoFinal="Tu cuenta ha sido reactivada, por favor vuelve a conectarte para usarla!"
+			cuentaRecuperadaIncorrecto="Lo sentimos, no hemos podido recuperar tu cuenta."
+		/>			
+		<fichaCambioEmail
+			deseaCambiarEmail = "Deseas cambiar el Email asociado a esta cuenta?||Debemos verificar antes si eres el dueño real."
+			emailEnviado = "Te hemos enviado un Código a tu cuenta de Email original de siempre: búscalo!"
+			bichoBuscaEnTuEmail = '&lt;FONT COLOR="#0091FF"&gt;Busca en tu email!&lt;/FONT&gt;||El código puede tardar unos minutos en llegar'
+			bichoCodigoIncorrecto = "El Código es INCORRECTO.||Asegúrate de que lo has escrito bien!"
+			bichoEmailsNoCoinciden = '&lt;FONT COLOR="#0091FF"&gt;Tu Mail no coincide!&lt;/FONT&gt;|||||Verifícalo!'
+			emailEnviado2 = "Busca el código en tu Email. Puede tardar unos minutos en llegar."
+			escribeCodigo = "Escribe el código aquí"
+			seguir = "Seguir"
+			cerrar = "Cerrar"
+			siguiente = "Siguiente"
+			validarCodigo = "Validar Código"
+			enviar = "Enviar"
+			finalizar = "Finalizar!"
+			cambiaTuEmail = "Indícanos tu Nuevo Email:"
+			email1 = "Mi nuevo Email es:"
+			email2 = "Confirma tu nuevo Email:"
+			emailCambiado = "Email confirmado! Hemos terminado el proceso; tu email para esta cuenta es a partir de ahora:"
+			maximoIntentos = "Has alcanzado el número máximo de intentos.|Tienes que volver a empezar todo el proceso desde el principio"
+			bichoErrorServidor = "La operación no se ha podido completar"
+			bichoDebesIngresarCodigo = '&lt;FONT COLOR="#0091FF"&gt;Debes ingresar el código&lt;/FONT&gt;|||||Verifícalo!'
+			bichoEmailInvalido = '&lt;FONT COLOR="#0091FF"&gt;El mail no es correcto!&lt;/FONT&gt;|||||Verifícalo!'
+			duenioConfirmado = "Correcto! Hemos confirmado que eres el dueño real de esta Cuenta. Para asociar un nuevo email a esta cuenta haz click en Continuar."
+			nuevoEmailEnviado = "Te hemos enviado otro Código; esta vez a tu nuevo email, para asegurarnos de que es correcto:"
+		/>
+
+		<fichaValidarEmail
+			title = "Valida tu email"
+			fichaPanelTexto = "Conseguirás 100 monedas de plata"
+			ficha1Texto = "Valida tu email y consigue 100 créditos de plata"
+			ficha1Email = "Email"
+			ficha1RepetirEmail = "Repetir tu email"
+			ficha1Newsletter = "Quiero recibir newsletter"
+			ficha1BtnAceptar = "Aceptar"
+			ficha1BtnCancelar = "Cancelar"
+			ficha1Error1 = "El email no es válido"
+			ficha1Error2 = "El email no coincide"
+			ficha2Texto = "Error, intentalo nuevamente."
+			ficha3Texto = "Enviando email..."
+			ficha4Texto = "Para completar la validación tienes que mirar tu correo y hacer click en un enlace que te hemos enviado."
+		/>
+		<fichaCambioDatosPersonales
+			titulo = "User I.D."
+			actualizar = "Actualiza tus datos personales!"
+			fechaNacimiento = "Fecha de nacimiento"
+			pais = "Pais (escoge de la lista)"
+			ciudad = "Ciudad"
+			newsletter = "Si, quiero recibir el newsletter !"
+			terminar = "Terminar"
+			listadoPaises = "1|Alemania|3|Argentina|4|Australia|5|Austria|6|Bélgica|30|Bolivia|31|Brasil|7|Canada|32|Chile|8|China|33|Colombia|34|Costa Rica|35|Cuba|9|Dinamarca|36|Ecuador|37|El Salvador|10|España|11|Estados Unidos|12|Europa del Este|13|Finlandia|14|Francia|38|Guatemala|15|Holanda|16|Hong Kong|17|India|18|Inglaterra|19|Italia|20|Japón|21|Korea|22|Luxemburgo|39|México|40|Nicaragua|23|Noruega|24|Nueva Zelanda|41|Panama|42|Paraguay|43|Perú|44|Puerto Rico|25|Singapour|45|República Dominicana|27|Suecia|28|Suiza|29|Taiwan|46|Uruguay|26|Venezuela|2|Otros"
+		/>
+		<cajaSorpresa
+			cadaDia = "Un regalo cada día!"
+			abrirTitulo = "Abrir tu regalo.."
+			abrirTexto = "Paciencia! Podrás abrir tu regalo una vez hayan transcurrido 30 minutos de juego!||Y recuerda que mañana hay otro esperándote!"
+			abrirCerrar = "Cerrar"
+			abrelo = "ABRELO!"
+			otroRegalo = "Mañana otra caja!"
+			hasGanado = "Has ganado:"
+			malaSuerte = "Mala suerte!"
+			cargando = "Loading"
+			felizNavidad = "Feliz Navidad!"
+			regalo = "Regalo"
+		/>
+		<fichaValidarEmailAlta
+			titulo = "Bienvenido a BoomBang! Protege tu Cuenta"
+			validar1 = "Puedes usar el mismo email para varios personajes"
+			validar2 = "Si eres menor de edad, el mail debe ser el de tus padres o tutor."
+			ingFecha = "Ya casi terminas! Dinos tu  Fecha de Nacimiento:"
+			meses = "Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Setiembre,Octubre,Noviembre,Diciembre"
+			dia = "Día"
+			mes = "Mes"
+			ano = "Año"
+			eresMenor1 = "Como eres menor de 14 años, para registrarte es necesario que tus padres nos den permiso para que guardemos tu email."
+			eresMenor2 = "Pideles que envien un email a: padres@BoomBang.io"
+			completarFecha = "Necesitamos tu fecha de nacimiento completa!"
+			siguiente = "Siguiente"
+			validarEmail = "Validar Email y Cuenta"
+			emailEnviado = "Te hemos enviado un Email con un código: búscalo!||Lo necesitarás para activar tu cuenta en BoomBang"
+			bichoBuscaEnTuEmail = '&lt;FONT COLOR="#0091FF"&gt;Busca en tu email!&lt;/FONT&gt;||El código puede tardar unos minutos en llegar'
+			bichoCodigoIncorrecto = "El Código es INCORRECTO.||Asegúrate de que lo has escrito bien!"
+			bichoDebesIngresarCodigo = '&lt;FONT COLOR="#0091FF"&gt;Debes ingresar el código&lt;/FONT&gt;|||||Verifícalo!'
+			bichoEmailsNoCoinciden = '&lt;FONT COLOR="#0091FF"&gt;Tu Mail no coincide!&lt;/FONT&gt;|||||Verifícalo!'
+			bichoErrorServidor = "La operación no se ha podido completar"
+			bichoEmailInvalido = '&lt;FONT COLOR="#0091FF"&gt;El mail no es correcto!&lt;/FONT&gt;|||||Verifícalo!'
+			bichoNecesitamosEmail = '&lt;FONT COLOR="#0091FF"&gt;Necesitamos tu email!&lt;/FONT&gt;||Debe ser real o no podrás jugar!'
+			bichoPuedesCambiarEmail = '&lt;FONT COLOR="#0091FF"&gt;Si has puesto un email que no es correcto, aún puedes cambiarlo: haz click en Volver&lt;/FONT&gt;'
+			bichoCuentaSegura = "Felicidades!|Tu cuenta ya está segura.||Esperamos que hagas muchos amigos!"
+			emailEnviado2 = "Busca el código en tu Email. Puede tardar unos minutos en llegar."
+			escribeCodigo = "Escribe el código aquí"
+			seguir = "Seguir"
+			enviar = "Enviar"
+			volver = "Volver"
+			terminar = "Terminar"
+			email1 = "Introduce un email válido"
+			email2 = "Confirma el email"
+		/>
+		<fichaBarraInferior
+			tooltipCrearIsla = "Crea Isla!"
+			tooltipEditarPersonaje = "Opciones"
+			tooltipMarketingViral = "Comandos"
+			tooltipMember = "VIP!"
+			tooltipMiCasa = "Tu Casita"
+			toolTipMonedas = "Monedas"
+			toolTipNoticias = "Noticias!"
+			toolTipBonus = "25 Regalos"
+		/>	
+		<fichaBaneos
+			tituloBaneo = "Tu cuenta tiene el acceso restringido!"
+			mensajeBaneo = "Lo siento pero has sido baneado y no puedes conectarte a BoomBang por el momento."
+			
+			tip1Baneo = "Porqué he sido baneado?"
+			tip2Baneo = "Tiempo (dentro de cuanto podrás volver a entrar)"
+			
+			horas = "Hora"
+			minutos = "Minuto"
+			segundos = "Segundo"
+			
+			tituloNoSePudoConectar = "No ha sido posible establecer la conexión!"
+			mensajeNoSePudoConectar = "Parece ser que hay un problema y no puedes entrar a BoomBang. Estos son algunos de los posibles motivos por los cuales no se ha podido enlazar con nuestro servidor:"
+			
+			tip1NoSePudoConectar = "Si te conectas a través de un servidor Proxy"
+			tip2NoSePudoConectar = "Si tu equipo dispone de un firewall configurado para no permitir conexiones salientes"
+			tip3NoSePudoConectar = "Si estás utilizando aplicaciones que consuman mucho ancho de banda (P2P, eMule, BitTorrent)"
+			
+			mensaje2NoSePudoConectar = "Te sugerimos que comentes este problema con el responsable de tu equipo informático||Si no consigues resolverlo puedes enviarnos un email desde la página web y nuestros técnicos harán lo posible para ayudarte!"
+			
+			tituloMultiplesConexiones = "Se han detectado múltiples conexiones!"
+			mensajeMultiplesConexiones = "Hemos detectado que has intentado conectarte a BoomBang con otra cuenta de forma simultánea. Por tu seguridad hemos desconectado esta cuenta."
+			
+			tip1MultiplesConexiones = "Recuerda que está prohibido conectarse con más de una cuenta a la vez!"
+			
+			tituloMantenimiento = "Mantenimiento!"
+			mensajeMantenimiento = "Estamos realizando tareas de mantenimiento. Vuelve a conectarte mas tarde."
+			
+			tituloConexionPerdida = "Se ha perdido la conexión!"
+			mensajeConexionPerdida = "Si estás utilizando aplicaciones que consuman mucho ancho de banda (P2P, descarga de archivos) te aconsejamos que las cierres mientras juegas a BoomBang.||Cierra esta ventana, abre una nueva y conéctate nuevamente a www.BoomBang.fr"
+			
+			tituloCuentaDesactivada = "Tu cuenta ha sido desactivada"
+			
+			mensajeUrlOficial = "Hola, para jugar a BoomBang te recomendamos que accedas desde la página oficial del juego.||La dirección es www.BoomBang.fr"
+			mensajeGuestTiempoLimite = "Hemos llegado al límite de jugadores, por favor intenta entrar dentro de unos minutos."
+			mensajeGuestError = "Ha ocurrido un error, por favor intenta entrar dentro de unos minutos."
+		/>
+		<fichaConcurso
+			mensaje	= "0,1,2,3,4,5,6,7,8,9,10,11,MANIS|TOTALES,AJOS|DESTRUIDOS,HADAS|SALVADAS,15,16,17,18,19,20,21,22,23,24,RECOGE OBJETOS|PSU Y GANA UN|NETBOOK!,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,GRAN EGG BLANCO,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,GOLES,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,FANTASMAS,107,108,109,110,GORRITOS,112,113,114,115,HUESOS ATRAPADOS"
+			titulos = "0,1,2,3,4,5,6,7,8,9,10,11,12,Elaf el Vampiro:,Libera las Hadas!,15,16,17,18,19,20,21,22,23,24,Operación PSU,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,Gran Egg Blanco,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,Mundial BoomBang!,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,Captura Fantasmas,107,108,109,110,Concurso Navideño,112,113,114,115,RECOJE HUESOS"
+			descripcion13 = "Preferimos los dulces y las golosinas a los ajos xD Cuantos más destruyas mayor será la recompensa que recibirás!|Palabra de Vampiro."
+			descripcion14 = "Aún no sabemos quien ha osado capturar a las hadas! Portadoras en sus alas de minúsculas partículas mágicas... Tal vez alguien desea acabar con la Magia?"
+			descripcion25 = "Los objetos PSU desaparecerán al acabar el concurso."
+			descripcion44 = "Recoge todos los 36 trozos para reconstruir el gran Egg Blanco, una aventura que tan sólo conseguirán completar unos pocos. Y tú?"
+			descripcion80 = "Participa en el Mundial de BoomBang y conviértete en el pichichi! Cuantos más goles marques más posibilidades de obtener la Copa del Mundo!"
+			descripcion106 = "Captura todos los fantasmas que puedas! Ayuda al fantasmita Crastin a encontrar a los fantasmas que se escaparon del cementerio!"
+			descripcion111 = "Santa premiará a su ayudante más perseverante: recolecta todos los gorros navideños que veas para demostrarle que ese, eres precisamente tú!"
+			descripcion116 = "Gigantescos dinosaurios deambulaban por BoomBang imponiendo su ley hace milenios.||Recolecta sus huesos y reconstrúyelos!"
+			close = "0,1,2,3,4,5,6,7,8,9,10,11,12,Cerrar,Cerrar,15,16,17,18,19,20,21,22,23,24,Cerrar,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,Cerrar,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,Cerrar,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,Cerrar,107,108,109,110,Cerrar,112,113,114,115,Cerrar"
+			/>
+		<fichaPromocion
+			titulo	= "Promoción Especial 2x1"
+			paga = "PAGA"
+			recibe = "RECIBE"
+			free = "FREE"
+			descripcion = 'Damos la bienvenida al 2009 con una promoción muy especial:||Consigue el DOBLE de Créditos con cualquier compra efectuada con &lt;FONT COLOR="#007A5B"&gt;Tarjeta de Crédito&lt;/FONT&gt; (a través de nuestra pasarela de pago de Click &amp; Buy).||Sólo durante esta semana!'
+			/>
+		<fichaPromocionMascota
+			titulo	= "Mascotas al 50%! Solo 1 semana"	
+			descripcion	= "BoomBang cumple 5 años y queremos empezar a celebrarlo!"			
+			/>
+		<fichaTelefonoCancelado
+			titulo	= "SMS / Mensaje de texto"	
+			comentarioChile     = "La compra con Telefono / SMS para Chile ha sido bloqueda."
+			descripcionChile    = "A partir de ahora solo podrás comprar tus Créditos con las Tarjetas Prepago que encontrarás en tiendas de Blockbuster, Panini y Feria de Disco."
+			comentarioVenezuela = "La compra con Telefono / SMS para Venezuela ha sido bloqueda."
+			descripcionVenezuela    = "A partir de ahora solo podrás comprar tus Créditos con Tarjeta de Crédito y con Western Union"			
+			/>	
+		<fichaPascuas
+			titulo	= "Novedad!"
+			descripcion = "|Mañana retiraremos los Eggs y el conejo malvado del Catálogo: quien avisa no es traidor ;-)"
+			/>
+		<fichaBienvenidoBoombang
+			titulo	= "Bienvenido a BoomBang!"
+			descripcion = "A un mundo único lleno de sorpresas donde vivirás experiencias sorprendentes"
+
+			subtitulo1	= "Descubre un nuevo Mundo!"
+			subdescripcion1 = "Explora y conoce gente, dirígete a las areas de la izquierda!"
+			subtitulo2	= "Conoce y haz nuevos amigos!: "
+			subdescripcion2 = "Diviértete, interactua y  comparte aventuras con nuevos amigos!"
+			subtitulo3	= "Crea tu Isla"
+			subdescripcion3 = "Decórala con plantas, mascotas y guaridas secretas!"
+			/>
+		<fichaPromocionPortales
+			titulo = "Portal Mágico: Ultimos Dias!"
+			descripcion = "Con cualquier compra superior a $5 que hagas con Paybycash, Paysafecard, Ukash, Toditocash, Western Union, UGC o Tarjeta de Crédito. Recibirás tus créditos, y además, este Portal mágico exclusivo!"
+			/>
+		<fichaPromocionHalloween
+			titulo = "Halloween: Araña Gelatinosa!"
+			descripcion = "Con cualquier compra de $10 o más que hagas con Paybycash, Paysafecard, Ukash, Toditocash, Western Union, UGC o Tarjeta de Crédito: recibirás tus créditos, y además, esta Araña Gelatinosa exclusiva!"
+			descripcion2 = '"Una golosina terrorifica"'
+			/>
+		<fichaPromocionCalabaza
+			titulo = "Sólo quedan 2 días!"
+			descripcion = "Sólo durante estas 2 semanas, la Calabazaaargh! con un descuento del 50%; consíguela ahora y espera dentro la llegada de....... (hemos avisado)"
+			/>
+		<fichaPromocionPreciosEnero
+			titulo	= "REBAJAS al 50%! Solo 1 semana"
+			descripcion = "Aprovecha las Rebajas de Enero, todos los objetos al 50% durante esta semana!" 
+			/>
+		<fichaRebajasEnero
+			titulo = "Descuento en Juegos!"
+			texto0 = "Durante Viernes, Sábado y Domingo podrás competir por 75 Créditos!" 
+			texto1 = "Objetos al 50%" 
+			texto2 = "Juegos al 75%" 
+			texto3 = "Y el Punch baja a|200 Créditos!" 
+			texto4 = "Sólo durante este fin de Semana!|El lunes se acaban las rebajas ;)" 
+			/>
+		<fichaVarias
+			sanValentinTitulo = "Un regalo MUY especial!"
+			sanValentinTexto1 = "Edición especial San Valentín: sólo podrás conseguirlo durante 2 semanas!"
+			sanValentinTexto2 = "No podrás abrirlo hasta el día de San Valentín: entrégaselo a esa persona tan especial :) Contiene un regalo grande!"
+			cienCreditosPlataTitulo = "REGALO: 100 Monedas de Plata"
+			cienCreditosPlataDesc = "Con Monedas de Plata puedes comprar varios objetos de nuestro catálogo para así decorar tu isla!|Cada día que juegues en BoomBang te regalaremos más Monedas de Plata!"
+			halloweenTitulo = "2 Cajas de Halloween!!!"
+		    halloweenTexto0 = "Terroríficos objetos en su interior!"
+		    halloweenTexto1 = "Hay 2 cajas en el catálogo: "
+		    halloweenTexto2 = "La Caja Maldita y la Caja Perversa. Contienen objetos de Halloween tan escalofriantes como bellos!"
+		    
+		    halloweenLlavesTitulo = "Consigue tu llave de Halloween!"
+		    halloweenLlavesTexto0 = "clica y consigue|2 partes de la|llave de halloween"
+		    halloweenLlavesTexto1 = "busca esta|lapida marron"
+		    halloweenLlavesTexto2 = "visita al|necrofago en|la cripta"
+		    halloweenLlavesTexto3 = "te cambiara|las llaves|rotas por|una entera!"
+		    
+		    halloweenObjetosTitulo = "Nueva llave y objetos de Plata!"
+		    halloweenObjetosTexto0 = "Abre una nueva puerta en tu casa con|esta llave de madera que encontrarás|en el catálogo."
+		    
+		    halloweenPocionesTitulo = "Nuevas pociones!"
+		    halloweenPocionesTexto0 = "Visita a la bruja en la Cripta,|hay nuevas pociones para crear!"
+		    halloweenPocionesTexto1 = "teleport 2"
+		    halloweenPocionesTexto2 = "desplazamiento intramolecular avanzado"
+		    halloweenPocionesTexto3 = "fantasma"
+		    halloweenPocionesTexto4 = "camina entre los vivos"
+		    halloweenPocionesTexto5 = "espectro"
+		    halloweenPocionesTexto6 = "serás una criatura de ultratumba"
+		    halloweenPocionesTexto7 = "apestado"
+		    halloweenPocionesTexto8 = "nube apestosa que te sigue"
+		    
+		    promoBibliotecaTitulo = "Gratis con Tarjetas Prepago!"
+		    promoBibliotecaTexto0 = "Consigue este osito|navideño gratis al|activar una tarjeta|prepago!"
+		    promoBibliotecaTexto1 = "Activa una tarjeta Paysafecard, Ukash, Toditocash, Wallie o Tarjeta de Crédito: Recibirás tus créditos, y además, este Osito Navideño exclusivo!"
+			
+			concursoFacebookTitulo = "Concurso en Facebook!"
+			concursoFacebookTexto0 = "Hazte FAN y participa en el concurso Facebook!"
+			concursoFacebookTexto1 = 'Qué harías por 50 sacos!? Opina en nuestra página de Facebook: El fan que más "likes" / votos obtenga hasta día 20/12 ganará los 50 sacos.'
+			concursoFacebookTexto2 = "Participa, haz click aquí!"
+			/>
+	</chooseScene>
+	<fichaLlaves
+			puertaCerradaTitulo   = "Puerta Cerrada!"
+			puertaCerradaDesc     = "Esta puerta está cerrada con llave!"
+			abrirPuerta           = "¿Deseas usar la llave para abrir la puerta?"
+			yes                   = "Si"
+			no                    = "No"
+			noTienesLlave         = "No tienes la llave para abrir esta puerta:"
+			buscaEnLugar0         = "Esta puerta aun no tiene llave."
+			buscaEnLugar1         = ""
+			buscaEnLugar2         = "Llave disponible dentro del Cementerio SOLO durante Halloween!"
+			buscaEnLugar3         = ""
+			buscaEnLugar4         = "Compra la LLave de Madera del catálogo"
+			buscaEnLugar5         = "Compra la LLave de Bronce del catálogo"
+			buscaEnLugar6         = "Habla con el duende del Bosque Nevado para obtener la llave de Navidad!"
+			buscaEnLugar7		  = "Habla con Cupido en Jungle Love para obtener la llave de San Valentin!"
+			buscaEnLugar8         = "Compra la LLave de Huesos del catálogo"
+			buscaEnLugar9         = "Habla con el conejo en el Bosque de Pascuas para obtener la llave"
+			puertaAbierta         = "Puerta Abierta!"
+			hazUsadoLlaveEnPuerta = "Has usado tu llave para abrir la puerta!"
+			hazClickParaEntrar    = "Haz clic en la puerta para entrar."
+			errorAlAbrirPuerta    = "Ha surgido un error al intentar abrir la puerta"
+	/>
+	<chooseIsla>
+		<fichaLocaciones
+			localizaciones = "Localizaciones"
+			volver="Volver"
+			editar="Editar"
+			addArea="Añadir área"
+			nuevoNombre="Nuevo nombre"
+			borrarLocacion="Estas seguro?"
+			Password="Password"
+			ingresaPass = "Ingresa la clave!"
+			eliminarIslaBoton = "Borrar|isla"
+			descripcionPorDefecto = "Haz uso de este espacio para describir tu isla!"
+		/>
+		<capsulaInfo
+			estoEsTuIsla = "Esto es tu isla! Haz click en añadir area y empieza a construir!"
+			punch = "Punch! Haz click para permitir o prohibir el uso del punch." 
+			cambiarNombre = "Nombre Haz click para dar un nuevo nombre a tu isla."
+			editarMensaje = "Editar! Puedes cambiar el nombre de las areas o borrarlas." 
+			candado = "Llave! Protege con un password|el acceso a un area!"
+			passwordIncorrecto = "El password|no es correcto!"
+			eliminarIsla = "Eliminar! Si eliminas tu isla, tus objetos volverán a tu mochila."
+			islaRepedida = "Ya Existe una isla con ese nombre.|Prueba con otro!"
+			cancelar = "Cancelar"
+			eliminarLocacion = "Elimina esta localizacion,|los objetos irán a tu mochila"
+			cambiarNombreLocacion = "Dale un nuevo nombre a esta localización"
+		/>
+		<FichasAmigosEnemigos
+			mejoresAmigos = "Mejores|Amigos!"
+			mejoresEnemigos = "No quiero|ni verlo!"
+		/>
+		<createIsla
+			etapa1Descripcion = "Escoge el tipo de Isla!"
+			etapa2Descripcion = "Escribe el nombre de tu Isla!"
+			advertencia = "Ese nombre ya existe!"
+			anterior = "Anterior"
+			siguiente = "Siguiente"
+			aceptar = "Aceptar"		
+		/>
+	</chooseIsla>
+	<bpad
+		flowerPower			= "Flower Power"
+		bandejaEntra 		= "Bandeja de entrada"
+		agendaAmigos 		= "Agenda de amigos"
+		addAmigo 			= "Añadir Amigo!"
+		busca 				= "Busca"
+		mensajes 			= "mensajes"
+		usuarios 			= "Usuarios"
+		usuario 			= "usuario"
+		recibido 			= "Recibido"
+		ultimaConexion 		= "última Conexión:"
+		responder 			= "Responder"
+		siguiente 			= "Siguiente"
+		destinatario 		= "Destinatario:"
+		enviar 				= "Enviar"
+		cancelar 			= "Cancelar"
+		aceptar 			= "Aceptar"
+		escribir 			= "Escribir"
+		borrar 				= "Borrar"
+		contacto 			= "contacto!"
+		contactos 			= "contactos!"
+		informacion 		= "Información sobre:"
+		fraceBorrarContacto = "Piénsalo 2 veces! Al aceptar eliminarás a todos los contactos seleccionados...||¿Estás totalmente seguro/a?"
+		escogeUsuario 		= "Escoge un usuario!"
+		fraceEscogeUsuario 	= "Selecciona al usuario que desees añadir a tu lista de amigos.||Haz click sobre la sombra en sus pies!"
+		fraceAddUsuario 	= "Acabas de pedirle a este usuario permiso para incorporarlo a tu lista de amigos.||Una vez acepte, podreis enviaros mensajes a través de esta consola!"
+		escribeNick 		= "Escribe aquí el nick!"
+		addAgenda 			= "Añadir a la agenda"
+		irAlli 				= "Ir allí!"
+		paraLeer 			= "Para leer!"
+		quierenSeaAmigo 	= "Quieren que seas su amigo"
+		peticionDe 			= "Petición de:"
+		cofirmacionAddUsuario = "Desea ser tu|amigo/a, añadir|a la Agenda?"
+		anios 				= "años"
+		vacio 				= "Vacío"
+		noExiste 			= "No existe ningún usuario con ese nick...!|Vuelve a intentarlo! Escribe otro nombre y haz click en la lupa."
+		denunciaMensajeBPad	= "Denuncia este mensaje"	
+		denunciaMensaje		= "Denunciar Nota!"
+		denunciaMensajeTexto= "Si te sientes ofendido por el mensaje que acabas de recibir no dudes en denunciarlo.||Un moderador recibirá una copia y con esta prueba podrá dar de baja la cuenta del usuario que te lo envió.||Si acusas a alguien sin motivo puedes acabar baneado!"
+		denunciaEnviada		= "Consultando!"
+		denunciaEnviadaTexto= "Ya puedes serrar esta ventana."
+		denunciarUsuario	= "Consultar usuario"
+		denunciarUsuarioTexto= "Pueds consultar la informacion de este usuario. La posicion en Rankings de este usuario, Torneos Ring ganados..."
+		denunciarIsla		= "Denunciar Isla!"
+		denunciarIslaTexto	= "Puedes enviar una queja si te sientes ofendido por el nombre  de esta isla, o su descripción.||Un moderador comprobará los datos de la isla; y si contiene lenguaje ofensivo la daremos de baja.||Si acusas a alguien sin motivo puedes acabar baneado!"
+		limiteAlzanzado		= "Limite alcanzado!"
+		limiteContactos		= "200"
+		maxCantidadContactos = "Lo siento! Ya has excedido el número maximo de amigos que puedes al almacenar en tu B-Pad!||Recuerda que no puedes tener más de 200 amigos!"
+		maxCantidadContactosDelOtro = "Lo siento! No puedes añadir a este amigo a tu lista de amigos.|Su B-Pad no puede almacenar más de 200 contactos!"
+		limiteContactosMember = "300"
+		maxCantidadContactosMember = "Lo siento! Ya has excedido como VIP el número maximo de amigos que puedes al almacenar en tu B-Pad!||Recuerda que no puedes tener más de 300 amigos!"
+		volver				= "Volver"
+		tooltip				= "Amigos"
+		godName				= "BoomBang Team"
+		escribirATodos		= "Escribir a todos"
+		advertenciaMensajeMasivos = "ATENCION:|no podrás enviar más mensajes masivos hasta dentro de :|"
+	/>
+	
+	<fichaMember		
+		inicioTitulo 				= "Este contenido es exclusivo para VIPs de BoomBang!"
+		inicioTexto 				= "Hazte VIP de BoomBang y consigue ventajas y regalos cada mes!"
+		inicioBoton 				= "Quiero ser VIP"
+		
+		noMemberTitulo 				= "Hazte VIP de BoomBang y consigue muchas ventajas!"
+		noMemberMesUno 				= "1 Mes"
+		noMemberMesDos 				= "3 Meses"
+		noMemberMesTres 			= "6 Meses"
+		noMemberPrecioUno 			= "10,000 Créditos"
+		noMemberPrecioDos 			= "25,000 Créditos"
+		noMemberPrecioTres 			= "45,000 Créditos"
+		noMemberAdvertencia 		= "Actualmente no eres VIP de BoomBang"
+		noMemberPagar 				= "Pagar"
+		noMemberVentajaTitulo 		= "Estas son sólo algunas de las ventajas de ser habitante:"
+		noMemberVentajaUno 			= "Cada mes recibirás 1 objeto exclusivo!"
+		noMemberVentajaDos 			= "5 regalos exclusivos de bienvenida!"
+		noMemberVentajaTres 		= "Nuevos modelos de casas (4)"
+		noMemberVentajaBpad 		= "BPAD con límite de 300 amigos"
+		noMemberVentajaFicha 		= "Una ficha especial"
+		
+		pagoRealizadoTitulo 		= "Enhorabuena! Ya eres un habitante de BoomBang!"
+		pagoRealizadoObjetos 		= "Los objetos de regalo están en tu mochila"
+		pagoRealizadoModelo			= "Ya puedes elegir el modelo de casita que mas te guste!"
+		pagoRealizadoRenovar 		= "Puedes renovar tu suscripión VIP 15 días antes de que expire"
+		pagoRealizadoMembership 	= "Tu suscripción termina el:"
+		
+		creditosInsuficientesTitulo = "Atención: No tienes Créditos suficientes!"
+		creditosInsuficientesTexto 	= "Puedes conseguir Créditos de muchas formas: con tu móvil, teléfono fijo, targetas prepago y ofertas"
+		creditosInsuficientesBoton 	= "Comprar Créditos"
+		creditosInsuficientesMoneda = "1,000"
+		
+		siMemberTitulo 				= "Renueva tu subscripción antes de que termine!"
+		
+		renovarTitulo 				= "Actualmente ya eres VIP y habitante de BoomBang!"
+		renovarExtender 			= "Podrás renovar y extender tu membership cuando falten 15 días para que termine!"
+		renovarMensajeBpad			= "Te enviaremos un mensaje a tu B-Pad para recordártelo"
+		
+		errorTitulo 				= "Atención: Aun no puedes renovar el VIP"
+		errorTexto					= "Recuerda que recién podras renovar 15 días antes de caducar. Tu VIP finaliza el: "
+	/>
+	
+	<fichaNoticias
+		botonVolver = "Volver"
+		botonSiguiente = "Siguiente"
+		botonAnterior = "Anterior"
+		botonMasNoticias = "Ver más noticias"
+		tituloNews = "BoomBangNews"
+	/>
+	
+	<fichaDatosPlantas
+		fichaInformacionDescripcionInicio = "Has empezado a cultivar una planta "
+		fichaInformacionDescripcionFinal = ", si quieres que crezca sana y fuerte, no dejes que se quede sin agua!"
+		fichaDatosAgua = "Indica el tiempo que falta para que tu planta se quede sin agua."
+		fichaDatosEvolucion = "Indica el tiempo que falta para completar el crecimiento de tu planta."
+		fichaMuertaDescripcion = "Tu planta murió. Si quieres revivirla, riégala y esta vez no la olvides!"
+	/>
+	
+	<interface>
+		<ficha
+			beso       = "Besos"
+			cocktails  = "Cocktails"
+			flores     = "Flores"
+			uppercuts  = "Uppercuts"
+			cocos      = "Cocos"
+			ring       = "Ring"
+			cocosGame  = "cocos Locos"
+			lianasGame = "Sendero"			
+			enviados   = "Enviados"
+			recibidos  = "Recibidos"
+			ganados    = "Ganados"
+			perdidos   = "Perdidos"
+			deseos     = "Deseos"
+			hobbies    = "Hobbies"
+			editar     = "Editar!"
+			chivato    = "Chivato"
+			baboso     = "Baboso"
+			agresivo   = "Agresivo"
+			legal      = "Legal"
+			sexy       = "Sexy"
+			simpatico  = "Simpático"
+			votos      = "Votos"
+			enviado    = "Enviado"
+			enviadoA   = "a"
+			
+			ninja	   = "Ninja Level"
+			ninjalevel = "Level: "
+			ninjaProgress = "100/100"
+			
+			esperando_respuesta = "Esperando|Respuesta"
+			help_emoticon1      = "Presiona sobre los iconos y expresa tus sentimientos!|Es divertido!"
+			help_emoticon2      = "Presiona sobre los iconos para iniciar una acción. No te cortes, pruébalo!"
+			help_hobbies1       = "Para editar la información sobre tu perfil presiona sobre los campos!"
+			help_hobbies2       = "Aquí encontrarás información sobre mis hobbies y sueños en la vida|"			
+			help_stat1          = "Aquí encontrarás todos los datos sobre tu paso por BoomBang!"
+			help_stat2          = "Aquí encontrarás todos los datos sobre mi paso por BoomBang!"			
+			help_votos1         = "Esto es un reflejo de lo que los demás usuarios piensan sobre tí!"
+			help_votos2         = "Podrás votar hasta 5 veces cada día para dar tu opinión sobre los demás"
+			help_intercambios   = "Intercambia objetos con este usuario!"
+			help_add_friend     = "Añade a este usuario a tu lista de amigos!"
+			help_chat_private   = "Pulsa para hablar en privado con él"
+			help_ignorar        = "Pulsa para ignorar lo que dice este usuario"
+			help_report         = "Consulta la información de este usuario"
+			aviso               = "Aviso"
+						
+			sin_creditos         = "No tienes créditos suficientes!"
+			ponte_al_lado        = "Ponte a su derecha o izquierda"
+			sin_votos            = "Te has quedado sin votos!"
+			usr_intercambiando   = "Este usuario está realizando cambios"
+			limite_obj           = "Ya no caben más objetos!"
+			limite_masc          = "Ya no caben más mascotas!"
+			usr_ocupado          = "Ahora no puede responderte!"
+			usr_bloqueado        = "El usuario esta bloqueado"
+			limiteClicks         = "Acción no enviada"
+			ok                   = "ok"
+			anios				 = "años"
+			noPuedesIntercambiar = "No puedes cambiar este objeto"
+			errorIntercambio     = "Error, vuelve a clicar el objeto"
+			
+		/>			
+	</interface>
+	<habilitarIntercambio
+		deseaActivarIntercambios = "Deseas realizar cambios con tu personaje?||Debemos verificar si eres el dueño de esta cuenta."
+
+		emailEnviado = "Te hemos enviado un Código al Email de esta cuenta!||Lo necesitarás para hacer cambios con este personaje!"
+		
+		emailEnviado2 = "Hemos enviado el código a tu Email. Puede tardar unos minutos en llegar."
+		escribeCodigo = "Escribe el código aquí"
+		
+		seguir = "Seguir"
+		cerrar = "Cerrar"
+		continuar = "Continuar"
+		validarCodigo = "Validar Código"
+		volverAIntentar = "Volver a intentar"
+		recordarPc = "Recordar este PC"
+		terminar = "Terminar"
+		
+		codigoIncorrecto = "El Código NO es correcto.||Asegúrate de que lo has escrito bien. "
+		codigoCorrecto = "Código Correcto!|Hemos confirmado que eres el dueño de esta cuenta.  Puedes hacer tantos cambios como desees!"
+		
+		juegasDesdeCasa = "Juegas desde casa?|Si estás en un ordenador seguro (que no sea público) marca la casilla para hacer cambios sin usar el código"
+								
+		maximoIntentos = "Has alcanzado el número máximo de intentos.|Tienes que volver a empezar todo el proceso desde el principio"
+		
+		error = "Actualmente este servicio se encuentra bajo mantenimiento.||Por favor vuelve a intentarlo en unos minutos, gracias."
+		
+		ingresarMailTitulo = "Por favor escribe el email asociado a este cuenta"		
+		ingresarMailTexto0 = "Escribe el email aquí"		
+		mailIncorrecto = "Ese no es el email que tienes asociado a tu cuenta!||Recuerda que tienes un total de 5 intentos."		
+		volver = "Volver"		
+	/>
+	<baseChat
+		publico = "Publico"
+		aceptarCambios = "Aceptar|Cambios"
+		rechazo = "rechaza tu petición"
+		password = "ATENCION: no digas tu password! Es muy posible si alguien te la pide que intente robar tu cuenta."
+		tooltipMochila = "MOCHILA"
+		tooltipExit = "SALIR"
+		
+		perfumado0 = "El usuario -USER- esta perfumado 0"
+		perfumado1 = "El usuario -USER- esta perfumado 1"
+		perfumado2 = "El usuario -USER- esta perfumado 2"
+		perfumado3 = "El usuario -USER- esta perfumado 3"
+		
+		cumplido0 = "NAME eres dulce! Tan dulce como mi nube diabolica!"
+		cumplido1 = "NAME tu piel es suave como la de mi empanadino!"
+		cumplido2 = "NAME me siento tan feliz cuando te veo.. tanto como si me hubiera tocado un Dino Lee!"
+		cumplido3 = "NAME, eres RARE"
+		cumplido4 = "NAME, tus ojos brillan con tanta intensidad como el fuego de mi raresaurio"
+		cumplido5 = "NAME; eres tan bonita como un atardecer en beluga beach"
+		cumplido6 = "NAME, prefiero estar contigo que solo en mi isla con Kum, Tim, Ikku, Micaelo, Bebe y Ponder juntos!"
+		cumplido7 = "NAME, me caes tan bien que borre a un MOD de mi PAD para agregarte a ti :)"
+		cumplido8 = "NAME, mis clones te rodearán dia y noche para q no puedas besar a otro!"
+		cumplido9 = "NAME, tu nombre es mi password  :) "
+		cumplido10 = "NAME, te he dicho alguna vez que he escrito tu nombre en mi isla con setos salvajes???"
+		cumplido11 = "NAME, no te cambiaría ni por 1.000 golden eggs"
+		cumplido12 = "NAME, he pedido una sección de fanart exclusiva para tí"
+		cumplido13 = "NAME, me han baneado por ponerle tu nombre a GOD -.-"
+		cumplido14 = "NAME, como puedo sentir amor REAL si este mundo es VIRTUAL?"		
+		cumplido15 = "NAME, cuando te veo se me va la conexión!"
+		cumplido16 = "NAME, A veces me pongo celoso de mi keko xq es el quien te besa :)"
+		cumplido17 = "NAME, eres supermegahiperespecial para mí!"
+		cumplido18 = "NAME - Mi loro susurra tu nombre cada vez que entro a mi isla"
+		cumplido19 = "NAME - Mi corazón late más fuerte cada vez que te veo, si lo escuchas... BoomBang, BoomBang"
+		cumplido20 = "NAME- ¿Hay un cheat para conquistarte?"
+		cumplido21 = "NAME, Mi grito es como el de un Rexito cuando aceptas un beso de otro keko"
+		cumplido22 = "NAME, Podría estar pensando un piropo todo el día sin encontrar aquel que tú te merecías"
+		cumplido23 = "NAME, Dejaria a todo bb sin conexion para estar los dos solos en bb"
+		cumplido24 = "NAME, Entrar en bb valió la pena, solo por conocerte" 
+		cumplido25 = "NAME, Aún sigo abriendo Raregalos, esperando encontrarte ahi" 
+		cumplido26 = "NAME, Me recubrí de un chicle movedizo para que al abrazarte no puedas dejarme nunca!" 
+		cumplido27 = "NAME, tengo mis besos a 1 por que solo te eh besado ati!"
+		cumplido28 = "NAME, Mis lagrimas caen como hojas de sakura cuando no estas junto a mi !!!!"
+		cumplido29 = "NAME, eres mi motivo para estar en BoomBang día a día"
+		cumplido30 = "NAME, Haría todo por tenerte, hasta desactivar mi cuenta :$"
+		cumplido31 = "NAME, Tu Corazon Tiene Pasword?"
+		cumplido32 = "NAME, quisiera quitarle la corona a mi royal art egg para ponértela ati"
+		cumplido33 = "NAME, Si el flechazo existe, vivan las indias!"
+		cumplido34 = "NAME, Cuando te veo tiemblo más que los renos de Navidad"
+		cumplido35 = "NAME, Sabías que rechacé ser MOD, por que si lo fuera, no tendría tiempo para tí ?"
+		cumplido36 = "NAME, Tu amistad es eterna como el rugido de un raresaurio, audaz e intenso pero dulce al mismo tiempo"
+		cumplido37 = "NAME, no te cambiaria ni por 10 millones de sacos"
+		cumplido38 = "NAME, Hasta la mariquita de FlowerPower se queda mirando tu hermosura"
+		cumplido39 = "NAME, Tus besos son tan dulces como las moras de mi seto salvaje"
+		cumplido40 = "NAME, Eres tan especial como mi primer dia en BoomBang"
+		
+		titMonedasPlata  = "Monedas de Plata"
+		descMonedasPlata1 = "Las monedas de plata sirven|para comprar objetos|en el catálogo.|Con ellos podrás decorar tu isla,|casa, hacer regalos, lanzar pociones, ..."
+		descMonedasPlata2 = 'Te regalamos hasta &lt;FONT COLOR="#B92478"&gt;50 monedas|(5 cada 15 minutos)&lt;/FONT&gt;'
+		descMonedasPlata3 = "¡También puedes conseguir|monedas buscando cofres de plata|en las islas o ganando en los juegos!"
+		hour  = "h"
+		min   = "min"
+		sec   = "sec"
+		
+		monedasPlata = "Monedas de plata"
+		
+		activarCambios    = "Activar Cambios"
+		desactivarCambios = "Desactivar Cambios"
+	/>
+	<compraCreditos
+		tituloCompraCreditos = "Compra Créditos:"
+		descripcionCompraCreditos = "Podrás decorar tu isla, comprar mascotas lanzar cocos y usar el guante de boxeo!"
+		
+		telefonoMovil = "Teléfono / Móvil"
+		tarjetaCredito = "Tarjeta Crédito"
+		tarjetaPrepago = "Tarjetas Prepago + PaybyCash"
+		
+		advertencia = '&lt;FONT COLOR="#00B3FF"&gt;Advertencia&lt;/FONT&gt;'
+		mensajeAdvertencia = '&lt;FONT COLOR="#00B3FF"&gt;Este es un servicio de pago. Si eres menor de edad, el mail debe ser el de tus padres o tutor.&lt;/FONT&gt;'
+		advertenciaAccion = '&lt;FONT COLOR="#00B3FF"&gt;Atención!&lt;/FONT&gt;'
+		mensajeAdvertenciaAccion = '&lt;FONT COLOR="#00B3FF"&gt;Necesitas créditos para lanzar cocos y usar el guante de box!&lt;/FONT&gt;'
+		advertenciaObjeto = '&lt;FONT COLOR="#00B3FF"&gt;Atención!&lt;/FONT&gt;'
+		mensajeAdvertenciaObjeto = '&lt;FONT COLOR="#00B3FF"&gt;No tienes créditos suficientes para comprar este objeto!&lt;/FONT&gt;'
+
+		tituloTelefonoMovil = "Teléfono / Móvil:"
+		descripcionTelefonoMovil = "Podrás realizar un máximo de 200 compras con tu móvil cada mes"
+		
+		tituloClave = "Valida tu clave!"
+		descripcionClave = "Podrás activar un máximo de 200 claves cada mes"
+		
+		consigueClave = "Consigue la Clave"
+		descConsigueClave = "Compra la clave llamando desde tu teléfono o enviando un mensaje SMS"
+		popup = "La ventana con instrucciones se abrirá en un pop-up"
+		compra = "Compra"
+		
+		convierteClave = "Convierte tu clave"
+		descConvierteClave = "Ya tienes tu clave? Debes validarla para conseguir los créditos:"
+		valida = "Valida"
+		
+		claveInvalida = "La clave NO es válida"
+		validaClave = "Asegúrate de que has escrito bien la clave y vuelve a intentarlo."
+		volver = "Volver"
+		claveOk = "La clave es válida!"
+		creditosCargados = "Hemos cargado los Créditos en tu cuenta: esperamos que los disfrutes!"
+		
+		tituloIrregularidades = "Atención"
+		mensajeIrregularidades = "Se han producido irregularidades en los pagos efectuados por esta cuenta.|No podrás realizar más pagos hasta que finalice la investigación."
+		tituloLimiteDiaClaves = "Límite alcanzado!"
+		mensajeLimiteDiaClaves = 'Por tu seguridad hemos establecido unos límites que ya has alcanzado.|&lt;FONT COLOR="#FFFF00"&gt;Cada día puedes comprar un máximo de 10 claves.&lt;/FONT&gt;'
+		tituloLimiteDiaImporte = "Límite alcanzado!"
+		mensajeLimiteDiaImporte = 'Por tu seguridad hemos establecido unos límites que ya has alcanzado.|&lt;FONT COLOR="#FFFF00"&gt;Cada día puedes comprar un máximo de $100 en claves.&lt;/FONT&gt;'
+		tituloLimiteMesImporte = "Límite alcanzado!"
+		mensajeLimiteMesImporte = 'Por tu seguridad hemos establecido unos límites que ya has alcanzado.|&lt;FONT COLOR="#FFFF00"&gt;Cada mes puedes comprar un máximo de $50 en claves.&lt;/FONT&gt;'
+		tituloLimiteMesSms = "Límite alcanzado!"
+		mensajeLimiteMesSms = "Podrás realizar un máximo de 200 compras con tu móvil cada mes"
+		tituloError = "Error"
+		mensajeError = "En estos momentos no podemos procesar tu petición! Gracias"
+		
+		tituloTarjetaCredito = "Tarjeta de Crédito"
+		descripcionTarjetaCredito = "Desde cualquier país de forma inmediata.|Límite de U$50 al mes"
+		escojaOpcion = "Sabías que:|Por seguridad, no puedes usar la misma Tarjeta de Crédito para diferentes personajes en BoomBang?"
+		
+		prefijoMoneda = "$"
+		sufijoCreditos = " Creditos"
+		
+		tituloTarjetaCreditoFin = "Tarjeta de Credito"
+		descripcionTarjetaCreditoFin = "Se abrirá una nueva ventana y será enviado a la página oficial de Click and Buy.||Siga las instrucciones para completar su compra, una vez finalizada añadiremos de forma automática los Créditos en su cuenta.||Gracias por usar este servicio."
+		tituloTarjetaCreditoError = "Servicio no disponible"
+		descripcionTarjetaCreditoError = "Actualmente este servicio se encuentra bajo mantenimiento."
+		descripcionTarjetaCreditoErrorRetry = "Actualmente este servicio se encuentra bajo mantenimiento.||Por favor vuelve a intentarlo en unos minutos, gracias."
+		
+		espera = "Esperando..."
+		comprar = "Comprar"
+		creditos = "Créditos"
+		codigosCAB = "33375104,33375210,33375224,33375230"
+		codigosPREPAGO = "5,6,7,8"
+		
+		tituloTarjetaPrepago = "Tarjeta Prepago + PayByCash"
+		descripcionTarjetaPrepago = "Selecciona la cantidad que deseas pagar.|El límite mensual es de $50"
+		escojaOpcionPrepago = "Sabías que:|PayByCash ofrece hasta 70 métodos de pago diferentes! Escoge el que mejor se adapte a tí y compra Créditos. Pruébalo!"
+		
+		tituloTarjetaPrepagoFin = "Tarjeta Prepago + PayByCash"
+		descripcionTarjetaPrepagoFin = "Se abrirá una nueva ventana y será enviado a la página oficial de Prepago.||Siga las instrucciones para completar su compra, una vez finalizada añadiremos de forma automática los Créditos en su cuenta.||Gracias por usar este servicio."
+		tituloTarjetaPrepagoError = "Servicio no disponible"
+		descripcionTarjetaPrepagoError = "Actualmente este servicio se encuentra bajo mantenimiento."
+		descripcionTarjetaPrepagoErrorRetry = "Actualmente este servicio se encuentra bajo mantenimiento.||Por favor vuelve a intentarlo en unos minutos, gracias."
+		
+		ingresaClave = "Tienes tu clave? Haz click aquí para ingresarla"		
+	/>
+	<compraObjetos
+		catalogo1 = "Objetos decorativos"		
+		catalogo2 = "Set Bosque"
+		catalogo3 = "Mascotas y cosas parecidas"
+		catalogo4 = "Set Miedo"
+		catalogo5 = "Set Indio"
+		catalogo6 = "Set Hielo"
+		catalogo7 = "San Valentin"
+		catalogo8 = "Regalos"
+		catalogo9 = "Set Alien"
+		catalogo10 = "Set Pascuas"
+		catalogo11 = "Set Pirata"
+		catalogo12 = "Set Aniversario"
+		catalogo13 = "Set Oriental"
+		catalogo14 = "Set Magia"
+		catalogo15 = "Set Pascuas"
+		catalogo16 = "Set Casa"
+		catalogo17 = "Nuevos"
+		catalogo19 = "Plantas"
+		comprar = "Comprar"
+		peque = "Peque"
+		normal = "Normal"
+		grande = "Grande"
+		vacio = "VACIO"
+		aceptar = "Aceptar"
+		cancelar = "Cancelar"
+		cargando = "Cargando"
+		listo = "Listo!"
+		tituloCompraOk = "Compra efectuada!"
+		mensajeCompraOk = "Encontrarás el objeto en tu Mochila.|Puedes acceder a tu isla y colocarlo donde quieras!"
+		mensajeObjetoMember = "Objeto exclusivo para VIPs."
+		noMonedasPlata = "No tienes suficientes Monedas de Plata!"
+	/>
+	<createLoc
+		eligeFondo        = "Escoge el fondo"
+    	loading           = "Loading..."
+    	nameLocation      = "Pon un nombre a la localización!"
+    	customizeLocation = "Escoge colores para tu area"
+		escogeColores     = "Escoge uno de estos colores"
+		personalizaColor  = "O crea uno a tu medida!"
+		anterior		  = "Anterior"
+		siguiente 		  = "Siguiente"
+		aceptar 		  = "Aceptar"
+		finalizar 		  = "Finalizar"
+		
+    	cielo    = "Cielo"
+		cesped   = "Cesped"		
+		roca     = "Roca"
+		cascada  = "Cascada"
+		plantas  = "Plantas"		
+		mar      = "Mar"
+		montanas = "Montañas"
+		jungla   = "Jungla"
+		arena    = "Arena"
+		muelle   = "Muelle"		
+		hojas    = "Hojas"
+		luna     = "Luna"
+		cienaga  = "Cienaga"
+		tierra   = "Tierra"
+		puerta   = "Puerta"		
+		tumba    = "Tumba"
+		lava     = "Lava"
+		fuego    = "Fuego"
+		oceano   = "Océano"
+		pajaro   = "Pájaro"
+		arboles  = "Arboles"		
+		cabana   = "Cabaña"
+		troncos  = "Troncos"
+		desierto = "Desierto"
+		cactus   = "Cactus"
+		frog     = "Rana"
+		oasis    = "Oasis"		
+		tronco   = "Tronco"
+		cocos    = "Cocos"
+		scorpion = "Escorpión"
+		charco   = "Charco"
+		crab     = "Cangrejo"
+		
+		RoofInside 		= "RoofInside"
+		Nail 			= "Nail"
+		Fence 			= "Fence"
+		Ivy 			= "Ivy"
+		DoorHole 		= "DoorHole"
+		Door 			= "Door"
+		DoorFrame 		= "DoorFrame"
+		Window 			= "Window"
+		HouseSpirals 	= "HouseSpirals"
+		House 			= "House"
+		GroundHouse 	= "GroundHouse"
+		Shape1Color1 	= "Shape1Color1"
+		Shape1Color2 	= "Shape1Color2"
+		Shape2 			= "Shape2"
+		Ground 			= "Ground"
+		Palmtree1Part1 	= "Palmtree1Part1"
+		Palmtree1Part2 	= "Palmtree1Part2"
+		Palmtree2Part1  = "Palmtree2Part1"
+		Palmtree2Part2  = "Palmtree2Part2"
+		Palmtree3Part1  = "Palmtree3Part1"
+		Palmtree3Part2  = "Palmtree3Part2"
+		Palmtree4Part1  = "Palmtree4Part1"
+		Palmtree4Part2  = "Palmtree4Part2"
+		Palmtree5Part1  = "Palmtree5Part1"
+		Palmtree5Part2  = "Palmtree5Part2"
+		Tree1Part1      = "Tree1Part1"
+		Tree1Part2      = "Tree1Part2"
+		Tree2Part1      = "Tree2Part1"
+		Tree2Part2      = "Tree2Part2"
+		Tree3Part1      = "Tree3Part1"
+		Tree3Part2      = "Tree3Part2"
+		Tree4Part1      = "Tree4Part1"
+		Tree4Part2      = "Tree4Part2"
+		Tree5Part1      = "Tree5Part1"
+		Tree5Part2      = "Tree5Part2"
+		Pinetree1Part1  = "Pinetree1Part1"
+		Pinetree1Part2  = "Pinetree1Part2"
+		Pinetree2Part1  = "Pinetree2Part1"
+		Pinetree2Part2  = "Pinetree2Part2"
+		Pinetree3Part1  = "Pinetree3Part1"
+		Pinetree3Part2  = "Pinetree3Part2"
+		Pinetree4Part1  = "Pinetree4Part1"
+		Pinetree4Part2  = "Pinetree4Part2"
+		Pinetree5Part1  = "Pinetree5Part1"
+		Pinetree5Part2  = "Pinetree5Part2"
+		Hill1           = "Hill1"
+		Hill2           = "Hill2"
+		Hill3           = "Hill3"
+		Hill4           = "Hill4"
+		Hill5           = "Hill5"
+		Hill6           = "Hill6"
+		Hill7           = "Hill7"
+		Hill8           = "Hill8"
+		Hill9           = "Hill9"
+		Cloud           = "Cloud"
+		Sky             = "Sky"
+		
+		mcLobbyFloor_4 = "Suelo 4"
+		mcLobbyFloor_3 = "Suelo 3"
+		mcLobbyWall_6 = "Pared 6"
+		mcLobbyWall_5 = "Pared 5"
+		mcLobbyWall_4 = "Pared 4"
+		mcLobbyWall_3 = "Pared 3"
+		mcLobbyFloor_2 = "Suelo 2"
+		mcLobbyWall_2 = "Pared 2"
+		mcLobbyWall_1 = "Pared 1"
+		mcLobbyFloor_1 = "Suelo 1"
+
+		mcOfficeWall 						= "Pared"
+		mcOfficeSkin01_Part01 				= "Bajo Pared"
+		mcOfficeFloor01_Part01 				= "Suelo"
+		mcOfficeWallLight01_OFF_Part01 		= "Luz Pared Apagada"
+		mcOfficeWallLight01_ON_Part01 		= "Luz Pared Encendida"
+		mcOfficeCeilingLamp03_OFF_Part02 	= "Luz Techo Apagada"
+		mcOfficeCeilingLamp03_OFF_Part01 	= "Luz Techo Apagada"
+		mcOfficeCeilingLamp03_ON_Part02 	= "Luz Techo Encendida"
+		mcOfficeCeilingLamp03_ON_Part01 	= "Luz Techo Encendida"
+		
+		BedroomPart1	= "Part 1"
+		BedroomPart2	= "Part 2"
+		BedroomHandle	= "Handle"
+		BedroomDoor		= "Door"
+		BedroomSkin01	= "Skin"
+		BedroomPart3	= "Part 3"
+		
+		mcPart03 = "Pared"
+		mcSkins_Part01 = "Skin"
+		mcFloors_Part01 = "Suelo"
+		mcPoster04_Part02 = "Poster Part 2"
+		mcPoster04_Part01 = "Poster Part 1"
+		mcPoster02_Part01 = "Poster Part 3"
+		mcCeilingLamp02_Part01 = "Lampara Techo"
+		mcCeilingLamp02_Part01_On = "Lampara Techo"
+		
+		mcLoungeWall = "Pared"
+		mcLoungeSkin01_Part01 = "Bajo Pared"
+		mcLoungeDoor01_Part01 = "Puerta"
+		mcLoungeDoor01_Handle_Part01 = "Puerta Picaporte"
+		mcLoungeFloors_Part01 = "Suelo"
+		mcLoungeCeilingLamp02_OFF_Part01 = "Luz Techo Apagada"
+		mcLoungeCeilingLamp02_ON_Part01 = "Luz Techo Encendida"
+		mcLoungeWallLight03_OFF_Part03 = "Luz Pared Apagada"
+		mcLoungeWallLight03_OFF_Part02 = "Luz Pared Apagada"
+		mcLoungeWallLight03_OFF_Part01 = "Luz Pared Apagada"
+		mcLoungeWallLight03_ON_Part03 = "Luz Pared Encendida"
+		mcLoungeWallLight03_ON_Part02 = "Luz Pared Encendida"
+		mcLoungeWallLight03_ON_Part01 = "Luz Pared Encendida"
+
+		mcDinningPart01 = "Pared"
+		mcDinningSkins_Part01 = "Bajo Pared"
+		mcDinningDoor01_Door_Part01 = "Puerta"
+		mcDinningDoor01_Handle_Part01 = "Picaporte"
+		mcDinningFloor01_Part02 = "Parquet"
+		mcDinningFloor01_Part01 = "Alfombra"
+		
+		mc_Lounge2_Wall_Part02 = "Pared Parte 2"
+		mc_Lounge2_Wall_Part01 = "Pared Parte 1"
+		mc_Lounge2_Skin01_Part02 = "Skin Parte 2"
+		mc_Lounge2_Skin01_Part01 = "Skin Parte 1"
+		mc_Lounge2_Door01_Part01 = "Puerta"
+		mc_Lounge2_Door01_Handle_Part01 = "Picaporte"
+		mc_Lounge2_Floor01_Part01 = "Suelo"
+		mc_Lounge2_WallLight03_OFF_Part03 = "Luz Pared Parte 3"
+		mc_Lounge2_WallLight03_OFF_Part02 = "Luz Pared Parte 2"
+		mc_Lounge2_WallLight03_OFF_Part01 = "Luz Pared Parte 1"
+		mc_Lounge2_WallLight03_ON_Part03 = "Luz Pared Parte 3"
+		mc_Lounge2_WallLight03_ON_Part02 = "Luz Pared Parte 2"
+		mc_Lounge2_WallLight03_ON_Part01 = "Luz Pared Parte 1"
+		mc_Lounge2_CeilingLamp05_OFF_Part01 = "Luz Techo"
+		mc_Lounge2_CeilingLamp05_ON_Part01 = "Luz Techo"
+		
+		cave_Wall = "Pared"
+		cave_Floor = "Suelo"
+		cave_Lamp = "Lampara"
+		
+		batCave_Floor = "Suelo"
+		batCave_Wall = "Pared"
+		batCave_Caves = "Cuevas"
+		batCave_Rock = "Roca"
+		batCave_Foreground = "Entrada Cueva"
+		
+		gyserCave_Sky = "Cielo"
+		gyserCave_Floor = "Suelo"
+		gyserCave_Rock = "Roca"
+		gyserCave_Gyser = "Géiser"
+		gyserCave_Steam = "Vapor"
+		
+		moleCave_Water = "Agua"
+		moleCave_Wall = "Pared"
+		moleCave_Floor = "Suelo"
+		moleCave_Rock2 = "Acantilado"
+		moleCave_Rock = "Roca"
+	/>		
+	<editObjetos
+		moverObjeto = "Para mover un objeto: Haz clic con el mouse sobre el objeto, y arrástralo hacia su nueva localización."
+		tamNormal   = "Normal"
+		tamSmall    = "Pequeño"
+		tamBig      = "Grande"
+		colores     = "Colores"
+		quitar      = "Quitar"
+		voltear     = "Voltear"
+		tamanio     = "Tamaño"
+		volver      = "Volver"
+		restaurar	= "Originales"
+		personalizar= "Personalizar"
+		curentSkin  = "Template Actual"
+		onlyMember  = "Sólo VIPs"
+	/>
+	<mochila
+		mochila = "BackPack"
+		contiene = "Contiene:"
+		objetos = "objetos"
+		vacio = "VACIO"
+		arrastra = "Arrastra!"
+		cambia = "Cambia!"
+		todos  = "Todos"
+		nuevos  = "Nuevos"
+		setTitulo  = "Set"	
+		selecciona = "Selecciona!"
+		set1  = "TODOS"		
+		set2  = "Rares"
+		set3  = "Decorativo"
+		set4  = "Bosque"
+		set5  = "Mascotas"
+		set6  = "Miedo"
+		set7  = "Indios"
+		set8  = "Hielo"
+		set9  = "S.Valentin"
+		set10 = "Regalos"		
+		set11 = "Aliens"
+		set12 = "Piratas"
+		set13 = "NPC"
+		set14 = "Oriental"
+		set15 = "Magia"
+		set16 = "Pascuas"
+		set17 = "Casa"
+		set18 = "Pociones"
+		set19 = "Plantas"
+		numeroObjetos = "Nº Objetos"
+		volver = "Volver"
+		tituloHelp  = "Colores Mochila!"
+		textoHelp01 = "Significa que puedes arrastrar el objeto para decorar esta sala"
+		textoHelp02 = "Significa que no puedes arrastrar el objeto para decorar esta sala"
+		textoHelp03 = "Este es un objeto que puedes intercambiar con un NPC"
+		textoHelp04 = "Puedes usar el objeto haciendo CLIC sobre el"
+		textoTeleportDirigido = "Haz clic en la zona donde deseas teletransportarte"
+		textoPocionAvion = "Mensaje"
+		textoAdvertencia = "Atención!"
+		textodecorarIsla = "Solo puedes usar este|objeto para decorar|una de tus ISLAS"
+		textodecorarCasa = "Solo puedes usar este|objeto para decorar|tu CASA"
+		abrirCarpeta = "Abrir Carpeta"
+	/>	
+	<intercambios
+		vacio = "VACIO"
+		unico = "UNICO"
+		casiUnico = "CASI UNICO"
+		muyRare = "MUY RARE"
+		rare = "RARE"
+		aceptar = "Aceptar"
+		cancelar = "Cancelar"
+		listo = "Listo!"
+		cambiar = "Cambiar"
+		descripcionMia = "Abre tu mochila y clica sobre los objetos que deseas intercambiar!"
+		descripcionOtro = "Atento! Estos son los objetos que conseguirás con el cambio!"
+		tusObjetos = "Tus objetos:"
+		susObjetos = "Sus objetos:"
+		total = "Total"
+		cancelado = "Cancelado"
+		
+		tituloTenCuidado = "Atención, ten cuidado"
+		descripcionTenCuidado = "En este cambio parece que estás dando mucho más de lo que recibes a cambio; estás seguro de querer realizarlo? Recuerda:"
+		bullet1TenCuidado = "Nadie puede clonar objetos, no te dejes timar"
+		bullet2TenCuidado = "Si vas a recibir un rare, asegúrate de que esté"
+		seguir = "SEGUIR"
+	/>
+	<creacionObjetos		
+		precio = "Precio"
+		preparar = "Preparar"
+		cambiar  = "Cambiar"
+		volver = "Volver"		
+		siguiente = "Siguiente"
+		help      = "Ayuda?"
+		tituloBruja = "Lista de Pociones disponibles"
+		descripcionBruja = "Escoge tu poción!"
+		tituloVampiroMedianoche = "Lizzy 'Sweety' Romanov"
+		descripcionVampiroMedianoche = "Elige tu golosina!"
+		tituloVampiroBeluga = "Quizi 'Miope' Romanov"
+		descripcionVampiroBeluga = "Elige tu golosina!"
+		tituloVampiroUfo = "Barón Gustav Romanov"
+		descripcionVampiroUfo = "Elige tu golosina!"
+		tituloVampiroMinikong = "Elaf 'Miope' Romanov"
+		descripcionVampiroMinikong = "Elige tu golosina!"
+		tituloVampiroMafia = "Mischi 'Gloomy' Romanov"
+		descripcionVampiroMafia = "Elige tu golosina!"
+		descHelp = "Cómo desplazarte por el Cementerio?||-Para pasar de una pantalla a otra camina con tu personaje hasta pisar las piedras que tengan una flecha.||-Si encuentras objetos en el cementerio camina hasta situarte encima para guardarlos en tu mochila. Podrás intercambiarlos con criaturas de la noche.||Feliz Halloween!"
+		
+		tituloNavidadIceage = "Wiki, duende 'Pastelero'"
+		descripcionNavidadIceage = "Intercambia con los Duendes!"
+		tituloNavidadIgloo = "Yeti de la Nieve"		
+		descripcionNavidadIgloo = "Intercambia con el Yeti!"
+		tituloNavidadLaponia = "Santa"
+		descripcionNavidadLaponia = "Intercambia con Santa!"
+		tituloNavidadPenguin = "Willy el 'Super-Duende'"
+		descripcionNavidadPenguin = "Intercambia con los Duendes!"	 
+		descHelpGnomo = "Cómo funciona?||-Simplemente recoge las bolas de nieve que veas en el suelo!||-El Yeti de las Nieves podrá fabricarte un Keko de Nieve gigante para tí||-No te preocupes, no se derrite!"
+		
+		tituloPascuasConejoBoy = "Marvin, Conejo de Pascua"
+		descripcionConejoBoy = "Conejo de Pascua"
+		tituloPascuasConejoGirl = "Bianca, Conejo de Pascua"
+		descripcionConejoGirl = "Conejo de Pascua"
+		tituloPascuasConejoDad = "Sir Harvey, Conejo de Pascua"
+		descripcionConejoDad = "Conejo de Pascua"
+		tituloPascuasConejoMum = "Molly, Conejo de Pascua"
+		descripcionConejoMum = "Conejo de Pascua"
+		descHelpPascuas = "-Hay 4 conejos de Pascua en BoomBang, búscalos!||-Los nuevos cofres de chocolate contienen monedas que podrás usar para intercambiar con los conejos de Pascua y obtener objetos exclusivos.||-Además, puedes intentar reconstruir el gran Egg Negro que se ha roto en 36 pedazos!"
+		
+		tituloBrujaCalabaza = "Lista de Pociones disponibles"
+		descripcionBrujaCalabaza = "Escoge tu poción!"
+		descHelpBruja = "-Consigue los ingredientes para las pocimas en el cementerio||-Solo puedes tener activa una sola pócima.||-Feliz Halloween"
+		
+		tituloZombie = "Zombie Tímido"
+		descripcionZombie = "Zombie Tímido"
+		descHelpZombie = "-Has encontrado al tímido Zombie! Aprovecha y consigue lo que guarda en sus bolsillos, porque desaparecerá en las sombras del cementerio cuando menos te lo esperes y perderás tu oportunidad!"
+		
+		tituloNpcCrypta = "Necrófago Desaliñado"
+		descripcionNpcCrypta = "Necrófago Desaliñado"
+		descHelpNpcCrypta = "-Con ayuda del Necrófago podrás reconstruir la Llave para tu habitación de Halloween y reconstruir a Frankenstein: busca en el cementerio!||-No te demores demasiado en el interior de esta Cripta... creo que al Necrófago empieza a entrarle el apetito ;)"
+		
+		tituloFelicidades = "Objeto Creado!"
+		descripcionFelicidadesInicio = "Felicidades!||-Has obtenido '"
+		descripcionFelicidadesFinal = "', está en tu mochila."
+		
+		tituloNpcBondadoso = "Duende Bondadoso"
+		descripcionNpcBondadoso = "Selecciona un objeto"
+		descHelpNpcBondadoso = "||Caminando por el Bosque nevado verás regalos sobre la nieve, guárdalos ya que te servirán para hacer intercambios con los duendes y conseguir cosas a cambio"
+		
+		tituloNpcPastelero = "Recetas y dulces navideños"
+		descripcionNpcPastelero = "Selecciona un objeto"
+		descHelpNpcPastelero = "||Caminando por el Bosque nevado verás regalos sobre la nieve, guárdalos ya que te servirán para hacer intercambios con los duendes y conseguir cosas a cambio"
+		
+		tituloNpcMinero = "Duende Travieso"
+		descripcionNpcMinero = "Selecciona un objeto"
+		descHelpNpcMinero = "Los duendes están tan ocupados planeando sus travesuras que se olvidan hasta de comer: a cambio de unos cuantos Donuts congelados te darán algunos de sus juguetes!"
+		
+		tituloNpcAuto = "Regalos con sorpresas inesperadas"
+		descripcionNpcAuto = "Selecciona un objeto"
+		descHelpNpcAuto = "Los duendes están tan ocupados planeando sus travesuras que se olvidan hasta de comer: a cambio de unos cuantos Donuts congelados te darán algunos de sus juguetes!"
+		
+		tituloNpcSanta = "Elige tu regalo de Navidad"
+		descripcionNpcSanta = "Selecciona un objeto"
+		descHelpNpcSanta = "Santa necesita muchos regalo para Navidad, ayúdale! Recorre el Bosque nevado y consigue todos lo regalos que veas, Santa te dará cosas a cambio!"
+		
+		tituloNpcNieve = "Duende, Artista Invernal"
+		descripcionNpcNieve = "Selecciona un objeto"
+		descHelpNpcNieve = "Este duende es todo un artista: |a cambio de algunas bolas de nieve y créditos creará figuras con nieve y regalos relacionados con la nieve."
+		
+		tituloNpcCupido = "Cupido Ingenuo"
+		descripcionNpcCupido = "Selecciona un objeto"
+		descHelpNpcCupido = "Solo durante San Valentín, podrás conseguir en la cajita de regalo diaria las 2 partes que componen la llave para tu habitación de San Valentin. Entrégame ambas partes y a cambio te daré la llave completa!"
+		
+		tituloNpcWoody = "Woody"
+		descripcionNpcWoody = "Selecciona un objeto"
+		descHelpNpcWoody = "Ayuda a limpiar La Madriguera de setas y entrégaselas a Woody, él a cambio te dará divertidos objetos."
+		
+		tituloNpcYoga = "Elph"
+		descripcionNpcYoga = "Selecciona un objeto"
+		descHelpNpcYoga = "Ayuda a limpiar La Madriguera de setas y entrégaselas a Elph, él a cambio te dará divertidos objetos."
+		
+		tituloNpcAmphibia = "Amphibia"
+		descripcionNpcAmphibia = "Selecciona un objeto"
+		descHelpNpcAmphibia = "¿Qué ha pasado? ¡Se ha visto en el cielo una potente luz y luego se ha escuchado un fuerte estruendo! Parece que nos invaden extraños seres de otro planeta...|¿Y ahora qué hacemos? ¿Vendrán en son de paz o serán agresivos?... quizás haya de las dos cosas.|De momento hay alguien que pide ayuda para reconstruir su nave. ¿Le ayudas?"
+	/>
+	
+	<helpManager
+		fraseWelcome             = "Bienvenido! Vamos a explicarte |rápidamente cómo decorar tu isla!"
+		fraseConsigueMonedas     = "Además, si completas este tutorial de|1 min conseguirás monedas gratis :D"
+		fraseAbreMochila         = "Haz clic sobre la mochila para abrirla y|ver que objetos hay dentro!"
+		fraseObjectsWin          = "Te hemos regalado algunos objetos |para decorar tu isla!"
+		fraseDragObjects         = "Arrástralos desde la mochila a tu isla |(déjalos donde más te gusten)"
+		frasePressTractor        = "Para cambiar el color de los objetos y de|tu isla haz clic en la maquina amarilla"
+		frasePressTractorOk      = "Bien! El icono parpadea, es porque|estás en MODO EDICION"
+		fraseSelectObject        = "Ahora haz clic sobre un objeto de tu isla|al que quieras cambiar sus colores"
+		fraseDescPanelSelObject  = "Este panel presenta las opciones para|el objeto que estás Editando"
+	    fraseCambiaColor         = "Cambia los colores: haz clic sobre el|icono ´Color´ del panel"
+	    fraseCambiaColorOK       = "Perfecto! Desde este panel puedes|editar color, tamaño y otras opciones"
+		frasePressTractorFinish  = "Cuando hayas terminado, haz clic otra|vez en la maquina amarilla"		
+		fraseFinModoEdicion      = "Bien! Ya has salido del MODO EDICION,|ahora puedes caminar normalmente"
+		fraseWinMonedasPlata     = "Vamos a regalarte unas monedas de|plata para que compres objetos!"
+		fraseDescWinMonedasPlata = "Puedes conseguir Monedas de Plata|de varias maneras: ||-Viniendo cada día a BoomBang!|-Invitando amigos|-Participando en concursos|-Atrapando cofres|-etc!"
+		fraseOpenCatalogo        = "Abre el catálogo y decide en que|invertir tus primeras monedas!"	
+		fraseOpenCatalogo2       = "Haz clic en la cajita con estrellas a la|izquierda para abrir el catálogo!"
+		fraseAhorra              = "No es necesario que gastes ahora tus|monedas! Puedes ahorrar"
+		fraseMuchosObjetos       = "Hay muchos objetos con los que decorar|tu isla: mascotas, plantas, casas, etc"
+		fraseInvitaAmigos        = "Y recuerda que puedes crear más|Islas e invitar a tus amigos!"
+
+	/>
+	
+	<textsEscenarios>		
+		<private18
+			pirata = "Pirata"
+			cancion1 = "Quince hombres éramos sobre el cofre del muerto.|¡Yo—ho—ho! ¡Y una botella de ron!|La bebida y el diablo se llevaron al resto.|¡Yo—ho—ho! ¡Y una botella de ron!"
+			cancion2 = "Veinte presas|hemos hecho|a despecho,|del inglés,|y han rendido|sus pendones|cien naciones|a mis pies."
+			cancion3 = "Que es mi barco mi tesoro,|que es mi dios la libertad,|mi ley, la fuerza y el viento,|mi única patria la mar."
+			cancion4 = "Son mi música mejor aquilones|el estrépito y temblor|de los cables sacudidos,|del negro mar los bramidos|y el rugir de mis cañones."
+			cancion5 = "Sentenciado estoy a muerte!;|yo me río;|no me abandone la suerte,|y al mismo que me condena,|colgaré de alguna entena|quizá en su propio navío."
+			cancion6 = "A la voz de ¡barco viene!|es de ver|cómo vira y se previene|a todo trapo a escapar:|que yo soy el rey del mar,|y mi furia es de temer."
+		/>
+		<private23
+			tfTexto0 = "Fresa"
+			tfTexto1 = "Arandano"
+			tfTexto2 = "Naranja"
+			tfTexto3 = "Menta"
+			tfTextoMaquina = " engulle un chicle de "
+			tfTextoMaquinaEnd = ""
+		/>
+		<private15
+			npcName = "Bruja"
+			azar = "Escoge tu poción!"
+			rollover = "Tengo algo que puede interesarte!"
+		/>
+		<private25
+			Hill1                  = "Colina"
+			Hill2                  = "Colina"
+			Hill3                  = "Colina"
+			Hill4                  = "Colina"
+			Hill5                  = "Colina"
+			Hill6                  = "Colina"
+			Hill7                  = "Colina"
+			Hill8                  = "Colina"
+			Hill9                  = "Colina"
+			Tree01Forest 		   = "Arbol"
+			Tree02Forest 		   = "Arbol"
+			Tree03Forest 		   = "Arbol"
+			Tree04Forest 		   = "Arbol"
+			Tree05Forest 		   = "Arbol"
+			Tree01Desert 		   = "Palmera"
+			Tree02Desert 		   = "Palmera"
+			Tree03Desert 		   = "Palmera"
+			Tree04Desert 		   = "Palmera"
+			Tree05Desert 		   = "Palmera"
+			Tree01Hielo  		   = "Pino"
+			Tree02Hielo  		   = "Pino"
+			Tree03Hielo  		   = "Pino"
+			Tree04Hielo  		   = "Pino"
+			Tree05Hielo  		   = "Pino"
+			GroundForest 		   = "Terreno"
+			GroundDesert 		   = "Terreno"
+			GroundHielo  		   = "Terreno"
+			Shape01     		   = "Laguna"			
+			LineTexture            = "Casa"
+			FlowerLineTexture      = "Pétalos"
+			LineWindowLineTexture  = "Ventana"
+			FrontDoorCastle        = "Puerta"
+			IvyLineTexture         = "Enredadera"
+			RoundWindowLineTexture = "Ventana"
+			RoofLineTexture        = "Techo"
+			WoodFenceLineTexture   = "Valla Madera"
+			FrontDoorLineTexture   = "Puerta"
+			SphereEmptyTexture     = "Casa"
+			SphereRoundeTexture    = "Casa"
+			SphereStrip            = "Casa"
+			StripTexture           = "Textura Casa"
+			TennisTexture          = "Casa"
+			FrontDoorTennisTexture = "Puerta"
+			ShadowHouse            = "Sombra"
+			SphereBricks           = "Castillo"
+			BricksWindowRight      = "Castillo"
+			BricksWindowLeft       = "Castillo"
+			BricksBothWindows      = "Castillo"
+			Horns                  = "Cuernos"
+			StoneWalls             = "Muralla"
+			ShadowHouseRobot       = "Sombra"
+			RobotSphere            = "Robot"
+			DoorRobot              = "Puerta"
+			RobotArms              = "Brazo Mecánico"
+			EvilFaceHead           = "Casa Malvada"
+			EvilFaceEye            = "Ojos"
+			
+			Hill                   = "Colina"
+			TroncoForest           = "Tronco"
+			CopaForest             = "Copa"
+			TroncoDesert           = "Tronco"
+			CopaDesert             = "Copa"
+			TroncoHielo            = "Tronco"
+			CopaHielo              = "Copa"
+			GroundForestMini       = "Terreno"
+			GroundDesertMini       = "Terreno"
+			GroundHieloMini        = "Terreno"
+			Shape1Color1           = "Agua1"
+			Shape1Color2           = "Agua2"
+			Sphere                 = "Casa"
+			LineMiddleTexture      = "Linea Media"
+			LineDownTexture        = "Linea Baja"
+			FlowerTexture          = "Pétalo"
+			LineWindow             = "Ventana"
+			FrontDoorOut           = "Marco Puerta"
+			FrontDoorIn            = "Puerta"
+			Ivy                    = "Enredadera"
+			RoundWindowOutside     = "Marco Ventana"
+			RoundWindowInside      = "Ventana"
+			RoundWindowGlass       = "Vidrio"
+			Roof                   = "Techo"
+			WoodFence              = "Valla Madera"
+			WoodFenceNail          = "Clavo"
+			Strip01                = "Textura 1"
+			Strip02                = "Textura 2"
+			Strip03                = "Textura 3"
+			StripDots              = "Puntos"
+			ShadowHouseMini        = "Sombra"
+			HornsMini              = "Cuernos"
+			StoneWallsMini         = "Muralla"
+			RobotMini              = "Robot"
+			RobotU                 = "Robot U"
+			RobotRightLegColor     = "Piernas"
+			RobotLeftArmShoulderIn = "Hombro 1"
+			RobotLeftArmShoulderOut= "Hombro 2"
+			RobotLeftArmHand       = "Mano 1"
+			RobotLeftArmHandUp     = "Mano 2"
+			EvilFaceNose           = "Nariz"
+			EvilFaceTheet          = "Dientes"
+			EvilFaceForeHead       = "Ceño"
+			EvilFaceRightEyeOutside= "Ojo Derecho 1"
+			EvilFaceRightEyeInside = "Ojo Derecho 2"
+			EvilFaceLeftEyeOutside = "Ojo Izquierdo 1"
+			EvilFaceLeftEyeInside  = "Ojo Izquierdo 2"
+			SpheresTexture         = "Textura"
+			BricksWindowRightInside= "Ranura"
+			BricksWindowLeftInside = "Ranura"
+			
+			MenuHill               = "Colina"
+			MenuTree1              = "Arbol 1"
+			MenuTree2              = "Arbol 2"
+			MenuTree3              = "Arbol 3"
+			MenuTree4              = "Arbol 4"
+			MenuTree5              = "Arbol 5"
+			MenuTextureCasa        = "Textura Casa" 
+			MenuPetalo             = "Pétalo"
+			MenuWindow             = "Ventana"
+			MenuBarricades         = "Barricadas"
+			MenuEnredadera         = "Enredadera"
+			MenuVarios             = "Varios"
+			MenuFence              = "Valla Madera"
+			MenuElectricFence      = "Cerca Eléctrica"
+			MenuShadowHouse        = "Sombra"
+			MenuHorns              = "Cuernos"
+			MenuStoneWalls         = "Muralla"
+			MenuRobotHeadEyes      = "Ojos"
+			
+			templateForest         = "Bosque"
+			templateDesert         = "Desierto"
+			templateHielo          = "Nevado"
+			templateLineHouse      = "Casa 1"
+		/>
+		<public86
+			npcName = "Marvin"
+			azar = "No es un Egg, pero a que mola? :)"
+			rollover = "Cambiemos! Tienes monedas de chocolate?"
+		/>
+		<public2
+			vampiro = "Barón"
+			azar = "Feliz Halloween! Hacemos un trato?"
+			rollover = "Tienes algo que pueda interesarme?"
+		/>
+		<public95
+			npcName = "Sir Harvey"
+			azar = "Tengo una misión para tí!"
+			rollover = "Has conseguido ya todos los trozos de chocolate negro?"
+		/>
+		<public6
+			npcName = "Bianca"
+			azar = "He creado mi primer huevo de Pascua!"
+			rollover = "Cambiemos! Tienes monedas de chocolate?"
+		/>
+		<public4
+			npcName = "Molly"
+			azar = "He preparado unos huevos de Pascua preciosos!"
+			rollover = "Cambiemos! Tienes monedas de chocolate?"
+		/>
+		<public9
+			npcName = "Yeti de las Nieves"
+			azar = "Yo grande, hacer muñeco muy grande!"
+			rollover = "GRRR!"
+		/>
+		<public10
+			npcName = "Cupido Ingenuo"
+			azar = "Ya tienes las 2 partes para conseguir la llave completa?"
+			rollover = "Consigue la llave para abrir la habitación de San Valentín en tu casita!"
+		/>
+		<public17
+			npcName = "Willy"
+			azar = "Ayúdame a recuperar los regalos antes de que Santa se de cuenta!"
+			rollover = "Feliz navidad!"
+		/>
+		<public12
+			npcName = "Santa"
+			azar = "Los duendes han perdido los regalos, ayúdame a recuperarlos."
+			rollover = "Feliz navidad!"
+		/>
+		<public21
+			frase0 = "Quieres salir en la tele?"
+			frase1 = "Graba tu spot y envialo a ColaCao, haz clic"
+		/>
+		<public25
+			guitarra = "¿Te atreves a tocar la guitarra de los Jonas Brothers?"
+			microfono = "¡No te pierdas a Mitchie Torres cantando con este micro las canciones de Camp Rock 2!"
+			sombrero = "¡Nate se ha dejado su sombrero en el campamento!"
+			altavoces = "¡Escucha en primicia algunos de los temas de la BSO de Camp Rock 2!"
+		/>
+		<public26
+			npcName = "Elaf"
+			azar = "Feliz Halloween! Hacemos un trato?"
+			rollover = "Tienes algo que pueda interesarme?"
+		/>
+		<public30
+			npcName = "Mischi"
+			azar = "Feliz Halloween! Hacemos un trato?"
+			rollover = "Tienes algo que pueda interesarme?"
+		/>
+		<public38
+			npcName = "Barón"
+			azar = "Feliz Halloween! Hacemos un trato?"
+			rollover = "Tienes algo que pueda interesarme?"
+		/>
+		<public46
+			npcName = "Lizzy"
+			azar = "Feliz Halloween! Hacemos un trato?"
+			rollover = "Tienes algo que pueda interesarme?"
+		/>
+		<public50
+			npcName = "Quizi"
+			azar = "Feliz Halloween! Hacemos un trato?"
+			rollover = "Tienes algo que pueda interesarme?"
+		/>
+		<public51
+			frase0 = "No te pierdas el último capítulo de Ben10: La Batalla Final"
+		/>
+		<public52
+			npcName = "Necrófago"
+			azar = "Quien te ha dejado entrar?"
+			rollover = "Quien te ha dejado entrar? Hmmm.. por casualidad no llevarás un peine encima?"
+		/>
+		<public37
+			npcName = "Zombie"
+			azar = "Como me has encontrado?"
+			rollover = "Como me has encontrado?... Dejame tranquilo!"
+		/>
+		<public54
+			frase0 = "Pasalo Boing!"
+		/>
+		<public56
+			frase0 = "Ponte tus zapatillas con luz e ilumina todas tus aventuras"
+		/>
+		<public55
+			npcName = "Bruja"
+			azar = "Traeme ingredientes y te fabricaré pociones!"
+			rollover = "Busca los ingredientes en la tierra removida del cementerio"
+		/>
+		<public63
+			npcName = "Pastelero"
+			azar = "Te vas a chupar los dedos con mis recetas navideñas!"
+			rollover = "Hmmm delicioso"
+		/>
+		<public62
+			npcName = "Duende Artista"
+			azar = "Traeme algunas bolas de nieve y verás qué hago con ellas!"
+			rollover = "Soy un artista.. lo dudas? Mira que puedo hacer!"
+		/>
+		<public64
+			npcName = "Duende Bondadoso"
+			azar = "Juguetes hechos a mano en Laponia!"
+			rollover = "Juguetes hechos a mano en Laponia!"
+		/>
+		<public71
+			npcName = "Duende Travieso"
+			azar = "Que habrá dentro de cada regalo?"
+			rollover = "Consigue regalos INOLVIDABLES para tus amigos... :)"
+		/>
+		<public73
+			npcName = "Duende Travieso"
+			azar = "Llévate este regalo.. y dáselo a un buen amigo jejeje"
+			rollover = "Ajá! has superado la prueba, mereces un premio"
+		/>
+		<public74
+			npcName = "Santa"
+			azar = "Regalos para todos... los niños buenos!"
+			rollover = "Feliz Navidad!"
+		/>
+		<public75
+			frase0 = "Phineas y Ferb te desean una muy Feliz Perry-Navidad!"
+		/>
+		<public76
+			frase0 = "Los fines de semana por la mañana en Boing, ¡avisa a tus amigos!"
+		/>
+		<public77
+			frase0 = "Anímate y canta conmigo en el coro más divertido del mundo!"
+		/>
+		<public88
+			npcName = "Bianca"
+			azar = "He creado mi primer huevo de Pascua!"
+			rollover = "Cambiemos! Tienes monedas de chocolate?"
+		/>
+		<public83
+			npcName = "Molly"
+			azar = "He preparado unos huevos de Pascua preciosos!"
+			rollover = "Cambiemos! Tienes monedas de chocolate?"
+		/>
+		<public94
+			frase0 = "En cines el 15 de Abril!"
+		/>
+		<public97
+			frase0 = "¿Todavía no has ganado premios Grefushow? Participa en www.grefusateam.com!!"
+		/>
+		<public98
+			frase0 = "¡LA FAMA NUNCA FUE TAN FABULOSA!"
+		/>
+		<public99
+			frase0 = "Llena tu Bati-Jarra con delicioso Cola Cao fresquito"
+		/>
+		<multiuserGame2
+			viejo = "Viejo"
+			frase = "Estais preparados???"
+		/>
+		
+		<multiuserGame3
+			viejo = "Sabio"
+			frase = "Estais preparados???"
+		/>
+	</textsEscenarios>
+	
+	<textsObjects>
+		<dragon
+			titulo = "Como mover tu Dragón:"
+			descripcion = "Activa el icono del dragón:|cuando parpadea podrás controlarlo y volar!"
+			tecla = "Tecla CTRL"			
+		/>
+		<dino7
+			titulo = "Como mover tu Dino:"
+			descripcion = "Activa el icono del dino:|cuando parpadea podrás controlarlo y volar!"
+			tecla = "Tecla CTRL"			
+		/>
+		<helicoptero
+			titulo = "Como mover tu Helicóptero:"
+			descripcion = "Activa el icono del helicóptero:|cuando parpadea podrás controlarlo y volar!"
+			tecla = "Tecla CTRL"			
+		/>
+		<loro_002
+			nombre = "Loro"
+			volver = "Volver"
+			tituloInicial = "Tu loro puede hablar!"
+			descripcionInicial = "El loro parlanchín puede dar la bienvenida, contar chistes o decir lo que tu quieras!|Personalízalo!"
+			tituloTexto1 = "Mensaje de Bienvenida"
+			descripcionTexto1 = "Que quieres que diga el loro cuando un usuario entra en tu isla"
+			tituloTexto2 = "Mensaje de Proximidad"
+			descripcionTexto2 = "Que quieres que diga el loro cuando un usuario se acerque a él?"
+			tituloTexto3 = "Mensaje de Activación"
+			descripcionTexto3 = "Que quieres que diga el loro cuando tu lo actives manualmente?"			
+		/>
+		<pirate_parrot
+			nombre = "Loro"
+			volver = "Volver"
+			tituloInicial = "Tu loro puede hablar!"
+			descripcionInicial = "El loro parlanchín puede dar la bienvenida, contar chistes o decir lo que tu quieras!|Personalízalo!"
+			tituloTexto1 = "Mensaje de Bienvenida"
+			descripcionTexto1 = "Que quieres que diga el loro cuando un usuario entra en tu isla"
+			tituloTexto2 = "Mensaje de Proximidad"
+			descripcionTexto2 = "Que quieres que diga el loro cuando un usuario se acerque a él?"
+			tituloTexto3 = "Mensaje de Activación"
+			descripcionTexto3 = "Que quieres que diga el loro cuando tu lo actives manualmente?"			
+		/>
+		<PSU_Laptop
+			nombre = "PSU Laptop"
+			volver = "Volver"
+			tituloInicial = "Tu laptop puede hablar!"
+			descripcionInicial = "El loro parlanchín puede dar la bienvenida, contar chistes o decir lo que tu quieras!|Personalízalo!"
+			tituloTexto1 = "Mensaje de Bienvenida"
+			descripcionTexto1 = "Que quieres que diga el loro cuando un usuario entra en tu isla"
+			tituloTexto2 = "Mensaje de Proximidad"
+			descripcionTexto2 = "Que quieres que diga el loro cuando un usuario se acerque a él?"
+			tituloTexto3 = "Mensaje de Activación"
+			descripcionTexto3 = "Que quieres que diga el loro cuando tu lo actives manualmente?"			
+		/>
+		<Nieve_Bush
+			nombre = "Arbusto Navideño"
+			volver = "Volver"
+			tituloInicial = "Crea tu propia secuencia!"
+			descripcionInicial = "Crea tu propia secuencia de luces!"
+			tituloTexto1 = "Secuencia de Luz 1"
+			descripcionTexto1 = "Crea tu propia secuencia de luces!"
+			tituloTexto2 = "Secuencia de Luz 2"
+			descripcionTexto2 = "Crea tu propia secuencia de luces!"						
+		/>
+		<Nieve_Gramopho
+			nombre = "Gramofono"
+			volver = "Volver"
+			tituloInicial = "Elige tu melodía Navideña!"
+			descripcionInicial = "Escoge entre 7 posibles canciones navideñas!"
+			tituloTexto1 = "Elige tu melodía Navideña!"
+			descripcionTexto1 = "Escoge entre 7 posibles canciones navideñas!"
+			tituloTexto2 = "Elige tu melodía Navideña!"
+			descripcionTexto2 = "Escoge entre 7 posibles canciones navideñas!"						
+		/>
+		<Musical_Love
+			nombre = "Gramofono"
+			volver = "Volver"
+			tituloInicial = "Elige tu melodía Navideña!"
+			descripcionInicial = "Escoge entre 7 posibles canciones navideñas!"
+			tituloTexto1 = "Elige tu melodía Navideña!"
+			descripcionTexto1 = "Escoge entre 7 posibles canciones navideñas!"
+			tituloTexto2 = "Elige tu melodía Navideña!"
+			descripcionTexto2 = "Escoge entre 7 posibles canciones navideñas!"
+		/>
+		<Nieve_Tree
+			nombre = "Arbusto Navideño"
+			volver = "Volver"
+			tituloInicial = "Crea tu propia secuencia!"
+			descripcionInicial = "Crea tu propia secuencia de luces!"
+			tituloTexto1 = "Secuencia de Luz 1"
+			descripcionTexto1 = "Crea tu propia secuencia de luces!"
+			tituloTexto2 = "Secuencia de Luz 2"
+			descripcionTexto2 = "Crea tu propia secuencia de luces!"
+			tituloTexto3 = "Secuencia de Luz 3"
+			descripcionTexto3 = "Crea tu propia secuencia de luces!"
+			tituloTexto4 = "Secuencia de Luz 4"
+			descripcionTexto4 = "Crea tu propia secuencia de luces!"
+			tituloTexto5 = "Secuencia de Luz 5"
+			descripcionTexto5 = "Crea tu propia secuencia de luces!"						
+		/>
+		<cheetosKeko
+			nombre = "Cheeto"
+			volver = "Volver"
+			tituloInicial = "Cheeto puede hablar!"
+			descripcionInicial = "Cheeto puede dar la bienvenida, contar chistes o decir lo que tu quieras!|Personalízalo!"
+			tituloTexto1 = "Mensaje de Bienvenida"
+			descripcionTexto1 = "Que quieres que diga cheeto cuando un usuario entra en tu isla"
+			tituloTexto2 = "Mensaje de Proximidad"
+			descripcionTexto2 = "Que quieres que diga cheeto cuando un usuario se acerque a él?"
+			tituloTexto3 = "Mensaje de Activación"
+			descripcionTexto3 = "Que quieres que diga cheeto cuando tu lo actives manualmente?"			
+		/>
+		<Nieve_Turkey
+			mensaje1Pre = ""
+			mensaje1Post = " contempla pensativo las brasas... que hace ese pavo de goma ahi?!"
+			mensaje2Pre = "Parece ser que "
+			mensaje2Post = " dejó el pavo en las brasas durante demasiado tiempo..."
+			mensaje3Pre = "A "
+			mensaje3Post = " se le ha chamuscado el pavo navideño! Yuks!"
+			mensaje4Pre = "A comer! "
+			mensaje4Post = " prepara un magnífico pavo navideño para todos!"
+		/>
+		<Nieve_GingerB
+			mensaje1Pre = ""
+			mensaje1Post = " da un mordisco al Hombre de Gengibre!"
+		/>
+		<mapa
+			paises = "España,Argentina,Inglaterra,Alemania,Italia,Francia,Brasil,Chile,Canada,EE.UU.,Méjico,Portugal,Reino Unido,Australia,China,Rusia"
+		/>
+		<gato
+			accion = "Acción"
+		/>
+		<perro
+			accion = "Acción"
+		/>
+		<log
+			volver = "Volver"
+			tituloInicial = "Talla tu mensaje"
+			descripcionInicial = "Talla tu mensaje de amor en el tronco!"
+			tituloTexto1 = "Nombre 1"
+			descripcionTexto1 = "Talla tu mensaje de amor en el tronco!"
+			tituloTexto2 = "Nombre 2"
+			descripcionTexto2 = "Talla tu mensaje de amor en el tronco!"
+			usuario1 = "Usuario 1"
+			usuario2 = "Usuario 2"
+		/>
+		<carta
+			volver = "Volver"
+			tituloTexto = "Texto"
+			descripcionTexto = "Contenido de la carta!"
+		/>
+		<alien_person
+			nombre = "Ithoriano"
+			volver = "Volver"
+			tituloInicial = "Tu alien puede hablar!"
+			descripcionInicial = "El alien puede dar la bienvenida, contar chistes o decir lo que tu quieras!|Personalízalo!"
+			tituloTexto1 = "Mensaje de Bienvenida"
+			descripcionTexto1 = "Que quieres que diga el alien cuando un usuario entra en tu isla"
+			tituloTexto2 = "Mensaje de Proximidad"
+			descripcionTexto2 = "Que quieres que diga el alien cuando un usuario se acerque a él?"
+			tituloTexto3 = "Mensaje de Activación"
+			descripcionTexto3 = "Que quieres que diga el alien cuando tu lo actives manualmente?"			
+			texto1 = "taH pagh taHbe', DaH mu'tlheghvam vIqelnIS"
+			texto2 = "Heghlu'meH QaQ jajvam"
+			texto3 = "bIjatlh 'e' yImev"
+		/>
+		<ithoriana
+			nombre = "Ithoriana"
+			volver = "Volver"
+			tituloInicial = "Tu alien puede hablar!"
+			descripcionInicial = "El alien puede dar la bienvenida, contar chistes o decir lo que tu quieras!|Personalízalo!"
+			tituloTexto1 = "Mensaje de Bienvenida"
+			descripcionTexto1 = "Que quieres que diga el alien cuando un usuario entra en tu isla"
+			tituloTexto2 = "Mensaje de Proximidad"
+			descripcionTexto2 = "Que quieres que diga el alien cuando un usuario se acerque a él?"
+			tituloTexto3 = "Mensaje de Activación"
+			descripcionTexto3 = "Que quieres que diga el alien cuando tu lo actives manualmente?"			
+			texto1 = "taH pagh taHbe', DaH mu'tlheghvam vIqelnIS"
+			texto2 = "Heghlu'meH QaQ jajvam"
+			texto3 = "bIjatlh 'e' yImev"
+		/>
+		<alien_fly_sauce
+			volver = "Volver"
+			tituloSubir = "Sube a tus invitados!"
+			descripcionSubir = "Selecciona un usuario y acepta para entregarle el control de tu UFO!"
+		/>
+		<Balloon_Love
+			volver = "Volver"
+			tituloSubir = "Sube al usuario Seleccionado"
+			descripcionSubir = "Sube al usuario Seleccionado"
+		/>
+		<Vuelta_Mundo
+			volver = "Volver"
+			tituloSubir = "Sube al usuario Seleccionado"
+			descripcionSubir = "Sube al usuario Seleccionado"
+		/>
+		<alien_ship_arm
+			titulo = "Como mover tu Ovni:"
+			descripcion = "Activa el icono del ovni:|cuando parpadea podrás controlarlo y volar!"
+			tecla = "Tecla CTRL"
+		/>
+		<space_suit
+			volver = "Volver"
+			tituloSubir = "Sube a tus invitados!"
+			descripcionSubir = "Selecciona un usuario y acepta para colocarle el traje espacial! "
+		/>
+		<pirate_cannon
+			titulo = "Tu cañon dispara!"
+			descripcion = "Activa el icono del cañon:|cuando parpadea podrás aputar y disparar!"
+			tecla = "Tecla CTRL"
+		/>
+		<pirate_monkey1
+			nombre = "Willy el Tuerto"
+			frase = "Al abordajeeeeeeeeeee!"
+		/>
+		<pirate_monkey2
+			nombre = "Barbas Jack"
+			frase = "Burp!"
+		/>
+		<Sign_Rare
+			volver = "Volver"
+			tituloInicial = "Conejo: Negociador"
+			descripcionInicial = "Escribe el nombre del objeto que quieres vender. Consigue un 50% del precio."
+			tituloTexto = "Vender objetos de Oro"
+			descripcionTexto = "Escribe el nombre del objeto que quieres vender."			
+		/>
+		<Sign_Game
+			volver = "Volver"
+			tituloInicial = "Señal Juegos"
+			descripcionInicial = "Te gustan las flores locas y otros juegos? Este es tu cartel!"
+			tituloTexto = "Señal Juegos"
+			descripcionTexto = "Te gustan las flores locas y otros juegos? Este es tu cartel!"			
+		/>
+		<Sign_Skull
+			volver = "Volver"
+			tituloInicial = "Señal Peligro"
+			descripcionInicial = "Explica que peligros acechan a los incautos que visiten tu isla!"
+			tituloTexto = "Señal Peligro"
+			descripcionTexto = "Explica que peligros acechan a los incautos que visiten tu isla!"		
+		/>
+		<Sign_Piranha
+			volver = "Volver"
+			tituloInicial = "Señal Piraña"
+			descripcionInicial = "Si no es seguro darse un baño en tu isla, es mejor que avises a tus amigos con este cartel"
+			tituloTexto = "Señal Piraña"
+			descripcionTexto = "Si no es seguro darse un baño en tu isla, es mejor que avises a tus amigos con este cartel"			
+		/>
+		<Sign_Heart
+			volver = "Volver"
+			tituloInicial = "Señal Enamorad@"
+			descripcionInicial = "Talla un mensaje para tu enamorad@ aquí. Tranquil@, es editable."
+			tituloTexto = "Señal Enamorad@"
+			descripcionTexto = "Talla un mensaje para tu enamorad@ aquí. Tranquil@, es editable."		
+		/>
+		<Miedo_Boom
+			volver = "Volver"
+			tituloInicial = "Ataúd"
+			descripcionInicial = "Quien duerme dentro de este ataúd?"
+			tituloTexto = "Ataúd"
+			descripcionTexto = "Quien duerme dentro de este ataúd?"
+		/>
+		<Miedo_Bruja
+			volver = "Volver"
+			tituloInicial = "Ataúd"
+			descripcionInicial = "Quien duerme dentro de este ataúd?"
+			tituloTexto = "Ataúd"
+			descripcionTexto = "Quien duerme dentro de este ataúd?"
+		/>
+		<Miedo_Cascos
+			volver = "Volver"
+			tituloInicial = "Ataúd"
+			descripcionInicial = "Quien duerme dentro de este ataúd?"
+			tituloTexto = "Ataúd"
+			descripcionTexto = "Quien duerme dentro de este ataúd?"
+		/>
+		<Miedo_Cholo
+			volver = "Volver"
+			tituloInicial = "Ataúd"
+			descripcionInicial = "Quien duerme dentro de este ataúd?"
+			tituloTexto = "Ataúd"
+			descripcionTexto = "Quien duerme dentro de este ataúd?"
+		/>
+		<Miedo_Empo
+			volver = "Volver"
+			tituloInicial = "Ataúd"
+			descripcionInicial = "Quien duerme dentro de este ataúd?"
+			tituloTexto = "Ataúd"
+			descripcionTexto = "Quien duerme dentro de este ataúd?"
+		/>
+		<Miedo_Gata
+			volver = "Volver"
+			tituloInicial = "Ataúd"
+			descripcionInicial = "Quien duerme dentro de este ataúd?"
+			tituloTexto = "Ataúd"
+			descripcionTexto = "Quien duerme dentro de este ataúd?"
+		/>
+		<Miedo_India
+			volver = "Volver"
+			tituloInicial = "Ataúd"
+			descripcionInicial = "Quien duerme dentro de este ataúd?"
+			tituloTexto = "Ataúd"
+			descripcionTexto = "Quien duerme dentro de este ataúd?"
+		/>
+		<Miedo_Intelec
+			volver = "Volver"
+			tituloInicial = "Ataúd"
+			descripcionInicial = "Quien duerme dentro de este ataúd?"
+			tituloTexto = "Ataúd"
+			descripcionTexto = "Quien duerme dentro de este ataúd?"
+		/>
+		<Miedo_Rasta
+			volver = "Volver"
+			tituloInicial = "Ataúd"
+			descripcionInicial = "Quien duerme dentro de este ataúd?"
+			tituloTexto = "Ataúd"
+			descripcionTexto = "Quien duerme dentro de este ataúd?"
+		/>
+		<Miedo_Seta
+			volver = "Volver"
+			tituloInicial = "Ataúd"
+			descripcionInicial = "Quien duerme dentro de este ataúd?"
+			tituloTexto = "Ataúd"
+			descripcionTexto = "Quien duerme dentro de este ataúd?"
+		/>
+		<Miedo_Yayo
+			volver = "Volver"
+			tituloInicial = "Ataúd"
+			descripcionInicial = "Quien duerme dentro de este ataúd?"
+			tituloTexto = "Ataúd"
+			descripcionTexto = "Quien duerme dentro de este ataúd?"
+		/>
+		<Miedo_Gravesize
+			volver = "Volver"
+			tituloInicial = "Lápida"
+			descripcionInicial = "Edita el nombre de la lápida!"
+			tituloTexto = "Lápida"
+			descripcionTexto = "Edita el nombre de la lápida!"
+		/>
+		
+		<!-- España -->
+		
+		<statue_big_1_s
+			texto = "firenox.5, consiguió la 1 posición en el Concurso de Pascuas 2009"
+		/>
+		<statue_big_2_s
+			texto = "Zionn, consiguió la 2 posición en el Concurso de Pascuas 2009"
+		/>
+		<statue_big_3_s
+			texto = "jackmi2, consiguió la 3 posición en el Concurso de Pascuas 2009"
+		/>
+		<statue_big_4_s
+			texto = "uli,uli, consiguió la 4 posición en el Concurso de Pascuas 2009"
+		/>
+		<statue_big_5_s
+			texto = "elmosquito , consiguió la 5 posición en el Concurso de Pascuas 2009"
+		/>
+		<statue_big_6_s
+			texto = "erick-brasil, consiguió la 6 posición en el Concurso de Pascuas 2009"
+		/>
+		<statue_big_7_s
+			texto = "roboloto, consiguió la 7 posición en el Concurso de Pascuas 2009"
+		/>
+		<statue_big_8_s
+			texto = ":VeKeR:, consiguió la 8 posición en el Concurso de Pascuas 2009"
+		/>
+		<statue_big_9_s
+			texto = "TlMbErLaN, consiguió la 9 posición en el Concurso de Pascuas 2009"
+		/>
+		<statue_big_10_s
+			texto = "JeEzE, consiguió la 10 posición en el Concurso de Pascuas 2009"
+		/>
+		<statue_big_11_s
+			texto = "T.aire, consiguió la 11 posición en el Concurso de Pascuas 2009"
+		/>
+		
+		<!-- USA -->
+		
+		<statue_big_1_e
+			texto = "haz88, consiguió la 1 posición en el Concurso de Pascuas 2009"
+		/>
+		<statue_big_2_e
+			texto = "Shike, consiguió la 2 posición en el Concurso de Pascuas 2009"
+		/>
+		<statue_big_3_e
+			texto = "..UNKNOWN.., consiguió la 3 posición en el Concurso de Pascuas 2009"
+		/>
+		<statue_big_4_e
+			texto = "ExtinctioN, consiguió la 4 posición en el Concurso de Pascuas 2009"
+		/>
+		<statue_big_5_e
+			texto = "-x-CeSaR-x-, consiguió la 5 posición en el Concurso de Pascuas 2009"
+		/>
+		<statue_big_6_e
+			texto = ".:PLAYA1994:., consiguió la 6 posición en el Concurso de Pascuas 2009"
+		/>
+		<statue_big_7_e
+			texto = "Fotocopia, consiguió la 7 posición en el Concurso de Pascuas 2009"
+		/>
+		<statue_big_8_e
+			texto = "policia, consiguió la 8 posición en el Concurso de Pascuas 2009"
+		/>
+		<statue_big_9_e
+			texto = ".x.kate07.x., consiguió la 9 posición en el Concurso de Pascuas 2009"
+		/>
+		<statue_big_10_e
+			texto = "IL0VEY0U, consiguió la 10 posición en el Concurso de Pascuas 2009"
+		/>
+		<orientInsense
+			frase0 = "Flor de Azahar: la fragancia de estos delicados pétalos blancos cautivan tu imaginacion."
+			frase1 = "Lavanda: su fragancia llena el aire de paz y tranquilidad..!dulces sueños!"
+			frase2 = "Sándalo: una calida, suave, y dulce fragancia a madera invade el aire."
+			frase3 = "Vainilla: aroma fresco y vital que invita a la inspiración y la creatividad."
+			frase4 = "Canela: este aroma especial crea un puente entre lo dulce y lo agrio, armonizando el ambiente."
+			frase5 = "Rosa: fresca y dulce, esta fragancia atraye el amor y crea una atmosfera encantadora."
+			frase6 = "Jazmin: su fragancia te transporta a un lugar exótico donde la quietud y la paz reinan."
+			frase7 = "Patchuli: su fuerte y pesada fragancia hace fluir los pensamientos dispersos y te hace sentir bien."
+		/>
+		<radio
+			frase = ""
+		/>
+		<Skate_Colacao
+			frase0 = "Consigue tu skate en los ColaCao grandes"
+		/>
+		<ColaCao_Zapatos
+			frase0 = "Consigue tus zapatillas con luz en los Colacao grandes"
+		/>
+		<Ben10_Furgoneta
+			frase0 = "No te pierdas el último capítulo de Ben10: La Batalla Final"
+		/>
+		<Grefusa_Abril
+			frase0 = "¿Todavía no has ganado premios Grefushow? Participa en www.grefusateam.com!!"
+		/>
+		<Hop_Egg
+			frase0 = "En cines el 15 de Abril!"
+		/>
+		<Ben10_Watch
+			frase0 = "Los fines de semana por la mañana en Boing, ¡avisa a tus amigos!"
+		/>
+		<Nokia_Phone
+			frase0 = "¿A qué esperas?, Descarga Ovi Chat de Nokia y ponte en marcha."
+		/>
+		<Boing_Tv
+			frase0 = "Pasalo Boing!"
+		/>				
+		<disney_rock_band2
+			frase0 = "¿Te atreves a tocar la guitarra de los Jonas Brothers?"
+		/>
+		<Phineas_Ferb_Navidad
+			frase0 = "Phineas y Ferb te desean una muy Feliz Perry-Navidad!"
+		/>
+		<ColaCao_Camera
+			frase0 = "Quieres salir en la tele?"
+			frase1 = "Graba tu spot y envialo a ColaCao, haz clic"
+		/>
+		<Nocilla_Bisbal
+			frase0 = "Coge tu micro y prepárate para cantar con David Bisbal!"
+		/>
+		<Suitcase_Sharpay
+			frase0 = "ESTRENO EN DISNEY CHANNEL 17 JUNIO 21:30"
+		/>
+		<baticao
+			frase0 = "Coge tu Bati-Jarra y disfruta del Cola Cao más divertido"
+		/>
+	</textsObjects>
+	
+	<planta_default
+		value = "¡Tu planta"
+		value1 = "ha crecido!"
+	/>
+	
+	<choosePerson
+		selectPerson = '&lt;FONT COLOR="#000000"&gt;Para empezar debes escoger un personaje!&lt;/FONT&gt; ||&lt;FONT COLOR="#0072C6"&gt;Haz click sobre el que quieras!&lt;/FONT&gt;'
+		seguro       = "Estas Seguro?"
+		colores      = "Colores!"
+		si           = "SI"
+		selColor     = "Escoge el color de tu:"
+		selColors    = "Escoge el color de tus:"
+		rastas       = "Rastas"
+		cinta        = "Cinta"
+		ojos         = "Ojos"
+		piel         = "Piel"
+		banador      = "Bañador"
+				
+		pelo         = "Pelo"
+		cabello      = "Cabello"
+		camisa       = "Camisa"
+		cinturon     = "Cinturon"
+		short        = "Short"
+		lupas        = "Lupas"
+		vestido      = "Vestido"
+		jacket       = "Chupa"
+		pantacas     = "Pantacas"
+		poncho       = "Poncho"
+		gomas        = "Gomas"
+		talisman     = "Talisman"
+		gallumbos    = "Gallumbos"
+		gorro        = "Gorro"
+		top          = "Top"
+		falda        = "Falda"
+		kimono       = "Kimono"
+		camisola     = "Camisola"
+		campanilla   = "Campanilla"
+		lupasboom    = "Lupas"
+		sombrero	 = "Sombrero"
+		
+		siguiente    = "Siguiente"
+		anterior     = "Anterior"
+		
+		leeAntes       = "Lee nuestros Términos de uso. Si eres menor de edad, el mail debe ser el de tus padres o tutor."
+		leeTerminos    = "Términos y Condiciones"
+		leePrivacidad  = "Política de Privacidad"
+		newsletter     = "Sí, acepto recibir emails con información de BoomBang"
+		agree          = "Sí, acepto los Términos de uso de la página"
+		crear      	   = "Crear"
+		
+		leeElTexto     = "Es importante|que leas todo|el texto!!!"
+		marcarCasilla  = "Debes marcar la casilla para aceptar los Términos"
+		asi            = "Así!"
+		
+		registrar       = "Regístrate"
+		volver 			= "Volver"
+		escribeNombre   = "Escribe el nombre|de tu personaje!"
+		nick            = "Nombre del Personaje"
+		password        = "Contraseña"
+		passwordConfirm = "Contraseña (Repetir)"
+		
+		completaLosDatos  = '&lt;FONT COLOR="#000000"&gt;Debes|completar todos|los campos!&lt;/FONT&gt; ||&lt;FONT COLOR="#0072C6"&gt;Verifícalo!&lt;/FONT&gt;'
+		passwordMin       = '&lt;FONT COLOR="#000000"&gt;Tu Password|no tiene el minimo|de 4 caracteres!&lt;/FONT&gt; ||&lt;FONT COLOR="#0072C6"&gt;Verifícalo!&lt;/FONT&gt;'
+		passwordDontMatch = '&lt;FONT COLOR="#000000"&gt;Tu Password|no coincide!&lt;/FONT&gt; ||&lt;FONT COLOR="#0072C6"&gt;Vuelve a|intentarlo!&lt;/FONT&gt;'
+		nombreExistente   = "Ese nombre ya existe!|Puedes probar con:"
+		nombreExistente2  = '&lt;FONT COLOR="#000000"&gt;Ese nombre|ya existe!&lt;/FONT&gt; ||&lt;FONT COLOR="#0072C6"&gt;Prueba con|otra cosa!&lt;/FONT&gt;'
+		verificando       = "Verificando"
+		nameDisponible	  = "Nombre de Usuario disponible!"
+		menorEdad		  = '&lt;FONT COLOR="#000000"&gt;Eres menor y tu padre tiene que confirmarlo!&lt;/FONT&gt;|&lt;FONT COLOR="#0072C6"&gt;Escribe su correo y no el tuyo!&lt;/FONT&gt;'
+		passFacil="Esa contraseña es demasiado facil, piensa en otra"
+		emailError		  = '&lt;FONT COLOR="#000000"&gt;Tu email no coincide!&lt;/FONT&gt;|&lt;FONT COLOR="#0072C6"&gt;Vuelve a intentarlo!&lt;/FONT&gt;'
+		emailInvalido	  = '&lt;FONT COLOR="#000000"&gt;Tu email no es valido!&lt;/FONT&gt;|&lt;FONT COLOR="#0072C6"&gt;Vuelve a intentarlo!&lt;/FONT&gt;'
+		edadIncorrecta    = '&lt;FONT COLOR="#000000"&gt;Tu edad no es valida!&lt;/FONT&gt;|&lt;FONT COLOR="#0072C6"&gt;Ingresa una edad entre 1 y 60!&lt;/FONT&gt;'
+	/>
+	<fichaRegistro
+			registrate = "Regístrate"
+			nombre = "Nombre del Personaje"
+			password = "Contraseña"
+			edad = "Edad"
+			emailNormal = "Email"
+			repEmailNormal = "Repetir Email"
+			emailPadre = "Email del Padre"
+			repEmailPadre = "Repetir Email del Padre"
+			condiciones = "Acepto términos y condiciones|y política de Privacidad"
+			advertencia = "Al registrarte no uses|¡nunca! tu nombre real.||No des información personal|a otros usuarios (ni tu nombre, ni|teléfono, ni lugar donde vives)||No des nunca tu contraseña ni tu email| o podrían robar tu cuenta!||Diviértete, haz amigos| y no insultes a los demás.||              Juego limpio: ¡no hagas|                trampas ni uses programas|                  externos: tu cuenta puede|                  ser bloqueada!"
+			crear = "Crear"
+	/>
+	<fichaAyudaCodigo
+		titulo = "Si el Email con el código no te llega, prueba esto:"
+		item1  = "Mira en la carpeta de correo no deseado"		
+		item2  = '&lt;FONT COLOR="#23B2FF"&gt;Añade a tu lista de Contactos&lt;/FONT&gt;|&lt;FONT COLOR="#66FF00"&gt;noreply@BoomBang.fr&lt;/FONT&gt;|&lt;FONT COLOR="#23B2FF"&gt;Te Enviamos los emails de BoomBang con esa dirección&lt;/FONT&gt;'
+		item3  = '&lt;FONT COLOR="#23B2FF"&gt;Elige un email antiguo que tengas de BoomBang y dale a &lt;/FONT&gt; &lt;FONT COLOR="#66FF00"&gt;"Marcar como Seguro"&lt;/FONT&gt;'	
+	/>
+	<takePhoto
+		fotografiar = "Fotografiar"
+		cancelar = "Cancelar"
+		enviando = "Enviando..."
+		verFoto	 = "Ver Foto"
+		cerrar	 = "Cerrar"
+		fichaAcercaTitulo = 'Participa en el evento|"La isla mas bonita"'
+		fichaAcercaItem1  = "Escoge tu Isla más bonita y hazle una foto"		
+		fichaAcercaItem2  = "Sólo puedes inscribir UNA Isla al concurso"
+		fichaAcercaItem3  = "Si haces fotos a varias Islas, sólo participará la ULTIMA foto que hayas enviado"
+		fichaAcercaItem4  = "Invita a tus amigos para que salgan en la foto!"
+		fichaEndTitulo = "Felicidades, la foto se ha hecho con éxito!"
+		fichaEndItem1 = 'Para ver cómo ha quedado tu foto, búscala en la sección "Concurso" de la página web'
+		fichaEndItem2 = 'Escribe en el buscador de la sección "Concurso" el nombre de tu personaje'
+		fichaEndItem3 = "Recuerda que cualquier foto que hubieras hecho antes ha sido sustituida por esta."
+		fichaErrorTitulo = "Atención!|Ha ocurrido un error:"
+		fichaErrorItem1 = 'No hemos podido guardar|tu imagen correctamente.'
+		fichaErrorItem2 = 'Tienes que volver a hacer una foto de la isla!'
+	/>
+	<multiplayerGames
+		descAviso                       = "Prepárate, el juego está a punto de empezar.||Serás convocado de forma automática en tan solo 10 segundos!||Tus adversarios ya están esperándote."
+	/>
+	<mGameRing
+		reglas                          = "Reglas"
+		practicar                       = "Practicar"
+		torneo                          = "Torneo"
+		dimeMas                         = "Dime más"
+		volver                          = "Volver"
+		masTarde                        = "Cancelar"
+		pagar                           = "Pagar"
+		o_o                             = "O.O"
+		ojos							= "-.-'"
+		ok                              = "OK"
+		meRetiro                        = "Me retiro"
+		esperare                        = "Esperaré"
+		tituloBienvenido                = "Bienvenido Aprendiz,"
+		descBienvenido                  = "Estás listo para enfrentarte a otros rivales? Consulta las reglas, vence a tus rivales, consigue fama y premios!"
+		tituloReglas                    = "Reglas de Combate:"
+		descReglas0                     = "Este es un torneo de combate en el que te enfrentarás a otros 7 rivales que intentarán vencerte lo antes posible."
+		descReglas1                     = "Puedes inscribirte en el Torneo con Créditos y conseguir un premio.|O puedes practicar gratis usando monedas de plata."
+		descReglas2                     = "Serás convocado 60 segundos antes de que se inicie el combate y podrás intimidar a tus contrincantes (o suplicarles xD)"
+		descReglas3                     = "No importa cuantos rivales venzas, sólo cuenta quien es el último en pie al final del asalto."
+		descReglas4						= "Puedes usar hasta 3 cocos gratis para bloquear estratégicamente a tus adversarios!"
+		descReglas5                     = "Premios? Gana 2000 Torneos para conseguir ficha de color Dorado!!! Consulta tus Torneos usando comando /info"
+		descReglas6                     = "Existen varios guantes de colores, algunos podrás obtenerlos con tan sólo unas pocas victorias, otros te llevarán toda una vida.."
+		descReglas7                     = "Recuerda lo más importante: Sólo puede quedar UNO!"
+		tituloAceptarInscripcion        = "Deseas inscribirte?"
+		descAceptarInscripcion          = "El próximo torneo comenzará muy pronto. Si me das 250 monedas de oro te inscribiré y serás convocado."		
+		tituloAbandonado                = "Pfffft!"
+		descAbandonado                  = "Eres más débil de lo que pensaba.. que pensarán tus amigos cuando se enteren? Esfúmate de mis dominios!"
+		tituloEsperar                   = "Tómatelo con calma.."
+		descEsperar                     = "Puedes ir a dar una vuelta, no te preocupes, yo mismo te convocaré cuando el torneo vaya a comenzar."
+		tituloPracticar                 = "Deseas practicar?"
+		descPracticar                   = "Puedes practicar a cambio de 1 moneda de plata.|No podrás conseguir un guante de color practicando."
+		tituloCreditosInsuficientes     = "Intentas engañarme?"
+		descCreditosInsuficientes       = "Presiento que intentas engañarme.. no llevas Créditos suficientes para inscribirte en el torneo!"
+		descCreditosInsuficientesPlata  = "Presiento que intentas engañarme.. no llevas monedas de plata suficientes!"
+		tituloInscripcionOk             = "verdad?"
+		descInscripcionOk               = "Ya has sido inscrito en el juego. Prepárate, seré yo quien te convoque cuando tus rivales estén listos: suerte, la necesitarás!"
+		tituloRecuerda                  = "Y recuerda.."
+		descRecuerda                    = "Sólo puede quedar uno!"
+		tituloAbandonar                 = "Aún no es la hora.."
+		descAbandonar                   = "Paciencia! No es fácil dar con rivales dignos de enfrentarse a tí, serás convocado cuando llegue el momento."
+		tituloError                     = "Ha ocurrido un error!"
+		descError                       = "Vaya.. ha habido un error del sistema.. nada serio no te preocupes; vuelve a intentarlo!" 
+		elVencedor                      = "El vencedor es"
+		empate                          = "Se acabo el tiempo"
+		tituloFichaPunch                = "Premios Torneo:"
+		descFichaPunch                  = "Con cada Victoria consigue 500 Créditos y estos guantes de colores"
+		descGuante0                     = "Rojo|0 Uppers"
+		descGuante1                     = "Verde|25 Uppers"
+		descGuante2                     = "Azul|50 Uppers"
+		descGuante3                     = "Blanco|100 Uppers"
+		descGuante4                     = "Morado|200 Uppers"
+		descGuante5                     = "Marron|500 Uppers"
+		descGuante6                     = "Negro|1500 Uppers"
+		descGuante7                     = "Dorado|3000 Uppers"
+		descGuante8                     = "Platino|6000 Uppers"
+		descGuante9                     = "Celeste|9000 Uppers"	
+	/>
+	<mGameCocos
+		reglas                          = "Reglas"
+		practicar                       = "Practicar"
+		torneo                          = "Competir"
+		dimeMas                         = "Dime más"
+		volver                          = "Volver"
+		masTarde                        = "Cancelar"
+		pagar                           = "Pagar"
+		o_o                             = "O.O"
+		ojos							= "-.-'"
+		ok                              = "OK"
+		meRetiro                        = "Huir"
+		esperare                        = "Esperaré"
+		tituloBienvenido                = "Quieres jugar con nosotros?"
+		descBienvenido                  = "Hola pequeño humano, te invitamos a participar en un juego singular. Pondremos a prueba tu velocidad e ingenio, aceptas?"
+		tituloReglas                    = "Reglas del Juego:"
+		descReglas0                     = "En este juego competirás contra otros 5 amigos. El más astuto llegará al final y se llevará el premio!"
+		descReglas1                     = "Cada 30 segundos mis monos lanzarán cocos. Para evitar que te den debes colocarte en una 'zona segura'"
+		descReglas2                     = "Las 'zonas seguras' se iluminan en el suelo antes de cada lanzamiento, así que asegúrate de memorizarlas!"
+		descReglas3                     = "Cada turno hay menos 'zonas seguras', hasta que al final tan sólo quedará 1."
+		descReglas4						= "Si en un turno no llegas a una 'zona segura' un coco impactará en tu cabezota y estarás eliminado!"
+		descReglas5                     = "Te daremos 2 cocos para que uses contra tus adversarios, asegúrate de usarlos con inteligencia!"
+		tituloAceptarInscripcion        = "Deseas competir?"
+		descAceptarInscripcion          = "Deseas competir? Necesitas 100 créditos.|Si ganas conseguirás: 100 créditos extras + 1 Victoria"		
+		tituloAbandonado                = "Te vas? Vaya.."
+		descAbandonado                  = "Así que ademas de cabezota eres indeciso..? Que lástima, con las ganas que tenía de tirarte algunos cocos :P"
+		tituloEsperar                   = "Tómatelo con calma.."
+		descEsperar                     = "Puedes ir a dar una vuelta, no te preocupes, yo mismo te convocaré cuando el torneo vaya a comenzar."
+		tituloPracticar                 = "Deseas practicar?"
+		descPracticar                   = "Puedes practicar a cambio de 1 moneda de plata.|No podrás conseguir un premio ni estadísticas practicando."
+		tituloCreditosInsuficientes     = "Algo no me cuadra.."
+		descCreditosInsuficientes       = "Soy un mono pero a pesar de ello las matemáticas se me dan mejor que a tí: no tienes créditos suficientes!"
+		descCreditosInsuficientesPlata  = "Presiento que intentas engañarme.. no llevas monedas de plata suficientes!"
+		tituloInscripcionOk             = "verdad?"
+		descInscripcionOk               = "Espero que tengas la cabezota bien dura ju-ju-ju-ju! Te avisaré cuando todos estemos listos, ahora vete."
+		tituloRecuerda                  = "Y recuerda.."
+		descRecuerda                    = "Memoriza las zonas seguras y retrasa a tus enemigos con cocos!"
+		tituloAbandonar                 = "No seas impaciente!"
+		descAbandonar                   = "Que quieres ahora? Aún no es hora de jugar... eres cabezota, eso es bueno... vete a dar una vuelta yo te convocaré!"
+		tituloError                     = "Ha ocurrido un error!"
+		descError                       = "Vaya.. ha habido un error del sistema.. nada serio no te preocupes; vuelve a intentarlo!" 
+		elVencedor                      = "El vencedor es"
+		empate                          = "Se acabo el tiempo"
+		tituloFichaCocos                = "Premios Torneo:"
+		descFichaCocos                  = "Con cada Victoria consigue 500 Créditos y estos cocos"
+		descCoco0                     	= "Coco|0 Puntos"
+		descCoco1                    	= "Bola de Nieve|10 Puntos"
+		descCoco2                     	= "Zapato|20 Puntos"
+		descCoco3                     	= "Tarta|50 Puntos"
+		descCoco4                     	= "Maceta|100 Puntos"
+		descCoco5                     	= "Panal|150 Puntos"
+		descCoco6                     	= "Basura|200 Puntos"
+		descCoco7                     	= "Sandía|300 Puntos"
+		descCoco8                     	= "Yunque|400 Puntos"
+		descCoco9                     	= "Piano|600 Puntos"
+	/>
+	<mGameLianas
+		reglas                          = "Reglas"
+		practicar                       = "Practicar"
+		torneo                          = "Competir"
+		dimeMas                         = "Dime más"
+		volver                          = "Volver"
+		masTarde                        = "Cancelar"
+		pagar                           = "Pagar"
+		o_o                             = "O.O"
+		ojos							= "-.-'"
+		ok                              = "OK"
+		meRetiro                        = "Huir"
+		esperare                        = "Esperaré"
+		tituloBienvenido                = "Detente aventurero!"
+		descBienvenido                  = "Tienes el valor necesario para recorrer con éxito el camino imposible de las 1000 lianas?"
+		tituloReglas                    = "Reglas del Juego:"
+		descReglas0                     = "En este juego competirás contra otros 2 oponentes. Intentaréis caminar hasta la cruz y llegar sanos y salvos."
+		descReglas1                     = "Parece fácil? El suelo está plagado de trampas y sólo un experto rastreador sabrá encontrar la ruta correcta."
+		descReglas2                     = "Avanzaréis todos juntos. Fíjate bien y memoriza los errores de tus contrincantes para no cometerlos tú también."
+		descReglas3                     = "Un paso en falso y serás enviado a tu posición de inicio. Si llegas a la cruz conseguirás 100 créditos por cada contrincantes."
+		tituloAceptarInscripcion        = "Deseas competir?"
+		descAceptarInscripcion          = "Deseas competir? Necesitas 100 créditos.|Si ganas conseguirás: 100 créditos extras + 1 Victoria"				
+		tituloAbandonado                = "Abandonas?"
+		descAbandonado                  = "Hoy has salido ileso, la prudencia es una virtud. Otro día nuestros caminos volverán a cruzarse."		
+		tituloEsperar                   = "Tómatelo con calma.."
+		descEsperar                     = "Puedes ir a dar una vuelta, no te preocupes, yo mismo te convocaré cuando el torneo vaya a comenzar."
+		tituloPracticar                 = "Deseas practicar?"
+		descPracticar                   = "Puedes practicar a cambio de 1 moneda de plata.|No podrás conseguir un premio ni estadísticas practicando."
+		tituloCreditosInsuficientes     = "No te dejaré pasar!"		
+		descCreditosInsuficientes       = "La pintura en mi rostro no me impide ver que no llevas encima los Créditos suficientes para Competir!"
+		descCreditosInsuficientesPlata  = "Presiento que intentas engañarme.. no llevas monedas de plata suficientes!"		
+		tituloInscripcionOk             = "verdad?"
+		descInscripcionOk               = "Agudiza tus sentidos y concéntrate, yo te convocaré cuando haya encontrado más aventureros avariciosos!"		
+		tituloRecuerda                  = "Y recuerda.."
+		descRecuerda                    = "El premio será para el primero que consiga llegar hasta mí!"
+		tituloAbandonar                 = "Paciencia!"
+		descAbandonar                   = "No puedes iniciar esta aventura en solitario: yo te convocaré cuando llegue el momento, puedes ir a dar una vuelta."
+		tituloError                     = "Ha ocurrido un error!"
+		descError                       = "Vaya.. ha habido un error del sistema.. nada serio no te preocupes; vuelve a intentarlo!" 
+		elVencedor                      = "El vencedor es"
+		empate                          = "Se acabo el tiempo"
+	/>
+	<mGameShuriken
+			reglas                          = "Reglas"
+			practicar                       = "Practicar"
+			torneo                          = "Competir"
+			dimeMas                         = "Dime más"
+			volver                          = "Volver"
+			masTarde                        = "Cancelar"
+			pagar                           = "Pagar"
+			o_o                             = "O.O"
+			ojos							= "-.-'"
+			ok                              = "OK"
+			meRetiro                        = "Huir"
+			esperare                        = "Esperaré"
+			tituloBienvenido                = "El camino de la Grulla"
+			descBienvenido                  = "Para convertirte en un verdadero Ninja deberás completar el camino de la Grulla. Estás preparado?"
+			tituloReglas                    = "Reglas del Juego:"
+			descReglas0                     = "En este juego competirás contra otros 4 amigos. Demuestra tu velocidad e intuición lanzando shuriken a los ninjas!"
+			descReglas1                     = "Apunta con el ratón y dispara pulsando el botón de tu ratón para lanzar una shuriken."
+			descReglas2                     = "Tu personaje lanzará una shuriken SOLO si eres el primero en apuntar y dar en el blanco!"
+			descReglas3                     = "Tan sólo debes lanzar shuriken a los Ninjas; serás penalizado si lanzas una estrella a un despistado inocente!"
+			descReglas4						= "El primero en llegar a 100 puntos ganará. Todos los participantes progresarán en su camino para convertirse en Ninja."
+			descReglas5                     = "Ninja Negro: 5 pts / Ninja Rojo: 10 pts / Ninja Special: 15 pts|Inocente: -20 pts"
+			tituloAceptarInscripcion        = "Deseas practicar?"
+			descAceptarInscripcion          = "Deseas practicar? Necesitas 500 créditos.|No te convertirás en un Ninja en Modo Práctica."		
+			tituloAbandonado                = "Abandonas?"
+			descAbandonado                  = "Te estaré esperando cuando decidas emprender el Camino de la Grulla."
+			tituloEsperar                   = "Paciencia!"
+			descEsperar                     = "Aún estoy buscando otros aprendices: yo te convocaré cuando llegue el momento, puedes ir a dar una vuelta."
+			tituloPracticar                 = "Deseas competir?"
+			descPracticar                   = "Puedes competir a cambio de 500 monedas de plata.|Jugando progresarás en tu camino para ser Ninja."
+			tituloCreditosInsuficientes     = "No puedes Competir!"
+			descCreditosInsuficientes       = "Un ninja debe ser astuto, pero yo lo soy más:|no tienes los Créditos suficientes para practicar!"
+			descCreditosInsuficientesPlata  = "Un ninja debe ser astuto, pero yo lo soy más:|no tienes los créditos de plata suficientes para Competir!"
+			tituloInscripcionOk             = "verdad?"
+			descInscripcionOk               = "Hoy tus habilidades como Ninja aumentarán! Yo te convocaré cuando haya encontrado nuevos aprendices."
+			tituloRecuerda                  = "Recuerda:"
+			descRecuerda                    = "Sólo el primero en apuntar bien lanzará la estrella ninja."
+			tituloAbandonar                 = "Abandonas?"
+			descAbandonar                   = "Para recorrer el camino de la Grulla necesitas velocidad e intuición, hoy has demostrado no tener ni uno ni el otro.."
+			tituloError                     = "Necesitas ser VIP!"
+			descError                       = "Vaya... parece que no eres VIP... nada serio no te preocupes; hazte VIP y vuelve a intentarlo!" 
+			elVencedor                      = "El ganador es"
+			empate                          = "Se acabo el tiempo"			
+			tituloFichaCinturon             = "Premios Torneo:"
+			descCinturon0                   = "Eres Ninja!|necesitas VIP"
+			descCinturon1                   = "Rosa|205 Puntos"
+			descCinturon2                   = "Naranja|210 Puntos"
+			descCinturon3                   = "Verde|225 Puntos"
+			descCinturon4                   = "Azul|250 Puntos"
+			descCinturon5                   = "Blanco|275 Puntos"
+			descCinturon6                   = "Morado|300 Puntos"
+			descCinturon7                   = "Marron|350 Puntos"
+			descCinturon8                   = "Negro|400 Puntos"
+			descCinturon9                   = "Dorado|500 Puntos"	
+	/>
+	
+	<mGameKatana
+		reglas                          = "Reglas"
+		practicar                       = "Practicar"
+		torneo                          = "Competir"
+		dimeMas                         = "Dime más"
+		volver                          = "Volver"
+		masTarde                        = "Cancelar"
+		pagar                           = "Pagar"
+		o_o                             = "O.O"
+		ojos							= "-.-'"
+		ok                              = "OK"
+		meRetiro                        = "Huir"
+		esperare                        = "Esperaré"
+		tituloBienvenido                = "Quieres jugar con nosotros?"
+		descBienvenido                  = "Hola pequeño humano, te invitamos a participar en un juego singular. Pondremos a prueba tu velocidad e ingenio, aceptas?"
+		tituloReglas                    = "Reglas del Juego:"
+		descReglas0                     = "En este juego competirás contra otros 11 amigos. El más astuto llegará al final y se llevará el premio!"
+		descReglas1                     = "Cada 30 segundos mis monos lanzarán cocos. Para evitar que te den debes colocarte en una 'zona segura'"
+		descReglas2                     = "Las 'zonas seguras' se iluminan en el suelo antes de cada lanzamiento, así que asegúrate de memorizarlas!"
+		descReglas3                     = "Cada turno hay menos 'zonas seguras', hasta que al final tan sólo quedará 1."
+		descReglas4						= "Si en un turno no llegas a una 'zona segura' un coco impactará en tu cabezota y estarás eliminado!"
+		descReglas5                     = "Te daremos 2 cocos para que uses contra tus adversarios, asegúrate de usarlos con inteligencia!"
+		tituloAceptarInscripcion        = "Deseas competir?"
+		descAceptarInscripcion          = "Deseas competir? Necesitas 100 créditos.|Si ganas conseguirás: 100 créditos extras + 1 Victoria"		
+		tituloAbandonado                = "Te vas? Vaya.."
+		descAbandonado                  = "Así que ademas de cabezota eres indeciso..? Que lástima, con las ganas que tenía de tirarte algunos cocos :P"
+		tituloEsperar                   = "Tómatelo con calma.."
+		descEsperar                     = "Puedes ir a dar una vuelta, no te preocupes, yo mismo te convocaré cuando el torneo vaya a comenzar."
+		tituloPracticar                 = "Deseas practicar?"
+		descPracticar                   = "Puedes practicar a cambio de 1 moneda de plata.|No podrás conseguir un premio ni estadísticas practicando."
+		tituloCreditosInsuficientes     = "Algo no me cuadra.."
+		descCreditosInsuficientes       = "Soy un mono pero a pesar de ello las matemáticas se me dan mejor que a tí: no tienes créditos suficientes!"
+		descCreditosInsuficientesPlata  = "Presiento que intentas engañarme.. no llevas monedas de plata suficientes!"
+		tituloInscripcionOk             = "verdad?"
+		descInscripcionOk               = "Espero que tengas la cabezota bien dura ju-ju-ju-ju! Te avisaré cuando todos estemos listos, ahora vete."
+		tituloRecuerda                  = "Y recuerda.."
+		descRecuerda                    = "Memoriza las zonas seguras y retrasa a tus enemigos con cocos!"
+		tituloAbandonar                 = "No seas impaciente!"
+		descAbandonar                   = "Que quieres ahora? Aún no es hora de jugar... eres cabezota, eso es bueno... vete a dar una vuelta yo te convocaré!"
+		tituloError                     = "Ha ocurrido un error!"
+		descError                       = "Vaya.. ha habido un error del sistema.. nada serio no te preocupes; vuelve a intentarlo!" 
+		elVencedor                      = "El vencedor es"
+		empate                          = "Se acabo el tiempo"
+	/>
+	
+	<mGameMemory
+		reglas                          = "Reglas"
+		practicar                       = "Practicar"
+		torneo                          = "Competir"
+		dimeMas                         = "Dime más"
+		volver                          = "Volver"
+		masTarde                        = "Cancelar"
+		pagar                           = "Pagar"
+		o_o                             = "O.O"
+		ojos							= "-.-'"
+		ok                              = "OK"
+		meRetiro                        = "Huir"
+		esperare                        = "Esperaré"
+		tituloBienvenido                = "Quieres jugar con nosotros?"
+		descBienvenido                  = "Hola pequeño humano, te invitamos a participar en un juego singular. Pondremos a prueba tu velocidad e ingenio, aceptas?"
+		tituloReglas                    = "Reglas del Juego:"
+		descReglas0                     = "En este juego competirás contra otros 11 amigos. El más astuto llegará al final y se llevará el premio!"
+		descReglas1                     = "Cada 30 segundos mis monos lanzarán cocos. Para evitar que te den debes colocarte en una 'zona segura'"
+		descReglas2                     = "Las 'zonas seguras' se iluminan en el suelo antes de cada lanzamiento, así que asegúrate de memorizarlas!"
+		descReglas3                     = "Cada turno hay menos 'zonas seguras', hasta que al final tan sólo quedará 1."
+		descReglas4						= "Si en un turno no llegas a una 'zona segura' un coco impactará en tu cabezota y estarás eliminado!"
+		descReglas5                     = "Te daremos 2 cocos para que uses contra tus adversarios, asegúrate de usarlos con inteligencia!"
+		tituloAceptarInscripcion        = "Deseas competir?"
+		descAceptarInscripcion          = "Deseas competir? Necesitas 100 créditos.|Si ganas conseguirás: 100 créditos extras + 1 Victoria"		
+		tituloAbandonado                = "Te vas? Vaya.."
+		descAbandonado                  = "Así que ademas de cabezota eres indeciso..? Que lástima, con las ganas que tenía de tirarte algunos cocos :P"
+		tituloEsperar                   = "Tómatelo con calma.."
+		descEsperar                     = "Puedes ir a dar una vuelta, no te preocupes, yo mismo te convocaré cuando el torneo vaya a comenzar."
+		tituloPracticar                 = "Deseas practicar?"
+		descPracticar                   = "Puedes practicar a cambio de 1 moneda de plata.|No podrás conseguir un premio ni estadísticas practicando."
+		tituloCreditosInsuficientes     = "Algo no me cuadra.."
+		descCreditosInsuficientes       = "Soy un mono pero a pesar de ello las matemáticas se me dan mejor que a tí: no tienes créditos suficientes!"
+		descCreditosInsuficientesPlata  = "Presiento que intentas engañarme.. no llevas monedas de plata suficientes!"
+		tituloInscripcionOk             = "verdad?"
+		descInscripcionOk               = "Espero que tengas la cabezota bien dura ju-ju-ju-ju! Te avisaré cuando todos estemos listos, ahora vete."
+		tituloRecuerda                  = "Y recuerda.."
+		descRecuerda                    = "Memoriza las zonas seguras y retrasa a tus enemigos con cocos!"
+		tituloAbandonar                 = "No seas impaciente!"
+		descAbandonar                   = "Que quieres ahora? Aún no es hora de jugar... eres cabezota, eso es bueno... vete a dar una vuelta yo te convocaré!"
+		tituloError                     = "Ha ocurrido un error!"
+		descError                       = "Vaya.. ha habido un error del sistema.. nada serio no te preocupes; vuelve a intentarlo!" 
+		elVencedor                      = "El vencedor es"
+		empate                          = "Se acabo el tiempo"
+	/>
+	
+	<notificaciones 
+		silverPanel_textoFichaSilver		= "Has ganado [coins] monedas de plata."
+		silverPanel_textoFichaSilverEmail	= "Has ganado [coins] monedas de plata por validar tu email."
+		dailyBonus_gifTitle1				= "Pack de bienvenida"
+		dailyBonus_gifTitle2				= "¡Enhorabuena! Has recibido:"
+		dailyBonus_gifTitle3				= "¡Enhorabuena! Has recibido:"
+		dailyBonus_gifTitle4				= "¡Enhorabuena! Has recibido:"
+		dailyBonus_gifTitle5				= "¡Enhorabuena! Has recibido:"
+		dailyBonus_gifTitle6				= "¡Enhorabuena! Has recibido:"
+		dailyBonus_gifTitle7				= "¡Enhorabuena! Has recibido:"
+		dailyBonus_gifTitle8				= "¡Enhorabuena! Has recibido:"
+		dailyBonus_gifTitle9				= "¡Enhorabuena! Has recibido:"
+		dailyBonus_gifTitle10				= "¡Enhorabuena! Has recibido:"
+		dailyBonus_gifTitle11				= "¡Enhorabuena! Has recibido:"
+		dailyBonus_gifTitle12				= "¡Enhorabuena! Has recibido:"
+		dailyBonus_gifTitle13				= "¡Enhorabuena! Has recibido:"
+		dailyBonus_gifTitle14				= "¡Enhorabuena! Has recibido:"
+		dailyBonus_gifTitle15				= "¡Enhorabuena! Has recibido:"
+		dailyBonus_gifTitle16				= "¡Enhorabuena! Has recibido:"
+		dailyBonus_gifTitle17				= "¡Enhorabuena! Has recibido:"
+		dailyBonus_gifTitle18				= "¡Enhorabuena! Has recibido:"
+		dailyBonus_gifTitle19				= "¡Enhorabuena! Has recibido:"
+		dailyBonus_gifTitle20				= "¡Enhorabuena! Has recibido:"
+		dailyBonus_gifTitle21				= "¡Enhorabuena! Has recibido:"
+		dailyBonus_gifTitle22				= "¡Enhorabuena! Has recibido:"
+		dailyBonus_gifTitle23				= "¡Enhorabuena! Has recibido:"
+		dailyBonus_gifTitle24				= "¡Enhorabuena! Has recibido:"
+		dailyBonus_gifTitle25				= "¡Enhorabuena! Has recibido:"
+		dailyBonus_fichaTitle				= "Consigue regalos gratis"
+		dailyBonus_fichaText				= "Para conseguirlos sólo |tienes que jugar a |BoomBang! |Podrás usarlos para |decorar tu casita y tu isla."
+		dailyBonus_bubble1					= "Hay"
+		dailyBonus_bubble2					= "25"
+		dailyBonus_bubble3					= "regalos"
+		dailyBonus_bubble4					= "diferentes"
+		dailyBonus_timeText					= "Tiempo para |recibir tu |próximo regalo"
+	/>
+
+</texto>

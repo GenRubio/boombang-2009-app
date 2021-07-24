@@ -1,0 +1,469 @@
+<phrases>
+
+
+	<phrase key='serverRespondedWithError' value='Ha ocurrido un error. Vuelve a intentarlo.' />	
+	<phrase key='validation.fieldEmpty' value='Debes ingresar algo en el campo de texto' />
+	<phrase key='validation.passwordTooEasy' value='Esta contraseña es demasiado fácil' />
+	<phrase key='validation.superkeyTooEasy' value='Esta clave de seguridad es demasiado fácil' />
+	<phrase key='validation.invalidEmail' value='No es un email correcto' />
+	<phrase key='validation.superkeyNeedsAlphaNumbers' value='Tu clave debe tener numeros y letras' />
+	<phrase key='validation.characterCountLimit' value='Tu clave debe tener al menos %d caracteres y %d como maximo' />
+	<phrase key='validation.valuesDontMatch' value='Los valores no coinciden' />
+	<phrase key='button.accept' value='Aceptar' />
+	<phrase key='button.cancel' value='Cancelar' />
+	<phrase key='button.edit' value='Editar' />
+	<phrase key='button.oopsNo' value='Oops, no' />
+	<phrase key='button.back' value='Volver' />
+	
+	<phrase key='time.oneSecond' value="un segundo" />
+	<phrase key='time.nSeconds' value="%s segundos" />
+	<phrase key='time.oneMinute' value="un minuto" />
+	<phrase key='time.nMinutes' value="%s minutos" />
+	<phrase key='time.oneHour' value="una hora" />
+	<phrase key='time.nHours' value="%s horas" />
+	<phrase key='time.oneDay' value="un día" />
+	<phrase key='time.nDays' value="%s días" />
+	<phrase key='time.oneWeek' value="una semana" />
+	<phrase key='time.nWeeks' value="%s semanas" />
+	<phrase key='time.oneMonth' value="un mes" />
+	<phrase key='time.nMonths' value="%s meses" />
+	<phrase key='time.oneYear' value="un año" />
+	<phrase key='time.nYears' value="%s años" />
+	
+	<phrase key='lobby.delayedGifts.nextGiftIn' value="próximo regalo en" />
+	<phrase key='lobby.delayedGifts.title' value="Regalo Sorpresa" />
+	<phrase key='lobby.delayedGifts.openIt' value="¡Ábrelo!" />
+	
+	<phrase key='windows.checkingSecurityKey' value='Verificando clave de seguridad' />
+	<phrase key='windows.securityKey' value='Clave de seguridad' />
+	<phrase key='windows.repeatSecurityKey' value='Repetir clave de seguridad' />
+	<phrase key='windows.passwordAndSecurityPasswordEqual' value='Tu clave de seguridad y tu contraseña no pueden ser iguales.' />
+	<phrase key='windows.securityCodeWasIncorrect' value='Clave de seguridad erronea. Inténtalo de nuevo.' />
+	<phrase key="windows.securityCodeCorrect" value="Clave de seguridad correcta." />
+	
+	<phrase key='windows.changeEmail.changeEmailTitle' value='Cambiar email' />
+	<phrase key='windows.changeEmail.sendingEmail' value='Enviando email de activación...' />
+	<phrase key='windows.changeEmail.processCompleteText' value='Para completar el proceso deberás pinchar en el enlace que te hemos enviado por email. Puede tardar unos minutos en llegar.' />
+	<phrase key='windows.changeEmail.troubleshootingTitle' value='Si el email con el enlace no te llega, prueba esto:' />
+	<phrase key='windows.changeEmail.troubleshooting1' value='Mira en la carpeta de correo no deseado.' />
+	<phrase key='windows.changeEmail.troubleshooting2' value='Añade a tu lista de Contacto &lt;font color="#00CC00"&gt;noreply@boombang.tv&lt;/font&gt;. Te enviaremos los email de Boombang con esa dirección.' />
+	<phrase key='windows.changeEmail.troubleshooting3' value='Elige un email antiguo que tengas de Boombang y dale &lt;font color="#00CC00"&gt;Marcar como seguro&lt;/font&gt;' />
+	<phrase key='windows.changeEmail.newEmail' value='Nuevo email' />
+	<phrase key='windows.changeEmail.repeatNewEmail' value='Repite nuevo email' />
+	<phrase key='windows.changeEmail.firstStepDescription' value='Antes de cambiar tu email debes introducir tu clave de seguridad.' />
+	
+	<phrase key='windows.changePassword.changePassword' value='Cambiar password' />
+	<phrase key='windows.changePassword.changingPassword' value='Cambiando password' />
+	<phrase key='windows.changePassword.oldPassword' value='Password antiguo' />
+	<phrase key='windows.changePassword.newPassword' value='Nuevo password' />
+	<phrase key='windows.changePassword.repeatNewPassword' value='Repite nuevo password' />
+	<phrase key='windows.changePassword.firstStepDescription' value='Antes de cambiar tu password debes introducir tu clave de seguridad.' />
+	<phrase key='windows.changePassword.incorrectOldPassword' value='Esta no es tu contraseña antigua' />
+	<phrase key='windows.changePassword.passwordChanged' value='Password cambiada' />
+	<phrase key='windows.changePassword.passwordAndSecurityPasswordEqual' value='Tu clave de seguridad y tu contraseña no pueden ser iguales.' />
+	<phrase key='windows.changePassword.serverValidationError' value='Error de validación de datos en servidor.' />
+	<phrase key='windows.changePassword.newPasswordIsOldPassword' value='Tu nueva contraseña no puede ser igual a la antigua.' />
+	
+	<phrase key='windows.deleteAccount.deleteAccount' value='Dar de baja tu cuenta' />
+	<phrase key='windows.deleteAccount.firstStepDescription' value='Antes de dar de baja tu cuenta debes introducir tu clave de seguridad.' />
+	<phrase key='windows.deleteAccount.deletionComplete' value='Tu cuenta ha sido dada de baja de forma satisfactoria. Esperamos que hayas pasado buenos momentos en BoomBang!' />
+	<phrase key='windows.deleteAccount.warning' value='¿Estás totalmente segur@?' />
+	<phrase key='windows.deleteAccount.warningExplanation' value='Atención, vas a desactivar tu cuenta de forma indefinida. ¡Tu personaje y objetos serán eliminados!' />
+	<phrase key='windows.deleteAccount.deletingAccount' value='Eliminando cuenta' />
+	
+	<phrase key='windows.account.superKeyInactive' value='Desactiva tu clave de seguridad' />
+	<phrase key='windows.account.superKeyDeactivation' value='Anular la desactivación clave de seguridad' />
+	
+	<phrase key='windows.exchange.exchangeTitle' value='Activando cambios' />
+	<phrase key='windows.exchange.firstStepDescription' value='Antes de activar cambios debes introducir tu clave de seguridad.' />
+	<phrase key='windows.exchange.deactivationDescription' value='La clave de seguridad está siendo desactivada. Mientras tanto no podrás activar cambios.' />
+	
+	<phrase key='windows.activateKey.title' value='Activar clave de seguridad' />	
+	<phrase key='windows.activateKey.description' value='Protégete con una clave de seguridad, te la pediremos cuando intentes hacer las siguientes acciones:' />	
+	<phrase key='windows.activateKey.list' value='&lt;li&gt;Cambiar objetos. &lt;li&#47;&gt;&lt;li&gt;Cambiar tu contraseña. &lt;li&#47;&gt;&lt;li&gt;Cambiar tu email.&lt;li&#47;&gt;&lt;li&gt;Dar de baja tu cuenta.&lt;li&#47;&gt;' />	
+	<phrase key='windows.activateKey.warning' value='Esta clave es secreta, &lt;br &#47;&gt; ¡no la compartas con nadie!' />	
+	<phrase key='windows.activateKey.securityKeyCorrect' value='Clave de seguridad activada' />	
+	<phrase key='windows.activateKey.activating' value='Activando clave de seguridad...' />	
+	
+	<phrase key='windows.deactivateKey.title' value='Desactivar clave de seguridad' />	
+	<phrase key='windows.deactivateKey.description' value='El sistema tardará 7 días en desactivar tu clave de seguridad, mientras tanto no podrás:' />	
+	<phrase key='windows.deactivateKey.question' value='¿Quieres desactivar la clave de seguridad?' />	
+	<phrase key='windows.deactivateKey.deactivating' value='Desactivando clave de seguridad...' />	
+	<phrase key='windows.deactivateKey.deactivatingOk' value='La clave de seguridad está siendo desactivada.' />	
+	
+	<phrase key='windows.cancelDeactivateKey.title' value='Interrumpir desactivación' />	
+	<phrase key='windows.cancelDeactivateKey.description' value='La clave de seguridad está siendo desactivada.' />		
+	<phrase key='windows.cancelDeactivateKey.changeEmailDescription' value=' Mientras tanto no podrás cambiar tu mail.' />		
+	<phrase key='windows.cancelDeactivateKey.changePasswordDescription' value=' Mientras tanto no podrás cambiar tu password.' />		
+	<phrase key='windows.cancelDeactivateKey.deleteAccountDescription' value=' Mientras tanto no podrás dar de baja tu cuenta.' />		
+	<phrase key='windows.cancelDeactivateKey.exchangesDescription' value=' Mientras tanto no podrás intercambiar objetos.' />		
+	<phrase key='windows.cancelDeactivateKey.editConnectionsDescription' value=' Mientras tanto no podrás editar tus opciones de conexión.' />		
+	<phrase key='windows.cancelDeactivateKey.warning' value='Si no la has desactivado tu, interrumpe la desactivación y cambia tu password  porque alguien ha entrado en tu cuenta.' />	
+	<phrase key='windows.cancelDeactivateKey.question' value='¿Quieres interrumpir la desactivación?' />	
+	<phrase key='windows.cancelDeactivateKey.descriptionAction' value='Antes de interrumpir la  desactivación debes introducir tu clave de seguridad.' />	
+	<phrase key='windows.cancelDeactivateKey.cancelingDeactivation' value='Interrumpiendo desactivación...' />	
+	<phrase key='windows.cancelDeactivateKey.deactivationCanceled' value='Desactivación interrumpida' />
+		
+		
+	<phrase key='tooltip.securityKeyActivation' value='¡Tu cuenta esta &lt;br &#47;&gt;desprotegida! &lt;br &#47;&gt;Activa tu clave de &lt;br &#47;&gt;seguridad para protegerla. &lt;br &#47;&gt;¿Quieres activarla?' />
+	<phrase key='tooltip.exchangeActivation' value='En estos momentos &lt;br &#47;&gt;no tienes intercambios &lt;br &#47;&gt;activados. &lt;br &#47;&gt;Activálos para poder &lt;br &#47;&gt;cambiar objetos' />
+	<phrase key='tooltip.securityKeyInDeactivation' value='¡Tu clave &lt;br &#47;&gt;de seguridad &lt;br &#47;&gt;está siendo desactivada!&lt;font color="#689CCC"&gt; &lt;br &#47;&gt;Si no la has desactivado &lt;br &#47;&gt;tu, &lt;/font&gt;cuidado&lt;font color="#689CCC"&gt;, alguien ha &lt;br &#47;&gt;entrado a tu cuenta.&lt;/font&gt;' />
+		
+	<phrase key='gui.userSetupMenu.chooseCharacter' value='Escoge otro personaje' />	
+	<phrase key='gui.userSetupMenu.chooseColors' value='Escoger nuevos colores' />	
+	<phrase key='gui.userSetupMenu.changeEmail' value='Cambiar el email' />	
+	<phrase key='gui.userSetupMenu.changePassword' value='Cambiar mi password' />	
+	<phrase key='gui.userSetupMenu.changePersonalSettings' value='Cambia datos personales' />	
+	<phrase key='gui.userSetupMenu.deactivateAccount' value='Dar de baja tu cuenta' />	
+	<phrase key='gui.userSetupMenu.validateEmail' value='Validar email' />	
+	
+	<phrase key='windows.validateEmail.title' value='Valida tu email' />	
+	<phrase key='windows.validateEmail.email' value='Email' />	
+	<phrase key='windows.validateEmail.repeatEmail' value='Repite el email' />	
+	<phrase key='windows.validateEmail.sendingEmail' value='Enviando email...' />	
+	<phrase key='windows.validateEmail.description' value='Valida tu email y consigue 100 créditos de plata.' />	
+	<phrase key='windows.validateEmail.validationMessage' value='Para completar la validación tienes que mirar tu correo y hacer click en un enlace que te hemos enviado.' />	
+	<phrase key='windows.validateEmail.newsletter' value='Quiero recibir newsletter' />	
+	
+	<phrase key='windows.editConnections.title' value='Opciones de conexión' />	
+	<phrase key='windows.editConnections.unlockingConnections' value='Desbloqueando los métodos de conexión' />	
+	<phrase key='windows.editConnections.firstStepDescription' value='Antes de cambiar tus opciones de conexión debes introducir tu clave de seguridad.' />
+	<phrase key='windows.editConnections.currentConnections' value='Conexiones activadas:' />
+	<phrase key='windows.editConnections.availableConnections' value='Conexiones desactivadas:' />
+	<phrase key='windows.editConnections.username' value='Nombre de usuario:' />
+	<phrase key='windows.editConnections.nicknameUsed' value='Ese nombre de usuario ya está existe.' />
+	<phrase key='windows.editConnections.facebookAlreadyUsed' value='Tienes Facebook vinculado a otra cuenta de Boombang.' />
+	<phrase key='windows.editConnections.removeNetwork' value='Desactivar %s' />
+	<phrase key='windows.editConnections.addNetwork' value='Activar %s' />
+	<phrase key='windows.editConnections.removeConfirmation' value='¿Estás seguro de que quieres desactivar %s como método de conexión?' />
+
+	<phrase key='windows.nickName.description' value='¡Hola! &lt;br &#47;&gt;mi nombre es:&lt;br &#47;&gt;&lt;font color="#ffff00"&gt;%s&lt;/font&gt;' />
+	<phrase key='windows.nickName.lastDescription' value='Mi nombre es:&lt;br &#47;&gt;&lt;font color="#ffff00"&gt;%s&lt;/font&gt;' />	
+	<phrase key='windows.nickName.question' value='¿Quieres cambiarlo?' />
+	<phrase key='windows.nickName.lastWarning' value='Esta será la última vez que&lt;br &#47;&gt;podrás cambiar tu nombre' />
+	<phrase key='windows.nickName.warning' value='No podrás volver a cambiar&lt;br &#47;&gt;el nombre de tu personaje' />
+	<phrase key='windows.nickName.nuevoNombre' value='Nuevo nombre' />	
+	<phrase key='windows.nickName.correctChange' value='Mi nuevo nombre es:&lt;br &#47;&gt;%s' />	
+	<phrase key='windows.nickName.wrongChange' value='Cambio de nombre' />
+	<phrase key='windows.nickName.nameExists' value='Ese nombre ya existe.' />
+	<phrase key='windows.nickName.nameTry' value='Puedes probar con:' />
+	
+	
+	<phrase key='notification.popup.levelUp.congratulation' value='¡ENHORABUENA!' />
+	<phrase key='notification.popup.levelUp.reachLevel' value='Has alcanzado el nivel: %s' />
+	<phrase key='notification.popup.levelUp.won' value='Has ganado: ' />
+	<phrase key='notification.popup.levelUp.won.3' value='Has conseguido ser ninja' />
+	<phrase key='notification.popup.levelUp.shareMenu' value='Comparte tus logros' />
+	
+	<phrase key='notification.message.levelUp.reachLevel' value='He alcanzado el nivel: %s' />
+	<phrase key='notification.message.levelUp.won' value='He ganado: ' />
+	<phrase key='notification.message.levelUp.won.3' value='He conseguido ser ninja' />
+	
+	<phrase key='notification.social.levelUp.reachLevel.1' value='Ha logrado alcanzar el nivel %s en el juego del Ring' />
+	<phrase key='notification.social.levelUp.reachLevel.2' value='Ha logrado alcanzar el nivel %s en el juego de los CocosLocos' />
+	<phrase key='notification.social.levelUp.reachLevel.3' value='Ha logrado alcanzar el nivel %s en el juego del CaminoNinja' />
+	
+	<phrase key='notification.social.levelUp.description.1' value='Su rapidez con el ratón y su control de la situación le han convertido en nivel %s del juego del Ring. Clicka aquí para poder admirar su nuevo guante.' />
+	<phrase key='notification.social.levelUp.description.2' value='Una prodigiosa memoria fotográfica y una trabajada capacidad táctica le han llevado a ser nivel %s en el juego del Cocoslocos. Clicka aquí para descubrir su nuevo arsenal.' />
+	<phrase key='notification.social.levelUp.description.3' value='Intuición, rapidez y serenidad; solamente así se alcanza el nivel %s en el juego del CaminoNinja. Clicka aquí para ver su nuevo cinturón ninja.' />
+	
+	
+	<phrase key='notification.news.aliens.description0' value='¡El ataque se intensifica!' />
+	<phrase key='notification.news.aliens.description1' value='Detector de robots' />
+	<phrase key='notification.news.aliens.description2' value='Con su increíble descarga eléctrica, podrás atrapar todos los robots que detecte' />
+
+	<phrase key='notification.popup.delayedGifts.title' value='¡ENHORABUENA!' /> 
+	<phrase key='notification.popup.delayedGifts.subtitle' value='Te hemos regalado:' /> 
+	<phrase key='notification.popup.delayedGifts.help' value='Los encontrarás dentro de tu mochila en cualquier escenario' />
+	
+	<phrase key='notification.popup.silverCoins.time' value='Has ganado %s monedas de plata más' />
+	<phrase key='notification.popup.silverCoins.email' value='¡Has recibido %s monedas de plata por validar tu email!' />
+	
+	<phrase key='window.payments.title' value='Comprar créditos' />
+	<phrase key='window.payments.chooseCountry' value='Elige tu pais:' />
+	<phrase key='window.payments.chooseAmount' value='• Elige la cantidad:' />
+	<phrase key='window.payments.CCsubtitle' value='• Compra tu tarjeta prepago' />
+	
+	<phrase key='window.payments.IVRDetails' value='• Llama al número &lt;font color="#015287"&gt; %s.&lt;/font&gt;&lt;br &#47;&gt;&lt;font color="#FFFFFF"&gt;• Escucha la grabación y apunta tu código.&lt;/font&gt;' />
+	<phrase key='window.payments.SMSDetails' value='• Envía un SMS con el texto &lt;font color="#015287"&gt; %s&lt;/font&gt;&lt;br &#47;&gt;&lt;font color="#FFFFFF"&gt;al número: &lt;/font&gt;&lt;font color="#015287"&gt; %r.&lt;/font&gt;&lt;br &#47;&gt;&lt;font color="#FFFFFF"&gt;• Pasados unos segundos recibirás en tu móvil un SMS con tu Código &lt;/font&gt;' />
+	<phrase key='window.payments.CCDetails' value='Venta en: epay (anteriormente Movilcarga y Telerecarga), Correos, Cabinas de Telefónica, Telecor, Opencor, Caixa Galicia, Cajamar, Disa, GMVending y Canal Recargas de Telefónica.' />
+	<phrase key='window.payments.PRCDetails' value='Podrás conseguir códigos promocionales en campañas especiales que se hagan en BoomBang. Estas campañas no siempre estarán activas' />
+	
+	<phrase key='window.payments.putYourCodeHere' value='Escribe tu código aquí :' />
+	<phrase key='window.payments.circleCredits' value='%s &lt;br &#47;&gt;créditos &lt;br &#47;&gt; - &lt;br &#47;&gt;' />
+	<phrase key='window.payments.credits' value='%s créditos' />
+	<phrase key='window.payments.bySMS' value='/sms' />
+	<phrase key='window.payments.promoDate' value='Promoción gasta %s' />
+	<phrase key='window.payments.promoGift' value='Y de regalo &lt;font color="#015287"&gt;%s&lt;/font&gt; lo encontraras en tu mochila.' />
+	<phrase key='window.payments.promoMultiplier' value='%s en créditos! &lt;br &#47;&gt;Aprovéchalo.' />
+	<phrase key='window.payments.promoPercent' value='%s de regalo! &lt;br &#47;&gt;Aprovéchalo.' />
+	<phrase key='window.payments.validatingCode' value='Validando código...' />
+	<phrase key='window.payments.codeAccepted' value='Código correcto.' />
+	<phrase key='window.payments.limitExceed' value='Limite diario de codigos superado.' />
+	<phrase key='window.payments.wrongCode' value='Código erróneo. &lt;br &#47;&gt;Vuelve a intentarlo.' />
+	<phrase key='window.payments.btnValidate' value='Validar' />
+	<phrase key='window.payments.btnContinue' value='Continuar' />
+	<phrase key='window.payments.openPopUpBtn' value='Abrir ventana' />
+
+	<phrase key='window.payments.externalDescription_0' value='Se abrirá una nueva ventana y será enviado a la página oficial de prepago. Siga las instrucciones para completar su compra.' />
+	<phrase key='window.payments.externalDescription_1' value='Una vez finalizada añadiremos de forma automática los créditos en cuenta. Gracias por usar este servicio.' />
+	<phrase key='window.payments.externalDescription_2' value='Si la ventana de prepago no se abre, haz clic en el boton "Abrir ventana".' />
+	<phrase key='window.payments.externalErrorTextLimitAmount' value='Has sobrepasado el limite de consumos.' />
+	<phrase key='window.payments.dest' value='oferta' />
+	
+	<phrase key='buttons.payments.tooltip.IVR' value='Telefono fijo' />
+	<phrase key='buttons.payments.tooltip.SMS' value='Mensaje de texto' />
+	<phrase key='buttons.payments.tooltip.CC' value='Tarjeta de credito o &lt;br &#47;&gt;tarjeta prepaga' />
+	<phrase key='buttons.payments.tooltip.PRC' value='Código promocional' />
+	<phrase key='buttons.payments.tooltip.PPC' value='Tarjeta prepago' />
+	
+	<phrase key='country.code.AF' value='AFGANISTAN' />
+	<phrase key='country.code.AX' value='ÅLAND' />
+	<phrase key='country.code.AL' value='ALBANIA' />
+	<phrase key='country.code.DE' value='ALEMANIA' />
+	<phrase key='country.code.AD' value='ANDORRA' />
+	<phrase key='country.code.AO' value='ANGOLA' />
+	<phrase key='country.code.AI' value='ANGUILA' />
+	<phrase key='country.code.AG' value='ANTIGUA Y BARBUDA' />
+	<phrase key='country.code.AN' value='ANTILLAS NEERLANDESAS' />
+	<phrase key='country.code.SA' value='ARABIA SAUDITA' />
+	<phrase key='country.code.DZ' value='ARGELIA' />
+	<phrase key='country.code.AR' value='ARGENTINA' />
+	<phrase key='country.code.AM' value='ARMENIA' />
+	<phrase key='country.code.AW' value='ARUBA' />
+	<phrase key='country.code.AU' value='AUSTRALIA' />
+	<phrase key='country.code.AT' value='AUSTRIA' />
+	<phrase key='country.code.AZ' value='AZERBAIYÁN' />
+	<phrase key='country.code.BS' value='BAHAMAS' />
+	<phrase key='country.code.BH' value='BARÉIN' />
+	<phrase key='country.code.BD' value='BANGLADÉS' />
+	<phrase key='country.code.BB' value='BARBADOS' />
+	<phrase key='country.code.BE' value='BÉLGICA' />
+	<phrase key='country.code.BZ' value='BELICE' />
+	<phrase key='country.code.BJ' value='BENÍN' />
+	<phrase key='country.code.BM' value='BERMUDAS' />
+	<phrase key='country.code.BY' value='BIELORRUSIA' />
+	<phrase key='country.code.MM' value='BIRMANIA' />
+	<phrase key='country.code.BO' value='BOLIVIA' />
+	<phrase key='country.code.BA' value='BOSNIA Y HERZEGOVINA' />
+	<phrase key='country.code.BW' value='BOTSUANA' />
+	<phrase key='country.code.BV' value='ISLA BOUVET' />
+	<phrase key='country.code.BR' value='BRASIL' />
+	<phrase key='country.code.BN' value='BRUNÉI' />
+	<phrase key='country.code.BG' value='BULGARIA' />
+	<phrase key='country.code.BF' value='BURKINA FASO' />
+	<phrase key='country.code.BI' value='BURUNDI' />
+	<phrase key='country.code.BT' value='BUTÁN' />
+	<phrase key='country.code.CV' value='CABO VERDE' />
+	<phrase key='country.code.KY' value='ISLAS CAIMÁN' />
+	<phrase key='country.code.KH' value='CAMBOYA' />
+	<phrase key='country.code.CM' value='CAMERÚN' />
+	<phrase key='country.code.CA' value='CANADÁ' />
+	<phrase key='country.code.CF' value='REPÚBLICA CENTROAFRICANA' />
+	<phrase key='country.code.TD' value='CHAD' />
+	<phrase key='country.code.CZ' value='REPÚBLICA CHECA' />
+	<phrase key='country.code.CL' value='CHILE' />
+	<phrase key='country.code.CN' value='CHINA' />
+	<phrase key='country.code.CY' value='CHIPRE' />
+	<phrase key='country.code.CC' value='ISLAS COCOS' />
+	<phrase key='country.code.CO' value='COLOMBIA' />
+	<phrase key='country.code.KM' value='COMORAS' />
+	<phrase key='country.code.CG' value='REPÚBLICA DEL CONGO' />
+	<phrase key='country.code.CD' value='REP. DEM. DEL CONGO' />
+	<phrase key='country.code.CK' value='ISLAS COOK' />
+	<phrase key='country.code.KP' value='COREA DEL NORTE' />
+	<phrase key='country.code.KR' value='COREA DEL SUR' />
+	<phrase key='country.code.CI' value='COSTA DE MARFIL' />
+	<phrase key='country.code.CR' value='COSTA RICA' />
+	<phrase key='country.code.HR' value='CROACIA' />
+	<phrase key='country.code.CU' value='CUBA' />
+	<phrase key='country.code.DK' value='DINAMARCA' />
+	<phrase key='country.code.DM' value='DOMINICA' />
+	<phrase key='country.code.DO' value='REPÚBLICA DOMINICANA' />
+	<phrase key='country.code.EC' value='ECUADOR' />
+	<phrase key='country.code.EG' value='EGIPTO' />
+	<phrase key='country.code.SV' value='EL SALVADOR' />
+	<phrase key='country.code.AE' value='EMIRATOS ÁRABES UNIDOS' />
+	<phrase key='country.code.ER' value='ERITREA' />
+	<phrase key='country.code.SK' value='ESLOVAQUIA' />
+	<phrase key='country.code.SI' value='ESLOVENIA' />
+	<phrase key='country.code.ES' value='ESPAÑA' />
+	<phrase key='country.code.US' value='ESTADOS UNIDOS' />
+	<phrase key='country.code.EE' value='ESTONIA' />
+	<phrase key='country.code.ET' value='ETIOPÍA' />
+	<phrase key='country.code.FO' value='ISLAS FEROE' />
+	<phrase key='country.code.PH' value='FILIPINAS' />
+	<phrase key='country.code.FI' value='FINLANDIA' />
+	<phrase key='country.code.FJ' value='FIYI' />
+	<phrase key='country.code.FR' value='FRANCIA' />
+	<phrase key='country.code.GA' value='GABÓN' />
+	<phrase key='country.code.GM' value='GAMBIA' />
+	<phrase key='country.code.GE' value='GEORGIA' />
+	<phrase key='country.code.GS' value='ISLAS GEORGIAS DEL SUR Y SANDWICH DEL SUR' />
+	<phrase key='country.code.GH' value='GHANA' />
+	<phrase key='country.code.GI' value='GIBRALTAR' />
+	<phrase key='country.code.GD' value='GRANADA' />
+	<phrase key='country.code.GR' value='GRECIA' />
+	<phrase key='country.code.GL' value='GROENLANDIA' />
+	<phrase key='country.code.GP' value='GUADALUPE' />
+	<phrase key='country.code.GU' value='GUAM' />
+	<phrase key='country.code.GT' value='GUATEMALA' />
+	<phrase key='country.code.GF' value='GUAYANA FRANCESA' />
+	<phrase key='country.code.GG' value='GUERNSEY' />
+	<phrase key='country.code.GN' value='GUINEA' />
+	<phrase key='country.code.GQ' value='GUINEA ECUATORIAL' />
+	<phrase key='country.code.GW' value='GUINEA-BISSAU' />
+	<phrase key='country.code.GY' value='GUYANA' />
+	<phrase key='country.code.HT' value='HAITÍ' />
+	<phrase key='country.code.HM' value='ISLAS HEARD Y MCDONALD' />
+	<phrase key='country.code.HN' value='HONDURAS' />
+	<phrase key='country.code.HK' value='HONG KONG' />
+	<phrase key='country.code.HU' value='HUNGRÍA' />
+	<phrase key='country.code.IN' value='INDIA' />
+	<phrase key='country.code.ID' value='INDONESIA' />
+	<phrase key='country.code.IR' value='IRÁN' />
+	<phrase key='country.code.IQ' value='IRAK' />
+	<phrase key='country.code.IE' value='IRLANDA' />
+	<phrase key='country.code.IS' value='ISLANDIA' />
+	<phrase key='country.code.IL' value='ISRAEL' />
+	<phrase key='country.code.IT' value='ITALIA' />
+	<phrase key='country.code.JM' value='JAMAICA' />
+	<phrase key='country.code.JP' value='JAPÓN' />
+	<phrase key='country.code.JE' value='JERSEY' />
+	<phrase key='country.code.JO' value='JORDANIA' />
+	<phrase key='country.code.KZ' value='KAZAJISTÁN' />
+	<phrase key='country.code.KE' value='KENIA' />
+	<phrase key='country.code.KG' value='KIRGUISTÁN' />
+	<phrase key='country.code.KI' value='KIRIBATI' />
+	<phrase key='country.code.KW' value='KUWAIT' />
+	<phrase key='country.code.LA' value='LAOS' />
+	<phrase key='country.code.LS' value='LESOTO' />
+	<phrase key='country.code.LV' value='LETONIA' />
+	<phrase key='country.code.LB' value='LÍBANO' />
+	<phrase key='country.code.LR' value='LIBERIA' />
+	<phrase key='country.code.LY' value='LIBIA' />
+	<phrase key='country.code.LI' value='LIECHTENSTEIN' />
+	<phrase key='country.code.LT' value='LITUANIA' />
+	<phrase key='country.code.LU' value='LUXEMBURGO' />
+	<phrase key='country.code.MO' value='MACAO' />
+	<phrase key='country.code.MK' value='REPÚBLICA DE MACEDONIA' />
+	<phrase key='country.code.MG' value='MADAGASCAR' />
+	<phrase key='country.code.MY' value='MALASIA' />
+	<phrase key='country.code.MW' value='MALAUI' />
+	<phrase key='country.code.MV' value='MALDIVAS' />
+	<phrase key='country.code.ML' value='MALÍ' />
+	<phrase key='country.code.MT' value='MALTA' />
+	<phrase key='country.code.FK' value='ISLAS MALVINAS' />
+	<phrase key='country.code.IM' value='ISLA DE MAN' />
+	<phrase key='country.code.MP' value='ISLAS MARIANAS DEL NORTE' />
+	<phrase key='country.code.MA' value='MARRUECOS' />
+	<phrase key='country.code.MH' value='ISLAS MARSHALL' />
+	<phrase key='country.code.MQ' value='MARTINICA' />
+	<phrase key='country.code.MU' value='MAURICIO' />
+	<phrase key='country.code.MR' value='MAURITANIA' />
+	<phrase key='country.code.YT' value='MAYOTTE' />
+	<phrase key='country.code.MX' value='MÉXICO' />
+	<phrase key='country.code.FM' value='MICRONESIA' />
+	<phrase key='country.code.MD' value='MOLDAVIA' />
+	<phrase key='country.code.MC' value='MÓNACO' />
+	<phrase key='country.code.MN' value='MONGOLIA' />
+	<phrase key='country.code.ME' value='MONTENEGRO' />
+	<phrase key='country.code.MS' value='MONTSERRAT' />
+	<phrase key='country.code.MZ' value='MOZAMBIQUE' />
+	<phrase key='country.code.NA' value='NAMIBIA' />
+	<phrase key='country.code.NR' value='NAURU' />
+	<phrase key='country.code.CX' value='ISLA DE NAVIDAD' />
+	<phrase key='country.code.NP' value='NEPAL' />
+	<phrase key='country.code.NI' value='NICARAGUA' />
+	<phrase key='country.code.NE' value='NÍGER' />
+	<phrase key='country.code.NG' value='NIGERIA' />
+	<phrase key='country.code.NU' value='NIUE' />
+	<phrase key='country.code.NF' value='NORFOLK' />
+	<phrase key='country.code.NO' value='NORUEGA' />
+	<phrase key='country.code.NC' value='NUEVA CALEDONIA' />
+	<phrase key='country.code.NZ' value='NUEVA ZELANDA' />
+	<phrase key='country.code.OM' value='OMÁN' />
+	<phrase key='country.code.NL' value='PAÍSES BAJOS' />
+	<phrase key='country.code.PK' value='PAKISTÁN' />
+	<phrase key='country.code.PW' value='PALAOS' />
+	<phrase key='country.code.PS' value='AUTORIDAD NACIONAL PALESTINA' />
+	<phrase key='country.code.PA' value='PANAMÁ' />
+	<phrase key='country.code.PG' value='PAPÚA NUEVA GUINEA' />
+	<phrase key='country.code.PY' value='PARAGUAY' />
+	<phrase key='country.code.PE' value='PERÚ' />
+	<phrase key='country.code.PN' value='ISLAS PITCAIRN' />
+	<phrase key='country.code.PF' value='POLINESIA FRANCESA' />
+	<phrase key='country.code.PL' value='POLONIA' />
+	<phrase key='country.code.PT' value='PORTUGAL' />
+	<phrase key='country.code.PR' value='PUERTO RICO' />
+	<phrase key='country.code.QA' value='CATAR' />
+	<phrase key='country.code.GB' value='REINO UNIDO' />
+	<phrase key='country.code.RE' value='REUNIÓN' />
+	<phrase key='country.code.RW' value='RUANDA' />
+	<phrase key='country.code.RO' value='RUMANIA' />
+	<phrase key='country.code.RU' value='RUSIA' />
+	<phrase key='country.code.EH' value='REPÚBLICA ÁRABE SAHARAUI DEMOCRÁTICA' />
+	<phrase key='country.code.SB' value='ISLAS SALOMÓN' />
+	<phrase key='country.code.WS' value='SAMOA' />
+	<phrase key='country.code.AS' value='SAMOA ESTADOUNIDENSE' />
+	<phrase key='country.code.BL' value='SAN BARTOLOMÉ' />
+	<phrase key='country.code.KN' value='SAN CRISTÓBAL Y NIEVES' />
+	<phrase key='country.code.SM' value='SAN MARINO' />
+	<phrase key='country.code.MF' value='SAN MARTÍN' />
+	<phrase key='country.code.PM' value='SAN PEDRO Y MIQUELÓN' />
+	<phrase key='country.code.VC' value='SAN VICENTE Y LAS GRANADINAS' />
+	<phrase key='country.code.SH' value='SANTA HELENA, A. Y T.' />
+	<phrase key='country.code.LC' value='SANTA LUCÍA' />
+	<phrase key='country.code.ST' value='SANTO TOMÉ Y PRÍNCIPE' />
+	<phrase key='country.code.SN' value='SENEGAL' />
+	<phrase key='country.code.RS' value='SERBIA' />
+	<phrase key='country.code.SC' value='SEYCHELLES' />
+	<phrase key='country.code.SL' value='SIERRA LEONA' />
+	<phrase key='country.code.SG' value='SINGAPUR' />
+	<phrase key='country.code.SY' value='SIRIA' />
+	<phrase key='country.code.SO' value='SOMALIA' />
+	<phrase key='country.code.LK' value='SRI LANKA' />
+	<phrase key='country.code.SZ' value='SUAZILANDIA' />
+	<phrase key='country.code.ZA' value='SUDÁFRICA' />
+	<phrase key='country.code.SD' value='SUDÁN' />
+	<phrase key='country.code.SE' value='SUECIA' />
+	<phrase key='country.code.CH' value='SUIZA' />
+	<phrase key='country.code.SR' value='SURINAM' />
+	<phrase key='country.code.SJ' value='SVALBARD Y JAN MAYEN' />
+	<phrase key='country.code.TH' value='TAILANDIA' />
+	<phrase key='country.code.TW' value='TAIWÁN' />
+	<phrase key='country.code.TZ' value='TANZANIA' />
+	<phrase key='country.code.TJ' value='TAYIKISTÁN' />
+	<phrase key='country.code.IO' value='TERRITORIO BRITÁNICO DEL OCÉANO ÍNDICO' />
+	<phrase key='country.code.TF' value='TERRITORIOS AUSTRALES FRANCESES' />
+	<phrase key='country.code.TL' value='TIMOR ORIENTAL' />
+	<phrase key='country.code.TG' value='TOGO' />
+	<phrase key='country.code.TK' value='TOKELAU' />
+	<phrase key='country.code.TO' value='TONGA' />
+	<phrase key='country.code.TT' value='TRINIDAD Y TOBAGO' />
+	<phrase key='country.code.TN' value='TÚNEZ' />
+	<phrase key='country.code.TC' value='ISLAS TURCAS Y CAICOS' />
+	<phrase key='country.code.TM' value='TURKMENISTÁN' />
+	<phrase key='country.code.TR' value='TURQUÍA' />
+	<phrase key='country.code.TV' value='TUVALU' />
+	<phrase key='country.code.UA' value='UCRANIA' />
+	<phrase key='country.code.UG' value='UGANDA' />
+	<phrase key='country.code.UY' value='URUGUAY' />
+	<phrase key='country.code.UZ' value='UZBEKISTÁN' />
+	<phrase key='country.code.UK' value='REINO UNIDO' />
+	<phrase key='country.code.VU' value='VANUATU' />
+	<phrase key='country.code.VA' value='CIUDAD DEL VATICANO' />
+	<phrase key='country.code.VE' value='VENEZUELA' />
+	<phrase key='country.code.VN' value='VIETNAM' />
+	<phrase key='country.code.VG' value='ISLAS VÍRGENES BRITÁNICAS' />
+	<phrase key='country.code.VI' value='ISLAS VÍRGENES DE LOS ESTADOS UNIDOS' />
+	<phrase key='country.code.WF' value='WALLIS Y FUTUNA' />
+	<phrase key='country.code.YE' value='YEMEN' />
+	<phrase key='country.code.DJ' value='YIBUTI' />
+	<phrase key='country.code.ZM' value='ZAMBIA' />
+	<phrase key='country.code.ZW' value='ZIMBABUE' />
+	
+	
+	<!-- &lt;font color="#003333"&gt;  &lt;/font&gt;-->
+
+</phrases>
