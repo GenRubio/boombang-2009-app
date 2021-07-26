@@ -9,3 +9,4 @@ Route::get('/', function () {
 });
 
 Route::get('/play', [PlayController::class, 'index'])->name('play');
+Route::get('/play-full-hd', [PlayController::class, 'hullHd'])->name('play.full.hd');

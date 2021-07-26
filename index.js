@@ -97,21 +97,40 @@ const createWindow = () => {
   //Game Launcher Window
   mainWindow.webContents.on("new-window", (event, url) => {
     event.preventDefault();
-    let win = new BrowserWindow({
-      autoHideMenuBar: true,
-      width: 1019,
-      height: 687,
-      icon: iconpath,
-      title: "Play",
-      webPreferences: {
-        plugins: true,
-        nodeIntegration: true,
-      },
-      show: false,
-      frame: true,
-      backgroundColor: pjson.backgroundColor,
-      resizable: false,
-    });
+    console.log(url);
+    if (url == "http://127.0.0.1:8000/play") {
+      var win = new BrowserWindow({
+        autoHideMenuBar: true,
+        width: 1019,
+        height: 687,
+        icon: iconpath,
+        title: "Play",
+        webPreferences: {
+          plugins: true,
+          nodeIntegration: true,
+        },
+        show: false,
+        frame: true,
+        backgroundColor: pjson.backgroundColor,
+        resizable: false,
+      });
+    } else if (url == "http://127.0.0.1:8000/play-full-hd") {
+      var win = new BrowserWindow({
+        autoHideMenuBar: true,
+        icon: iconpath,
+        title: "Play",
+        fullscreen: true,
+        webPreferences: {
+          plugins: true,
+          nodeIntegration: true,
+        },
+        show: false,
+        frame: true,
+        backgroundColor: pjson.backgroundColor,
+        resizable: false,
+      });
+      win.maximize();
+    }
 
     win.on("closed", (event) => {
       win = null;

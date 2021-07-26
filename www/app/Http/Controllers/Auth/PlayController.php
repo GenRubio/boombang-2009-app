@@ -10,4 +10,8 @@ class PlayController extends Controller
     public function index(){
         return view('game.play');
     }
+
+    public function hullHd(){
+        return view('game.play-full-hd');
+    }
 }
