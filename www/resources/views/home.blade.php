@@ -11,14 +11,29 @@
         </div>
         <br>
         <div class="mt-4">
-
-            <a href="{{ route('play.full.hd') }}" target="popup" onclick="window.open('{{ route('play.full.hd') }}'); return false;"
-                class="btn btn-primary">Play HD</a>
+            <div class="play-full-screen">
+            </div>
         </div>
     </div>
 @endsection
 
 
 @section('personal-script')
-
+    <script>
+        setTimeout(function() {
+            $(document).ready(function() {
+                $.ajax({
+                    url: "{{ route('set.screen') }}",
+                    method: "GET",
+                    data: {
+                        width: window.screen.width,
+                        height: window.screen.height
+                    },
+                    success: function(data) {
+                        $('.play-full-screen').html(data.content);
+                    }
+                })
+            })
+        }, 1500)
+    </script>
 @endsection

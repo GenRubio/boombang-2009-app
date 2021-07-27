@@ -8,5 +8,9 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/play', [PlayController::class, 'index'])->name('play');
-Route::get('/play-full-hd', [PlayController::class, 'hullHd'])->name('play.full.hd');
+Route::get('/play', [PlayController::class, 'index'])
+    ->name('play');
+Route::get('/play-set-screen', [PlayController::class, 'setScreen'])
+    ->name('set.screen');
+Route::get('/play-full-screen/{height}/{width}', [PlayController::class, 'fullScreen'])
+    ->name('play.full.screen');

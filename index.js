@@ -7,6 +7,7 @@ const {
   Notification,
   protocol,
   session,
+  screen,
 } = require("electron");
 const path = require("path");
 
@@ -22,6 +23,8 @@ let gameLauncherWindow;
 var iconpath = path.join(__dirname, "icon.ico");
 var pjson = require(__dirname + "/package.json");
 let pluginName;
+var devTools = true;
+
 
 if (require("electron-squirrel-startup")) {
   app.quit();
@@ -70,6 +73,7 @@ const createWindow = () => {
 
   mainWindow.loadURL(serverUrl);
   mainWindow.setMenu(null);
+  devToolsMainWindow();
   mainWindow.show();
 
   mainWindow.webContents.on("did-finish-load", () => {});
@@ -114,11 +118,15 @@ const createWindow = () => {
         backgroundColor: pjson.backgroundColor,
         resizable: false,
       });
-    } else if (url == "http://127.0.0.1:8000/play-full-hd") {
+    } else {
+      const { width, height } = screen.getPrimaryDisplay().workAreaSize;
+
       var win = new BrowserWindow({
         autoHideMenuBar: true,
         icon: iconpath,
         title: "Play",
+        width,
+        height,
         fullscreen: true,
         webPreferences: {
           plugins: true,
@@ -129,7 +137,6 @@ const createWindow = () => {
         backgroundColor: pjson.backgroundColor,
         resizable: false,
       });
-      win.maximize();
     }
 
     win.on("closed", (event) => {
@@ -149,11 +156,13 @@ const createWindow = () => {
     win.loadURL(url);
     event.newGuest = win;
   });
-
   globalShortcut.register("f5", function () {
     if (SecondWindowOpen) {
       gameLauncherWindow.reload();
     }
+  });
+  globalShortcut.register("f6", function () {
+    mainWindow.reload();
   });
   globalShortcut.register("f1", function () {
     if (MainWindowMinimized) {
@@ -165,6 +174,26 @@ const createWindow = () => {
     session.defaultSession.clearCache();
   });
 };
+
+function devToolsMainWindow(){
+  if (devTools){
+    let menuTemplate = [
+      {
+        label: "Tools",
+        submenu: [
+          {
+            label: "DevTools",
+            click(item, focusedWindow) {
+              focusedWindow.toggleDevTools();
+            },
+          },
+        ],
+      },
+    ];
+    let menu = Menu.buildFromTemplate(menuTemplate);
+    Menu.setApplicationMenu(menu);
+  }
+}
 
 app.ShowNotification = (message) => {
   if (!NotificationsEnabled) {
